@@ -582,6 +582,8 @@
     padding:5px 10px;border-radius:8px;
   }
   .jd-legal .legal-intro{margin:0 0 26px;padding-bottom:22px;}
+  .jd-legal a:not(.jd-cta){color:var(--red);font-weight:600;text-decoration:underline;text-underline-offset:3px;word-break:break-word;}
+  .jd-legal li a:not(.jd-cta){display:inline-block;padding:6px 0;}
   .jd-legal .legal-section{margin-bottom:26px;}
   .jd-legal .legal-section:last-of-type{margin-bottom:0;}
   .jd-cta{

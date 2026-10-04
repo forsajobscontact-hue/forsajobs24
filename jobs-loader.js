@@ -126,6 +126,15 @@
       if (!jobDetails[id]) {
         jobDetails[id] = buildDefaultDetails(job);
       }
+      /* زر "زيارة الرابط الرسمي": applyUrl إن وُجد، وإلا أول رابط http داخل التفاصيل */
+      if (typeof directApplyLinks !== 'undefined' && !directApplyLinks[id]) {
+        let url = job.applyUrl || '';
+        if (!url) {
+          const m = JSON.stringify(job.details || {}).match(/href=\\"(https?:[^\\"]+)/);
+          if (m) url = m[1];
+        }
+        if (url) directApplyLinks[id] = url;
+      }
       const grid = getGridForCategory(job.category);
       if (grid) {
         const existing = grid.querySelector(`.card[data-job-id="${id}"]`);
