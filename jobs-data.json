@@ -32,24 +32,30 @@
         "en": "Recruitment competition for medical residents at the University Hospital Center of Marrakech."
       },
       "details": {
-        "ar": { "sections": [
-          {"h": "من يمكنه الترشح", "p": "الحاصلون على شهادة الإجازة في الطب العام أو ما يعادلها."},
-          {"h": "الشروط المطلوبة", "list": ["أن يكون مغربي الجنسية.", "الحصول على شهادة الإجازة في الطب.", "اجتياز اختبار كتابي وشفوي.", "اجتياز الفحص الطبي."]},
-          {"h": "الآجال", "p": "آخر أجل للترشح: 31 أكتوبر 2026. المباراة: 16 نوفمبر 2026."},
-          {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
-        ] },
-        "fr": { "sections": [
-          {"h": "Qui peut candidater", "p": "Les titulaires d'une licence en médecine générale ou équivalent."},
-          {"h": "Conditions requises", "list": ["Être de nationalité marocaine.", "Posséder une licence en médecine.", "Réussir les épreuves écrite et orale.", "Passer l'examen médical."]},
-          {"h": "Dates", "p": "Date limite de candidature : 31 octobre 2026. Concours : 16 novembre 2026."},
-          {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
-        ] },
-        "en": { "sections": [
-          {"h": "Who Can Apply", "p": "Holders of a degree in general medicine or equivalent."},
-          {"h": "Requirements", "list": ["Be of Moroccan nationality.", "Hold a degree in medicine.", "Pass written and oral exams.", "Complete medical examination."]},
-          {"h": "Dates", "p": "Application deadline: October 31, 2026. Exam: November 16, 2026."},
-          {"h": "Official Link", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
-        ] }
+        "ar": {
+          "sections": [
+            {"h": "من يمكنه الترشح", "p": "الحاصلون على شهادة الإجازة في الطب العام أو ما يعادلها."},
+            {"h": "الشروط المطلوبة", "list": ["أن يكون مغربي الجنسية.", "الحصول على شهادة الإجازة في الطب.", "اجتياز اختبار كتابي وشفوي.", "اجتياز الفحص الطبي."]},
+            {"h": "الآجال", "p": "آخر أجل للترشح: 31 أكتوبر 2026. المباراة: 16 نوفمبر 2026."},
+            {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
+          ]
+        },
+        "fr": {
+          "sections": [
+            {"h": "Qui peut candidater", "p": "Les titulaires d'une licence en médecine générale ou équivalent."},
+            {"h": "Conditions requises", "list": ["Être de nationalité marocaine.", "Posséder une licence en médecine.", "Réussir les épreuves écrite et orale.", "Passer l'examen médical."]},
+            {"h": "Dates", "p": "Date limite de candidature : 31 octobre 2026. Concours : 16 novembre 2026."},
+            {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
+          ]
+        },
+        "en": {
+          "sections": [
+            {"h": "Who Can Apply", "p": "Holders of a degree in general medicine or equivalent."},
+            {"h": "Requirements", "list": ["Be of Moroccan nationality.", "Hold a degree in medicine.", "Pass written and oral exams.", "Complete medical examination."]},
+            {"h": "Dates", "p": "Application deadline: October 31, 2026. Exam: November 16, 2026."},
+            {"h": "Official Link", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
+          ]
+        }
       }
     },
     {
@@ -62,154 +68,48 @@
         "fr": "Formateurs professionnels (20) — Office de la Formation Professionnelle",
         "en": "Professional Trainers (20) — Vocational Training Office"
       },
-      "tag": { "ar": "القطاع العام", "fr": "Secteur public", "en": "Public Sector" },
-      "meta": { "ar": "عدة مدن — 20 منصب", "fr": "Plusieurs villes — 20 postes", "en": "Multiple cities — 20 positions" },
-      "deadline": { "ar": "آخر أجل <b>18 أكتوبر 2026</b>", "fr": "Date limite <b>18 octobre 2026</b>", "en": "Deadline <b>October 18, 2026</b>" },
-      "description": { "ar": "مباراة توظيف 20 مكوناً في تخصصات الكهرباء، الفلاحة، والموضة.", "fr": "Concours de recrutement de 20 formateurs dans les domaines de l'électricité, de l'agriculture et de la mode.", "en": "Recruitment of 20 trainers in electricity, agriculture, and fashion fields." },
-      "details": {
-        "ar": { "sections": [
-          {"h": "التخصصات", "list": ["الكهرباء الصناعية", "الزراعة والصيانة", "تصميم وخياطة الموضة"]},
-          {"h": "الشروط", "list": ["شهادة تقني متخصص أو ما يعادلها.", "خبرة مهنية من 3 إلى 5 سنوات.", "مهارات تربوية وقدرة على التواصل."]},
-          {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
-        ] },
-        "fr": { "sections": [
-          {"h": "Domaines de spécialisation", "list": ["Électricité industrielle", "Agriculture et maintenance", "Design et couture de mode"]},
-          {"h": "Conditions requises", "list": ["Diplôme de technicien spécialisé ou équivalent.", "3 à 5 ans d'expérience professionnelle.", "Compétences pédagogiques et capacité de communication."]},
-          {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
-        ] },
-        "en": { "sections": [
-          {"h": "Specialization Fields", "list": ["Industrial electricity", "Agriculture and maintenance", "Fashion design and tailoring"]},
-          {"h": "Required Conditions", "list": ["Specialized technician diploma or equivalent.", "3 to 5 years of professional experience.", "Teaching skills and communication ability."]},
-          {"h": "Official Link", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
-        ] }
-      }
-    },
-    {
-      "id": "c10",
-      "category": "public",
-      "posted": "2026-10-04",
-      "countdown": "2026-10-25T23:59:59",
-      "title": {
-        "ar": "مهندس معماري — الوكالة الحضرية لخنيفرة",
-        "fr": "Architecte — Agence urbaine de Kénitra",
-        "en": "Architect — Urban Agency of Kenitra"
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
       },
-      "tag": { "ar": "القطاع العام", "fr": "Secteur public", "en": "Public Sector" },
-      "meta": { "ar": "خنيفرة — 1 منصب", "fr": "Kénitra — 1 poste", "en": "Kenitra — 1 position" },
-      "deadline": { "ar": "آخر أجل <b>5 أكتوبر 2026</b>", "fr": "Date limite <b>5 octobre 2026</b>", "en": "Deadline <b>October 5, 2026</b>" },
-      "description": { "ar": "وظيفة مهندس معماري في الوكالة الحضرية لخنيفرة، مع فرصة لإدارة مشاريع التهيئة العمرانية.", "fr": "Poste d'architecte au sein de l'Agence urbaine de Kénitra avec gestion des projets d'aménagement urbain.", "en": "Architect position in the urban agency of Kenitra to manage urban development projects." },
-      "details": {
-        "ar": { "sections": [
-          {"h": "المؤهلات", "list": ["ليسانس أو ماستر في الهندسة المعمارية.", "خبرة 2 إلى 5 سنوات.", "إتقان برامج النمذجة والرسومات."]},
-          {"h": "المهام", "list": ["إعداد مخططات ومقترحات التهيئة.", "مراقبة تنفيذ المشاريع والملفات التقنية.", "المشاركة في الدراسات والتقارير."]},
-          {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.urbani.org/\" target=\"_blank\" rel=\"noopener\">urbani.org ↗</a>"]}
-        ] },
-        "fr": { "sections": [
-          {"h": "Qualifications", "list": ["Licence ou master en architecture.", "2 à 5 ans d'expérience.", "Maîtrise des logiciels de modélisation."]},
-          {"h": "Tâches", "list": ["Préparer les plans et propositions d'aménagement.", "Suivre l'exécution des projets.", "Participer aux études et rapports techniques."]},
-          {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.urbani.org/\" target=\"_blank\" rel=\"noopener\">urbani.org ↗</a>"]}
-        ] },
-        "en": { "sections": [
-          {"h": "Qualifications", "list": ["Bachelor or master in architecture.", "2 to 5 years of experience.", "Proficiency in modeling and design software."]},
-          {"h": "Tasks", "list": ["Prepare urban planning plans and proposals.", "Monitor project execution and technical files.", "Participate in studies and reports."]},
-          {"h": "Official Link", "list": ["🔗 <a href=\"https://www.urbani.org/\" target=\"_blank\" rel=\"noopener\">urbani.org ↗</a>"]}
-        ] }
-      }
-    },
-    {
-      "id": "c11",
-      "category": "public",
-      "posted": "2026-10-04",
-      "countdown": "2026-11-05T23:59:59",
-      "title": {
-        "ar": "متصرف من الدرجة الثالثة — جامعة القاضي عياض",
-        "fr": "Cadre de 3e grade — Université Al Quadi Ayyad",
-        "en": "Officer Grade 3 — University of Cadi Ayyad"
+      "meta": {
+        "ar": "عدة مدن — 20 منصب",
+        "fr": "Plusieurs villes — 20 postes",
+        "en": "Multiple cities — 20 positions"
       },
-      "tag": { "ar": "القطاع العام", "fr": "Secteur public", "en": "Public Sector" },
-      "meta": { "ar": "مراكش — 1 منصب", "fr": "Marrakech — 1 poste", "en": "Marrakech — 1 position" },
-      "deadline": { "ar": "آخر أجل <b>3 أكتوبر 2026</b>", "fr": "Date limite <b>3 octobre 2026</b>", "en": "Deadline <b>October 3, 2026</b>" },
-      "description": { "ar": "إعلان توظيف متصرف من الدرجة الثالثة في الجامعة، مناسب للملفات الإدارية والمالية.", "fr": "Recrutement d'un cadre de 3e grade à l'université, pour des missions administratives et financières.", "en": "Recruitment of an officer grade 3 at the university for administrative and financial tasks." },
-      "details": {
-        "ar": { "sections": [
-          {"h": "المهام", "list": ["تتبع الإجراءات الإدارية.", "إعداد الوثائق والملفات.", "المساهمة في التسيير المالي والإداري."]},
-          {"h": "المؤهلات", "list": ["بكالوريا + تكوين مناسب.", "خبرة 1 إلى 3 سنوات.", "مهارة في Excel والأدوات المكتبية."]},
-          {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.uca.ma/\" target=\"_blank\" rel=\"noopener\">uca.ma ↗</a>"]}
-        ] },
-        "fr": { "sections": [
-          {"h": "Tâches", "list": ["Suivre les procédures administratives.", "Préparer les dossiers et documents.", "Contribuer à la gestion financière et administrative."]},
-          {"h": "Qualifications", "list": ["Baccalauréat + formation adaptée.", "1 à 3 ans d'expérience.", "Bonne maîtrise d'Excel et des outils bureautiques."]},
-          {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.uca.ma/\" target=\"_blank\" rel=\"noopener\">uca.ma ↗</a>"]}
-        ] },
-        "en": { "sections": [
-          {"h": "Tasks", "list": ["Follow administrative procedures.", "Prepare files and documents.", "Support financial and administrative management."]},
-          {"h": "Qualifications", "list": ["Bachelor + relevant training.", "1 to 3 years of experience.", "Strong Excel and office tools skills."]},
-          {"h": "Official Link", "list": ["🔗 <a href=\"https://www.uca.ma/\" target=\"_blank\" rel=\"noopener\">uca.ma ↗</a>"]}
-        ] }
-      }
-    },
-    {
-      "id": "p10",
-      "category": "private",
-      "posted": "2026-10-04",
-      "countdown": "2026-10-30T23:59:59",
-      "title": {
-        "ar": "مستشار خدمة الزبناء ثنائي اللغة — شركة خدمات رقمية",
-        "fr": "Conseiller client bilingue — Société de services numériques",
-        "en": "Bilingual Customer Service Advisor — Digital Services Company"
+      "deadline": {
+        "ar": "آخر أجل <b>18 أكتوبر 2026</b>",
+        "fr": "Date limite <b>18 octobre 2026</b>",
+        "en": "Deadline <b>October 18, 2026</b>"
       },
-      "tag": { "ar": "القطاع الخاص", "fr": "Secteur privé", "en": "Private Sector" },
-      "meta": { "ar": "الرباط — التوظيف مستمر", "fr": "Rabat — Recrutement continu", "en": "Rabat — Ongoing recruitment" },
-      "deadline": { "ar": "التوظيف <b>مستمر</b>", "fr": "Recrutement <b>continu</b>", "en": "Recruitment <b>ongoing</b>" },
-      "description": { "ar": "وظيفة خدمة زبناء لها علاقة بالاستقبال، الهاتف، والرد على استفسارات العملاء بالفرنسية والإنجليزية.", "fr": "Poste de conseiller client pour l'accueil, le téléphone et la réponse aux demandes en français et en anglais.", "en": "Customer service role focused on reception, phone support, and handling client requests in French and English." },
-      "details": {
-        "ar": { "sections": [
-          {"h": "الشروط", "list": ["بكالوريا أو أكثر.", "مهارة في الفرنسية والإنجليزية.", "قدرة على التعامل مع العملاء وملفهم."]},
-          {"h": "المزايا", "list": ["راتب شهري ثابت.", "يومان راحة في الأسبوع.", "تكوين داخلي."]},
-          {"h": "للتقديم", "list": ["إرسال CV على البريد أو الواتساب."]}
-        ] },
-        "fr": { "sections": [
-          {"h": "Conditions", "list": ["Baccalauréat ou plus.", "Bonne maîtrise du français et de l'anglais.", "Capacité à gérer le client."]},
-          {"h": "Avantages", "list": ["Salaire mensuel stable.", "2 jours de repos.", "Formation interne."]},
-          {"h": "Pour candidater", "list": ["Envoyer le CV par e-mail ou WhatsApp."]}
-        ] },
-        "en": { "sections": [
-          {"h": "Conditions", "list": ["Baccalaureate or higher.", "Strong French and English skills.", "Ability to manage client communication."]},
-          {"h": "Benefits", "list": ["Stable monthly salary.", "2 days off per week.", "Internal training."]},
-          {"h": "To Apply", "list": ["Send CV by email or WhatsApp."]}
-        ] }
-      }
-    },
-    {
-      "id": "p11",
-      "category": "private",
-      "posted": "2026-10-04",
-      "countdown": "2026-10-28T23:59:59",
-      "title": {
-        "ar": "مندوب مبيعات — قطاع التوزيع في الدار البيضاء",
-        "fr": "Commercial terrain — Distribution à Casablanca",
-        "en": "Sales Representative — Distribution Sector in Casablanca"
+      "description": {
+        "ar": "مباراة توظيف 20 مكوناً في تخصصات الكهرباء، الفلاحة، والموضة.",
+        "fr": "Concours de recrutement de 20 formateurs dans les domaines de l'électricité, de l'agriculture et de la mode.",
+        "en": "Recruitment of 20 trainers in electricity, agriculture, and fashion fields."
       },
-      "tag": { "ar": "القطاع الخاص", "fr": "Secteur privé", "en": "Private Sector" },
-      "meta": { "ar": "الدار البيضاء — خبرة 1 سنة", "fr": "Casablanca — 1 an d'expérience", "en": "Casablanca — 1 year of experience" },
-      "deadline": { "ar": "التوظيف <b>مستمر</b>", "fr": "Recrutement <b>continu</b>", "en": "Recruitment <b>ongoing</b>" },
-      "description": { "ar": "وظيفة مندوب مبيعات في قطاع التوزيع، مع مهام البيع والمرافقة الميدانية والعملاء.", "fr": "Poste de commercial terrain pour le secteur de la distribution, avec ventes, accompagnement client et déplacements.", "en": "Sales representative position in the distribution sector with sales, field support, and customer interaction." },
       "details": {
-        "ar": { "sections": [
-          {"h": "المهام", "list": ["توقيع المبيعات مع الزبناء.", "تجميع الطلبات في الميدان.", "متابعة المناطق المخصصة."]},
-          {"h": "الشروط", "list": ["شهادة أو خبرة في المبيعات.", "رخصة السياقة معتبرة.", "القدرة على العمل الميداني."]},
-          {"h": "الحالة", "list": ["التوظيف مستمر، المواعيد حسب الشركة."]}
-        ] },
-        "fr": { "sections": [
-          {"h": "Tâches", "list": ["Signer les ventes avec les clients.", "Collecter les commandes sur le terrain.", "Suivre les zones attribuées."]},
-          {"h": "Conditions", "list": ["Diplôme ou expérience en vente.", "Permis de conduire valide.", "Capacité à travailler sur le terrain."]},
-          {"h": "Statut", "list": ["Recrutement continu selon les besoins de l'entreprise."]}
-        ] },
-        "en": { "sections": [
-          {"h": "Tasks", "list": ["Close sales with customers.", "Collect orders in the field.", "Follow assigned zones."]},
-          {"h": "Conditions", "list": ["Degree or sales experience.", "Valid driving license.", "Ability to work in the field."]},
-          {"h": "Status", "list": ["Ongoing recruitment based on company needs."]}
-        ] }
+        "ar": {
+          "sections": [
+            {"h": "التخصصات", "list": ["الكهرباء الصناعية", "الزراعة والصيانة", "تصميم وخياطة الموضة"]},
+            {"h": "الشروط", "list": ["شهادة تقني متخصص أو ما يعادلها.", "خبرة مهنية من 3 إلى 5 سنوات.", "مهارات تربوية وقدرة على التواصل."]},
+            {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
+          ]
+        },
+        "fr": {
+          "sections": [
+            {"h": "Domaines de spécialisation", "list": ["Électricité industrielle", "Agriculture et maintenance", "Design et couture de mode"]},
+            {"h": "Conditions requises", "list": ["Diplôme de technicien spécialisé ou équivalent.", "3 à 5 ans d'expérience professionnelle.", "Compétences pédagogiques et capacité de communication."]},
+            {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
+          ]
+        },
+        "en": {
+          "sections": [
+            {"h": "Specialization Fields", "list": ["Industrial electricity", "Agriculture and maintenance", "Fashion design and tailoring"]},
+            {"h": "Required Conditions", "list": ["Specialized technician diploma or equivalent.", "3 to 5 years of professional experience.", "Teaching skills and communication ability."]},
+            {"h": "Official Link", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
+          ]
+        }
       }
     }
   ]
