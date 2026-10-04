@@ -1,0 +1,116 @@
+{
+  "lastUpdate": "2026-10-04",
+  "jobs": [
+    {
+      "id": "c8",
+      "category": "public",
+      "posted": "2026-10-04",
+      "countdown": "2026-10-31T23:59:59",
+      "title": {
+        "ar": "مقيم طب (53 منصب) — كلية الطب والصيدلة بمراكش",
+        "fr": "Médecin résident (53 postes) — Faculté de Médecine et Pharmacie de Marrakech",
+        "en": "Medical Resident (53 positions) — Faculty of Medicine and Pharmacy, Marrakech"
+      },
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
+      },
+      "meta": {
+        "ar": "مراكش — 53 منصب مفتوح",
+        "fr": "Marrakech — 53 postes ouverts",
+        "en": "Marrakech — 53 open positions"
+      },
+      "deadline": {
+        "ar": "آخر أجل <b>31 أكتوبر 2026</b>",
+        "fr": "Date limite <b>31 octobre 2026</b>",
+        "en": "Deadline <b>October 31, 2026</b>"
+      },
+      "description": {
+        "ar": "مباراة توظيف مقيمين في شعبة الطب لفائدة المركز الاستشفائي الجامعي بمراكش.",
+        "fr": "Concours de recrutement de médecins résidents pour le Centre Hospitalier Universitaire de Marrakech.",
+        "en": "Recruitment competition for medical residents at the University Hospital Center of Marrakech."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {"h": "من يمكنه الترشح", "p": "الحاصلون على شهادة الإجازة في الطب العام أو ما يعادلها."},
+            {"h": "الشروط المطلوبة", "list": ["أن يكون مغربي الجنسية.", "الحصول على شهادة الإجازة في الطب.", "اجتياز اختبار كتابي وشفوي.", "اجتياز الفحص الطبي."]},
+            {"h": "الآجال", "p": "آخر أجل للترشح: 31 أكتوبر 2026. المباراة: 16 نوفمبر 2026."},
+            {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
+          ]
+        },
+        "fr": {
+          "sections": [
+            {"h": "Qui peut candidater", "p": "Les titulaires d'une licence en médecine générale ou équivalent."},
+            {"h": "Conditions requises", "list": ["Être de nationalité marocaine.", "Posséder une licence en médecine.", "Réussir les épreuves écrite et orale.", "Passer l'examen médical."]},
+            {"h": "Dates", "p": "Date limite de candidature : 31 octobre 2026. Concours : 16 novembre 2026."},
+            {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
+          ]
+        },
+        "en": {
+          "sections": [
+            {"h": "Who Can Apply", "p": "Holders of a degree in general medicine or equivalent."},
+            {"h": "Requirements", "list": ["Be of Moroccan nationality.", "Hold a degree in medicine.", "Pass written and oral exams.", "Complete medical examination."]},
+            {"h": "Dates", "p": "Application deadline: October 31, 2026. Exam: November 16, 2026."},
+            {"h": "Official Link", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
+          ]
+        }
+      }
+    },
+    {
+      "id": "c9",
+      "category": "public",
+      "posted": "2026-10-04",
+      "countdown": "2026-10-18T23:59:59",
+      "title": {
+        "ar": "مكونون مهنيون (20) — مكتب التكوين المهني وإنعاش الشغل",
+        "fr": "Formateurs professionnels (20) — Office de la Formation Professionnelle",
+        "en": "Professional Trainers (20) — Vocational Training Office"
+      },
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
+      },
+      "meta": {
+        "ar": "عدة مدن — 20 منصب",
+        "fr": "Plusieurs villes — 20 postes",
+        "en": "Multiple cities — 20 positions"
+      },
+      "deadline": {
+        "ar": "آخر أجل <b>18 أكتوبر 2026</b>",
+        "fr": "Date limite <b>18 octobre 2026</b>",
+        "en": "Deadline <b>October 18, 2026</b>"
+      },
+      "description": {
+        "ar": "مباراة توظيف 20 مكوناً في تخصصات الكهرباء، الفلاحة، والموضة.",
+        "fr": "Concours de recrutement de 20 formateurs dans les domaines de l'électricité, de l'agriculture et de la mode.",
+        "en": "Recruitment of 20 trainers in electricity, agriculture, and fashion fields."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {"h": "التخصصات", "list": ["الكهرباء الصناعية", "الزراعة والصيانة", "تصميم وخياطة الموضة"]},
+            {"h": "الشروط", "list": ["شهادة تقني متخصص أو ما يعادلها.", "خبرة مهنية من 3 إلى 5 سنوات.", "مهارات تربوية وقدرة على التواصل."]},
+            {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
+          ]
+        },
+        "fr": {
+          "sections": [
+            {"h": "Domaines de spécialisation", "list": ["Électricité industrielle", "Agriculture et maintenance", "Design et couture de mode"]},
+            {"h": "Conditions requises", "list": ["Diplôme de technicien spécialisé ou équivalent.", "3 à 5 ans d'expérience professionnelle.", "Compétences pédagogiques et capacité de communication."]},
+            {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
+          ]
+        },
+        "en": {
+          "sections": [
+            {"h": "Specialization Fields", "list": ["Industrial electricity", "Agriculture and maintenance", "Fashion design and tailoring"]},
+            {"h": "Required Conditions", "list": ["Specialized technician diploma or equivalent.", "3 to 5 years of professional experience.", "Teaching skills and communication ability."]},
+            {"h": "Official Link", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
+          ]
+        }
+      }
+    }
+  ]
+}
