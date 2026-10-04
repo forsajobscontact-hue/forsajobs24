@@ -34,26 +34,83 @@
       "details": {
         "ar": {
           "sections": [
-            {"h": "من يمكنه الترشح", "p": "الحاصلون على شهادة الإجازة في الطب العام أو ما يعادلها."},
-            {"h": "الشروط المطلوبة", "list": ["أن يكون مغربي الجنسية.", "الحصول على شهادة الإجازة في الطب.", "اجتياز اختبار كتابي وشفوي.", "اجتياز الفحص الطبي."]},
-            {"h": "الآجال", "p": "آخر أجل للترشح: 31 أكتوبر 2026. المباراة: 16 نوفمبر 2026."},
-            {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
+            {
+              "h": "من يمكنه الترشح",
+              "p": "الحاصلون على شهادة الإجازة في الطب العام أو ما يعادلها."
+            },
+            {
+              "h": "الشروط المطلوبة",
+              "list": [
+                "أن يكون مغربي الجنسية.",
+                "الحصول على شهادة الإجازة في الطب.",
+                "اجتياز اختبار كتابي وشفوي.",
+                "اجتياز الفحص الطبي."
+              ]
+            },
+            {
+              "h": "الآجال",
+              "p": "آخر أجل للترشح: 31 أكتوبر 2026. المباراة: 16 نوفمبر 2026."
+            },
+            {
+              "h": "الرابط الرسمي",
+              "list": [
+                "🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"
+              ]
+            }
           ]
         },
         "fr": {
           "sections": [
-            {"h": "Qui peut candidater", "p": "Les titulaires d'une licence en médecine générale ou équivalent."},
-            {"h": "Conditions requises", "list": ["Être de nationalité marocaine.", "Posséder une licence en médecine.", "Réussir les épreuves écrite et orale.", "Passer l'examen médical."]},
-            {"h": "Dates", "p": "Date limite de candidature : 31 octobre 2026. Concours : 16 novembre 2026."},
-            {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
+            {
+              "h": "Qui peut candidater",
+              "p": "Les titulaires d'une licence en médecine générale ou équivalent."
+            },
+            {
+              "h": "Conditions requises",
+              "list": [
+                "Être de nationalité marocaine.",
+                "Posséder une licence en médecine.",
+                "Réussir les épreuves écrite et orale.",
+                "Passer l'examen médical."
+              ]
+            },
+            {
+              "h": "Dates",
+              "p": "Date limite de candidature : 31 octobre 2026. Concours : 16 novembre 2026."
+            },
+            {
+              "h": "Lien officiel",
+              "list": [
+                "🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"
+              ]
+            }
           ]
         },
         "en": {
           "sections": [
-            {"h": "Who Can Apply", "p": "Holders of a degree in general medicine or equivalent."},
-            {"h": "Requirements", "list": ["Be of Moroccan nationality.", "Hold a degree in medicine.", "Pass written and oral exams.", "Complete medical examination."]},
-            {"h": "Dates", "p": "Application deadline: October 31, 2026. Exam: November 16, 2026."},
-            {"h": "Official Link", "list": ["🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"]}
+            {
+              "h": "Who Can Apply",
+              "p": "Holders of a degree in general medicine or equivalent."
+            },
+            {
+              "h": "Requirements",
+              "list": [
+                "Be of Moroccan nationality.",
+                "Hold a degree in medicine.",
+                "Pass written and oral exams.",
+                "Complete medical examination."
+              ]
+            },
+            {
+              "h": "Dates",
+              "p": "Application deadline: October 31, 2026. Exam: November 16, 2026."
+            },
+            {
+              "h": "Official Link",
+              "list": [
+                "🔗 <a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">um6p.ma ↗</a>"
+              ]
+            }
           ]
         }
       }
@@ -91,23 +148,299 @@
       "details": {
         "ar": {
           "sections": [
-            {"h": "التخصصات", "list": ["الكهرباء الصناعية", "الزراعة والصيانة", "تصميم وخياطة الموضة"]},
-            {"h": "الشروط", "list": ["شهادة تقني متخصص أو ما يعادلها.", "خبرة مهنية من 3 إلى 5 سنوات.", "مهارات تربوية وقدرة على التواصل."]},
-            {"h": "الرابط الرسمي", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
+            {
+              "h": "التخصصات",
+              "list": [
+                "الكهرباء الصناعية",
+                "الزراعة والصيانة",
+                "تصميم وخياطة الموضة"
+              ]
+            },
+            {
+              "h": "الشروط",
+              "list": [
+                "شهادة تقني متخصص أو ما يعادلها.",
+                "خبرة مهنية من 3 إلى 5 سنوات.",
+                "مهارات تربوية وقدرة على التواصل."
+              ]
+            },
+            {
+              "h": "الرابط الرسمي",
+              "list": [
+                "🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"
+              ]
+            }
           ]
         },
         "fr": {
           "sections": [
-            {"h": "Domaines de spécialisation", "list": ["Électricité industrielle", "Agriculture et maintenance", "Design et couture de mode"]},
-            {"h": "Conditions requises", "list": ["Diplôme de technicien spécialisé ou équivalent.", "3 à 5 ans d'expérience professionnelle.", "Compétences pédagogiques et capacité de communication."]},
-            {"h": "Lien officiel", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
+            {
+              "h": "Domaines de spécialisation",
+              "list": [
+                "Électricité industrielle",
+                "Agriculture et maintenance",
+                "Design et couture de mode"
+              ]
+            },
+            {
+              "h": "Conditions requises",
+              "list": [
+                "Diplôme de technicien spécialisé ou équivalent.",
+                "3 à 5 ans d'expérience professionnelle.",
+                "Compétences pédagogiques et capacité de communication."
+              ]
+            },
+            {
+              "h": "Lien officiel",
+              "list": [
+                "🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"
+              ]
+            }
           ]
         },
         "en": {
           "sections": [
-            {"h": "Specialization Fields", "list": ["Industrial electricity", "Agriculture and maintenance", "Fashion design and tailoring"]},
-            {"h": "Required Conditions", "list": ["Specialized technician diploma or equivalent.", "3 to 5 years of professional experience.", "Teaching skills and communication ability."]},
-            {"h": "Official Link", "list": ["🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"]}
+            {
+              "h": "Specialization Fields",
+              "list": [
+                "Industrial electricity",
+                "Agriculture and maintenance",
+                "Fashion design and tailoring"
+              ]
+            },
+            {
+              "h": "Required Conditions",
+              "list": [
+                "Specialized technician diploma or equivalent.",
+                "3 to 5 years of professional experience.",
+                "Teaching skills and communication ability."
+              ]
+            },
+            {
+              "h": "Official Link",
+              "list": [
+                "🔗 <a href=\"https://www.ofppt.ma/\" target=\"_blank\" rel=\"noopener\">ofppt.ma ↗</a>"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c10",
+      "category": "public",
+      "posted": "2026-10-04",
+      "countdown": "2026-11-13T16:30:00",
+      "title": {
+        "ar": "تقنيون (5 مناصب) — جماعة تازناخت، إقليم ورزازات",
+        "fr": "Techniciens (5 postes) — Commune de Taznakht, province d'Ouarzazate",
+        "en": "Technicians (5 positions) — Taznakht Commune, Ouarzazate Province"
+      },
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
+      },
+      "meta": {
+        "ar": "ورزازات — 5 مناصب مفتوحة",
+        "fr": "Ouarzazate — 5 postes ouverts",
+        "en": "Ouarzazate — 5 open positions"
+      },
+      "deadline": {
+        "ar": "آخر أجل <b>13 نونبر 2026</b>",
+        "fr": "Date limite <b>13 novembre 2026</b>",
+        "en": "Deadline <b>November 13, 2026</b>"
+      },
+      "description": {
+        "ar": "مباراة لتوظيف 5 تقنيين برسم سنة 2026 لفائدة جماعة تازناخت (4 من الدرجة الثالثة ومنصب من الدرجة الرابعة).",
+        "fr": "Concours de recrutement de 5 techniciens au titre de 2026 pour la commune de Taznakht (4 de 3e grade et 1 de 4e grade).",
+        "en": "Recruitment competition for 5 technicians for 2026 at Taznakht Commune (4 of grade 3 and 1 of grade 4)."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "المناصب المفتوحة",
+              "list": [
+                "تقني من الدرجة الثالثة – السلم 9: 4 مناصب.",
+                "منصبان: الهندسة المدنية / البناء والتعمير / الأشغال العمومية.",
+                "منصبان: تطوير المعلوميات / الأنظمة المعلوماتية / الشبكات / الصيانة.",
+                "تقني من الدرجة الرابعة – السلم 8: منصب واحد في تخصص الكهرباء."
+              ]
+            },
+            {
+              "h": "الآجال",
+              "p": "آخر أجل لإيداع الترشيحات: الجمعة 13 نونبر 2026 على الساعة 16:30. تاريخ إجراء المباراة: الأحد 29 نونبر 2026."
+            },
+            {
+              "h": "شروط الترشح",
+              "list": [
+                "الجنسية المغربية والتمتع بالحقوق الوطنية وحسن السيرة.",
+                "السن من 18 إلى 40 سنة في فاتح يناير 2026، مع إمكانية التمديد وفق المقتضيات القانونية.",
+                "التوفر على الدبلوم والتخصص المطلوبين.",
+                "⚠️ لا تُقبل شهادة النجاح بدل الدبلوم، ولا يُقبل تخصص غير التخصص المطلوب."
+              ]
+            },
+            {
+              "h": "الوثائق المطلوبة",
+              "list": [
+                "طلب الترشيح موقعًا.",
+                "نسخة من الدبلوم المطلوب.",
+                "نسخة من بطاقة التعريف الوطنية.",
+                "سيرة ذاتية (CV) حديثة تتضمن صورة.",
+                "شهادة تثبت التخصص عند الحاجة.",
+                "وثائق إضافية حسب وضعية المترشح."
+              ]
+            },
+            {
+              "h": "طريقة إيداع الملف",
+              "p": "يتم إيداع الملف مباشرة بمكتب الضبط بجماعة تازناخت، أو إرساله عبر البريد المضمون مع إشعار بالتوصل إلى: مقر جماعة تازناخت – باشوية تازناخت – إقليم ورزازات – المغرب. يجب أن يصل الملف قبل الجمعة 13 نونبر 2026 على الساعة 16:30."
+            },
+            {
+              "h": "اختبارات المباراة",
+              "list": [
+                "اختبار كتابي: 3 ساعات – معامل 4.",
+                "اختبار شفوي أو تطبيقي: من 15 إلى 45 دقيقة – معامل 3.",
+                "لا يُستدعى للشفوي إلا من حصل على 12/20 على الأقل في الاختبار الكتابي."
+              ]
+            },
+            {
+              "h": "الرابط الرسمي",
+              "list": [
+                "🔗 <a href=\"https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a5a3aa1c-8e4e-4b40-8132-c41de0862750\" target=\"_blank\" rel=\"noopener\">الإعلان الرسمي – بوابة التشغيل العمومي ↗</a>",
+                "📄 <a href=\"https://www.emploi-public.ma/ar/%D8%AA%D8%AD%D9%85%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/arrete/a5a3aa1c-8e4e-4b40-8132-c41de0862750\" target=\"_blank\" rel=\"noopener\">قرار فتح المباراة (PDF) ↗</a>"
+              ]
+            },
+            {
+              "h": "تابع جديد الوظائف",
+              "list": [
+                "📢 <a href=\"https://whatsapp.com/channel/0029Vb8oL66Fy72INphTqf2M\" target=\"_blank\" rel=\"noopener\">قناتنا على واتساب ↗</a>"
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "Postes ouverts",
+              "list": [
+                "Technicien de 3e grade – échelle 9 : 4 postes.",
+                "2 postes : génie civil / bâtiment et urbanisme / travaux publics.",
+                "2 postes : développement informatique / systèmes d'information / réseaux / maintenance.",
+                "Technicien de 4e grade – échelle 8 : 1 poste en électricité."
+              ]
+            },
+            {
+              "h": "Dates",
+              "p": "Date limite de dépôt des candidatures : vendredi 13 novembre 2026 à 16h30. Date du concours : dimanche 29 novembre 2026."
+            },
+            {
+              "h": "Conditions requises",
+              "list": [
+                "Nationalité marocaine, jouissance des droits nationaux et bonne moralité.",
+                "Âge de 18 à 40 ans au 1er janvier 2026, avec possibilité de prolongation selon la réglementation.",
+                "Posséder le diplôme et la spécialité requis.",
+                "⚠️ Une attestation de réussite ne remplace pas le diplôme, et une autre spécialité n'est pas acceptée."
+              ]
+            },
+            {
+              "h": "Documents requis",
+              "list": [
+                "Demande de candidature signée.",
+                "Copie du diplôme requis.",
+                "Copie de la carte d'identité nationale.",
+                "CV récent avec photo.",
+                "Attestation de spécialité si nécessaire.",
+                "Pièces complémentaires selon la situation du candidat."
+              ]
+            },
+            {
+              "h": "Dépôt du dossier",
+              "p": "Le dossier est déposé directement au bureau d'ordre de la commune de Taznakht, ou envoyé par courrier recommandé avec accusé de réception à : siège de la commune de Taznakht – pachalik de Taznakht – province d'Ouarzazate – Maroc. Il doit parvenir avant le vendredi 13 novembre 2026 à 16h30."
+            },
+            {
+              "h": "Épreuves du concours",
+              "list": [
+                "Épreuve écrite : 3 heures – coefficient 4.",
+                "Épreuve orale ou pratique : 15 à 45 minutes – coefficient 3.",
+                "Seuls les candidats ayant obtenu au moins 12/20 à l'écrit sont convoqués à l'oral."
+              ]
+            },
+            {
+              "h": "Lien officiel",
+              "list": [
+                "🔗 <a href=\"https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a5a3aa1c-8e4e-4b40-8132-c41de0862750\" target=\"_blank\" rel=\"noopener\">Annonce officielle – Portail de l'emploi public ↗</a>",
+                "📄 <a href=\"https://www.emploi-public.ma/ar/%D8%AA%D8%AD%D9%85%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/arrete/a5a3aa1c-8e4e-4b40-8132-c41de0862750\" target=\"_blank\" rel=\"noopener\">Arrêté d'ouverture du concours (PDF) ↗</a>"
+              ]
+            },
+            {
+              "h": "Suivez les offres",
+              "list": [
+                "📢 <a href=\"https://whatsapp.com/channel/0029Vb8oL66Fy72INphTqf2M\" target=\"_blank\" rel=\"noopener\">Notre chaîne WhatsApp ↗</a>"
+              ]
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "Open Positions",
+              "list": [
+                "Technician, grade 3 – scale 9: 4 positions.",
+                "2 positions: civil engineering / construction and urban planning / public works.",
+                "2 positions: IT development / information systems / networks / maintenance.",
+                "Technician, grade 4 – scale 8: 1 position in electrical engineering."
+              ]
+            },
+            {
+              "h": "Dates",
+              "p": "Application deadline: Friday, November 13, 2026 at 4:30 PM. Competition date: Sunday, November 29, 2026."
+            },
+            {
+              "h": "Requirements",
+              "list": [
+                "Moroccan nationality, full civil rights and good conduct.",
+                "Age 18 to 40 as of January 1, 2026, with possible extension under the law.",
+                "Hold the required diploma and specialty.",
+                "⚠️ A certificate of success does not replace the diploma, and a different specialty is not accepted."
+              ]
+            },
+            {
+              "h": "Required Documents",
+              "list": [
+                "Signed application form.",
+                "Copy of the required diploma.",
+                "Copy of the national ID card.",
+                "Recent CV with a photo.",
+                "Certificate proving the specialty when needed.",
+                "Additional documents depending on the candidate's situation."
+              ]
+            },
+            {
+              "h": "How to Submit",
+              "p": "Submit the file in person at the registry office of Taznakht Commune, or send it by registered mail with acknowledgement of receipt to: Taznakht Commune headquarters – Taznakht Pachalik – Ouarzazate Province – Morocco. It must arrive before Friday, November 13, 2026 at 4:30 PM."
+            },
+            {
+              "h": "Exams",
+              "list": [
+                "Written exam: 3 hours – coefficient 4.",
+                "Oral or practical exam: 15 to 45 minutes – coefficient 3.",
+                "Only candidates scoring at least 12/20 on the written exam are called to the oral."
+              ]
+            },
+            {
+              "h": "Official Links",
+              "list": [
+                "🔗 <a href=\"https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a5a3aa1c-8e4e-4b40-8132-c41de0862750\" target=\"_blank\" rel=\"noopener\">Official announcement – Public Employment Portal ↗</a>",
+                "📄 <a href=\"https://www.emploi-public.ma/ar/%D8%AA%D8%AD%D9%85%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/arrete/a5a3aa1c-8e4e-4b40-8132-c41de0862750\" target=\"_blank\" rel=\"noopener\">Competition opening decree (PDF) ↗</a>"
+              ]
+            },
+            {
+              "h": "Follow New Jobs",
+              "list": [
+                "📢 <a href=\"https://whatsapp.com/channel/0029Vb8oL66Fy72INphTqf2M\" target=\"_blank\" rel=\"noopener\">Our WhatsApp channel ↗</a>"
+              ]
+            }
           ]
         }
       }
