@@ -23,12 +23,16 @@ const dict = {
   searchPlaceholder:{ar:"ابحث عن وظيفة، قطاع، أو مدينة…",fr:"Rechercher un poste, secteur ou ville…",en:"Search for a job, sector or city…"},
   filterEmptyMsg:{ar:"لا توجد إعلانات مطابقة حالياً. جرّب كلمة أخرى أو فئة أخرى.",fr:"Aucune annonce ne correspond pour le moment. Essayez un autre mot ou une autre catégorie.",en:"No matching listings right now. Try another word or category."},
 
-  c1tag:{ar:"القطاع العام",fr:"Secteur public",en:"Public Sector"},
-  c1title:{ar:"مباراة توظيف مربيات ومشرفين تربويين للتعليم الأولي (FMEEP)",fr:"Concours de recrutement d'éducateurs et de superviseurs pédagogiques (FMEEP)",en:"Preschool educator & pedagogical supervisor recruitment (FMEEP)"},
-  c1desc:{ar:"مباراة رسمية للتوظيف في التعليم الأولي، مع شروط واضحة وتسجيل إلكتروني عبر المنصة الرسمية.",fr:"Concours officiel de recrutement dans l'enseignement préscolaire avec conditions claires et inscription en ligne.",en:"Official recruitment competition for preschool education with clear conditions and online registration."},
-  c1meta:{ar:"راتب تقريبي 3٬400 درهم — الموسم 2026‑2027",fr:"Salaire environ 3 400 MAD — Année 2026-2027",en:"Salary approx. 3,400 MAD — 2026-2027 season"},
-  c1deadline:{ar:"التسجيل <b>مفتوح</b>",fr:"Inscriptions <b>ouvertes</b>",en:"Registration <b>open</b>"},
-
+  c7tag:{ar:"القطاع العام",fr:"Secteur public",en:"Public Sector"},
+  c7title:{ar:"مباراة انتقاء مؤطري برنامج محو الأمية بالمساجد 2026/2027",fr:"Concours de sélection des encadrants du programme d'alphabétisation dans les mosquées 2026/2027",en:"Selection competition for instructors of the mosque literacy programme 2026/2027"},
+  c7desc:{ar:"تعلن وزارة الأوقاف والشؤون الإسلامية عن فتح باب الترشيح لمهام تأطير برنامج محو الأمية بالمساجد برسم الموسم الدراسي 2026/2027 بعدد من أقاليم المملكة.",fr:"Le ministère des Habous et des Affaires islamiques ouvre les candidatures pour l'encadrement du programme d'alphabétisation dans les mosquées, saison 2026/2027, dans plusieurs provinces du Royaume.",en:"Morocco's Ministry of Habous and Islamic Affairs has opened applications for instructors of the mosque literacy programme for 2026/2027 in several provinces."},
+  c7meta:{ar:"عدة أقاليم بالمملكة — وزارة الأوقاف",fr:"Plusieurs provinces — Ministère des Habous",en:"Several provinces — Ministry of Habous"},
+  c7deadline:{ar:"آخر أجل <b>حسب كل إقليم</b>",fr:"Date limite : <b>selon la province</b>",en:"Deadline: <b>varies by province</b>"},
+  c6tag:{ar:"القطاع العام",fr:"Secteur public",en:"Public Sector"},
+  c6title:{ar:"فرص التوظيف لدى الشركة الوطنية للطرق السيارة ADM — 6 مناصب بالرباط",fr:"Offres d'emploi à la Société Nationale des Autoroutes du Maroc (ADM) — 6 postes à Rabat",en:"Job openings at the National Motorway Company (ADM) — 6 positions in Rabat"},
+  c6desc:{ar:"عروض توظيف منشورة حالياً على الموقع الرسمي للشركة الوطنية للطرق السيارة بالمغرب، وتختلف الشروط والدبلومات المطلوبة حسب كل منصب.",fr:"Offres de recrutement actuellement publiées sur le site officiel de la Société Nationale des Autoroutes du Maroc ; les conditions et diplômes requis varient selon chaque poste.",en:"Job offers currently published on the official website of Morocco's National Motorway Company; requirements and diplomas vary by position."},
+  c6meta:{ar:"الرباط — 6 مناصب مفتوحة",fr:"Rabat — 6 postes ouverts",en:"Rabat — 6 open positions"},
+  c6deadline:{ar:"آخر أجل <b>5 – 8 أكتوبر 2026</b>",fr:"Date limite : <b>5 – 8 octobre 2026</b>",en:"Deadline: <b>Oct 5 – 8, 2026</b>"},
   c5tag:{ar:"القطاع العام",fr:"Secteur public",en:"Public Sector"},
   c5gender:{ar:"ذكور فقط",fr:"Hommes uniquement",en:"Men only"},
   c5title:{ar:"مباراة توظيف جنود من الدرجة الثانية بالقوات المسلحة الملكية — 2027",fr:"Concours de recrutement de soldats de 2ᵉ classe — Forces Armées Royales (2027)",en:"Recruitment competition for 2nd-class soldiers — Royal Armed Forces (2027)"},
@@ -241,73 +245,192 @@ const dict = {
 let currentLang = 'ar';
 
 const jobDetails = {
-  "c1": {
-    "ar": {"sections": [
-      {"h": "شروط الترشيح", "list": [
-        "منصب مربية/مربي: الحصول على البكالوريا كحد أدنى، ويُفضَّل تكوين في مجال التربية أو ما يعادلها.",
-        "منصب مشرف(ة) تربوي(ة): إجازة أو دبلوم في التربية أو علم النفس أو ما يعادلهما، مع سنتين خبرة على الأقل.",
-        "أن يكون سن المترشح(ة) أقل من 45 سنة عند تاريخ الترشيح.",
-        "حسن السيرة والسلوك، واللياقة الصحية والبدنية اللازمة لممارسة المهنة."
-      ]},
-      {"h": "الوثائق المطلوبة", "list": [
-        "نسخة من البطاقة الوطنية للتعريف.",
-        "نسخة من الشهادة أو الدبلوم المحصَّل عليه.",
-        "سيرة ذاتية محيّنة مرفقة برسالة تحفيزية.",
-        "صورتان شمسيتان حديثتان.",
-        "شهادة طبية تثبت اللياقة (تُطلب عند القبول الأولي فقط)."
-      ]},
-      {"h": "الرزنامة", "list": [
-        "التسجيل: مفتوح حالياً عبر المنصة الإلكترونية للفدرالية.",
-        "دراسة الملفات: على أساس الأسبقية ومطابقة الشروط.",
-        "المقابلة الشفوية: تُحدَّد لاحقاً للمرشحين المقبولين أولياً، حسب كل جهة.",
-        "الالتحاق بالعمل: مع انطلاق الموسم الدراسي 2026-2027."
-      ]},
-      {"h": "ملاحظة", "p": "الأجر التقريبي المذكور (3400 درهم) قابل للتغيير حسب الجهة والخبرة. يُنصح بمتابعة الموقع الرسمي للفدرالية المغربية للتربية والتعليم الأولي للتأكد من آخر المستجدات قبل التسجيل."}
-    ]},
-    "fr": {"sections": [
-      {"h": "Conditions de candidature", "list": [
-        "Poste d'éducateur(trice) : baccalauréat minimum requis ; une formation dans le domaine de l'éducation est un atout.",
-        "Poste de superviseur(e) pédagogique : licence ou diplôme en éducation ou psychologie (ou équivalent), avec au moins 2 ans d'expérience.",
-        "Être âgé(e) de moins de 45 ans à la date de candidature.",
-        "Bonne moralité, et aptitude physique et sanitaire nécessaire à l'exercice du métier."
-      ]},
-      {"h": "Documents requis", "list": [
-        "Copie de la carte nationale d'identité.",
-        "Copie du diplôme obtenu.",
-        "CV à jour accompagné d'une lettre de motivation.",
-        "Deux photos d'identité récentes.",
-        "Certificat médical d'aptitude (demandé uniquement après admission provisoire)."
-      ]},
-      {"h": "Calendrier", "list": [
-        "Inscription : actuellement ouverte via la plateforme électronique de la Fédération.",
-        "Étude des dossiers : par ordre d'arrivée et selon la conformité aux critères.",
-        "Entretien oral : programmé ultérieurement pour les candidats présélectionnés, selon la région.",
-        "Prise de fonction : à la rentrée scolaire 2026-2027."
-      ]},
-      {"h": "Remarque", "p": "Le salaire indicatif mentionné (3 400 MAD) peut varier selon la région et l'expérience. Il est recommandé de consulter le site officiel de la Fédération marocaine de l'enseignement préscolaire pour toute mise à jour avant de vous inscrire."}
-    ]},
-    "en": {"sections": [
-      {"h": "Eligibility Requirements", "list": [
-        "Educator position: baccalaureate as a minimum requirement; training in education is a plus.",
-        "Pedagogical supervisor position: bachelor's degree or diploma in education or psychology (or equivalent), with at least 2 years of experience.",
-        "Applicants must be under 45 years old at the application date.",
-        "Good conduct, and the physical and health fitness required for the profession."
-      ]},
-      {"h": "Required Documents", "list": [
-        "Copy of national ID card.",
-        "Copy of the diploma obtained.",
-        "Updated CV with a cover letter.",
-        "Two recent passport-style photos.",
-        "Medical fitness certificate (requested only after provisional acceptance)."
-      ]},
-      {"h": "Timeline", "list": [
-        "Registration: currently open via the Federation's online platform.",
-        "File review: on a first-come basis and according to eligibility.",
-        "Oral interview: scheduled later for pre-selected candidates, depending on the region.",
-        "Start date: at the start of the 2026-2027 school year."
-      ]},
-      {"h": "Note", "p": "The indicative salary mentioned (3,400 MAD) may vary by region and experience. It is recommended to check the official website of the Moroccan Federation for Preschool Education for the latest updates before registering."}
-    ]}
+  "c7": {
+    "ar": {
+      "sections": [
+        {
+          "h": "من يمكنه الترشح",
+          "p": "الراغبون في الالتحاق بمهمة تأطير برنامج محو الأمية بالمساجد."
+        },
+        {
+          "h": "الشروط والوثائق وآخر الأجل",
+          "p": "تختلف شروط الترشيح والوثائق المطلوبة وآخر أجل لإيداع الملفات حسب كل إقليم."
+        },
+        {
+          "h": "الإعلانات الرسمية",
+          "list": [
+            "🔗 <a href=\"https://www.habous.gov.ma/\" target=\"_blank\" rel=\"noopener\">habous.gov.ma ↗</a>"
+          ]
+        },
+        {
+          "h": "للتحميل",
+          "list": [
+            "📄 <a href=\"mahw-al-ummiya-guide.pdf\" download target=\"_blank\" rel=\"noopener\">تحميل دليل مؤطر الدروس — المستويان الأول والثاني (PDF)</a>"
+          ]
+        },
+        {
+          "h": "ملاحظة",
+          "p": "يُرجى الاطلاع على الإعلان الرسمي الخاص بإقليمكم قبل تقديم الترشيح. ملف PDF أعلاه دليل تربوي لمؤطري الدروس، وليس الإعلان الرسمي للمباراة."
+        }
+      ]
+    },
+    "fr": {
+      "sections": [
+        {
+          "h": "Qui peut postuler",
+          "p": "Les personnes souhaitant assurer l'encadrement du programme d'alphabétisation dans les mosquées."
+        },
+        {
+          "h": "Conditions, documents et date limite",
+          "p": "Les conditions de candidature, les documents requis et la date limite de dépôt des dossiers varient selon la province."
+        },
+        {
+          "h": "Annonces officielles",
+          "list": [
+            "🔗 <a href=\"https://www.habous.gov.ma/\" target=\"_blank\" rel=\"noopener\">habous.gov.ma ↗</a>"
+          ]
+        },
+        {
+          "h": "À télécharger",
+          "list": [
+            "📄 <a href=\"mahw-al-ummiya-guide.pdf\" download target=\"_blank\" rel=\"noopener\">Télécharger le guide de l’encadrant — niveaux 1 et 2 (PDF)</a>"
+          ]
+        },
+        {
+          "h": "Remarque",
+          "p": "Veuillez consulter l'annonce officielle de votre province avant de candidater. Le PDF ci-dessus est un guide pédagogique pour les encadrants, et non l'annonce officielle du concours."
+        }
+      ]
+    },
+    "en": {
+      "sections": [
+        {
+          "h": "Who Can Apply",
+          "p": "Anyone wishing to take on the role of instructor in the mosque literacy programme."
+        },
+        {
+          "h": "Requirements, Documents and Deadline",
+          "p": "Eligibility requirements, required documents and the application deadline vary by province."
+        },
+        {
+          "h": "Official Announcements",
+          "list": [
+            "🔗 <a href=\"https://www.habous.gov.ma/\" target=\"_blank\" rel=\"noopener\">habous.gov.ma ↗</a>"
+          ]
+        },
+        {
+          "h": "Download",
+          "list": [
+            "📄 <a href=\"mahw-al-ummiya-guide.pdf\" download target=\"_blank\" rel=\"noopener\">Download the instructor’s guide — levels 1 and 2 (PDF)</a>"
+          ]
+        },
+        {
+          "h": "Note",
+          "p": "Please read the official announcement for your province before applying. The PDF above is a teaching guide for instructors, not the official competition announcement."
+        }
+      ]
+    }
+  },
+  "c6": {
+    "ar": {
+      "sections": [
+        {
+          "h": "المناصب المفتوحة حالياً",
+          "list": [
+            "Technicien Paysagiste",
+            "Cadre Chargé d’Opérations",
+            "Agent Développement RH",
+            "Agent de Règlement",
+            "Cadre Contrôleur Technique",
+            "Chef de Service Marketing et Relation Client"
+          ]
+        },
+        {
+          "h": "المكان",
+          "p": "الرباط."
+        },
+        {
+          "h": "آخر آجال الترشيح",
+          "p": "حسب كل منصب، بين 5 و8 أكتوبر 2026."
+        },
+        {
+          "h": "الرابط الرسمي",
+          "list": [
+            "🔗 <a href=\"https://www.adm.co.ma/fr/offres-de-recrutement\" target=\"_blank\" rel=\"noopener\">adm.co.ma ↗</a>"
+          ]
+        },
+        {
+          "h": "ملاحظة",
+          "p": "شروط الترشيح والدبلومات المطلوبة تختلف حسب كل منصب. يُرجى قراءة الإعلان الرسمي قبل التقديم."
+        }
+      ]
+    },
+    "fr": {
+      "sections": [
+        {
+          "h": "Postes ouverts actuellement",
+          "list": [
+            "Technicien Paysagiste",
+            "Cadre Chargé d’Opérations",
+            "Agent Développement RH",
+            "Agent de Règlement",
+            "Cadre Contrôleur Technique",
+            "Chef de Service Marketing et Relation Client"
+          ]
+        },
+        {
+          "h": "Lieu",
+          "p": "Rabat."
+        },
+        {
+          "h": "Dates limites de candidature",
+          "p": "Selon le poste, entre le 5 et le 8 octobre 2026."
+        },
+        {
+          "h": "Lien officiel",
+          "list": [
+            "🔗 <a href=\"https://www.adm.co.ma/fr/offres-de-recrutement\" target=\"_blank\" rel=\"noopener\">adm.co.ma ↗</a>"
+          ]
+        },
+        {
+          "h": "Remarque",
+          "p": "Les conditions de candidature et les diplômes requis varient selon chaque poste. Veuillez lire l'annonce officielle avant de postuler."
+        }
+      ]
+    },
+    "en": {
+      "sections": [
+        {
+          "h": "Currently Open Positions",
+          "list": [
+            "Technicien Paysagiste",
+            "Cadre Chargé d’Opérations",
+            "Agent Développement RH",
+            "Agent de Règlement",
+            "Cadre Contrôleur Technique",
+            "Chef de Service Marketing et Relation Client"
+          ]
+        },
+        {
+          "h": "Location",
+          "p": "Rabat."
+        },
+        {
+          "h": "Application Deadlines",
+          "p": "Depending on the position, between October 5 and 8, 2026."
+        },
+        {
+          "h": "Official Link",
+          "list": [
+            "🔗 <a href=\"https://www.adm.co.ma/fr/offres-de-recrutement\" target=\"_blank\" rel=\"noopener\">adm.co.ma ↗</a>"
+          ]
+        },
+        {
+          "h": "Note",
+          "p": "Eligibility requirements and required diplomas vary by position. Please read the official announcement before applying."
+        }
+      ]
+    }
   },
   "c5": {
     "ar": {"sections": [
@@ -1229,6 +1352,8 @@ const jobDetailModal = document.getElementById('jobDetailModal');
 const jobDetailModalTitle = document.getElementById('jobDetailModalTitle');
 const jobDetailModalTag = document.getElementById('jobDetailModalTag');
 const directApplyLinks = {
+  c7: 'https://www.habous.gov.ma/',
+  c6: 'https://www.adm.co.ma/fr/offres-de-recrutement',
   p4: 'https://wa.me/212661910171',
   p6: 'mailto:tangermarocrecrutement@gmail.com',
   p7: 'mailto:tangermarocrecrutement@gmail.com',
