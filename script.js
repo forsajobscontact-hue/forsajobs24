@@ -1711,3 +1711,26 @@ setLang('fr');
     setTimeout(()=> openJobDetail(m[1]), 50);
   }
 })();
+
+
+/* شريط الأدوات العائم: يفتح بالضغط على المقبض ويُغلق تلقائياً */
+(function(){
+  const dock = document.getElementById('dock');
+  const handle = document.getElementById('dockHandle');
+  if(!dock || !handle) return;
+  let timer;
+  const isMobile = () => window.innerWidth <= 920;
+  function setOpen(open){
+    dock.classList.toggle('open', open);
+    handle.setAttribute('aria-expanded', String(open));
+    clearTimeout(timer);
+    if(open && isMobile()) timer = setTimeout(()=> setOpen(false), 6000);
+  }
+  handle.addEventListener('click', (e)=>{ e.stopPropagation(); setOpen(!dock.classList.contains('open')); });
+  dock.querySelector('.dock-tools').addEventListener('click', (e)=>{
+    if(isMobile() && e.target.closest('button')) setTimeout(()=> setOpen(false), 200);
+  });
+  document.addEventListener('click', (e)=>{
+    if(isMobile() && !dock.contains(e.target)) setOpen(false);
+  });
+})();

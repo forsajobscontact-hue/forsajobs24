@@ -65,7 +65,20 @@
       </div>
     </nav>
     <div style="display:flex;align-items:center;gap:10px;">
-      <div class="icon-group" role="group" aria-label="Tools">
+      <div class="lang-switch header-lang-switch" role="group" aria-label="Language">
+        <button data-lang="ar">AR</button>
+        <button data-lang="fr" class="active">FR</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- شريط الأدوات العائم: الوضع الليلي، المحفوظات، البحث، القائمة -->
+<div class="dock" id="dock">
+  <button type="button" class="dock-handle" id="dockHandle" aria-label="tools" aria-expanded="false"><i></i></button>
+  <div class="dock-tools">
+    <div class="icon-group" role="group" aria-label="Tools">
         <button class="icon-btn" id="themeToggle" aria-label="theme" title="theme">
           <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>
           <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
@@ -78,15 +91,10 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
         </button>
       </div>
-      <div class="lang-switch header-lang-switch" role="group" aria-label="Language">
-        <button data-lang="ar">AR</button>
-        <button data-lang="fr" class="active">FR</button>
-        <button data-lang="en">EN</button>
-      </div>
-      <button class="burger" aria-label="menu">☰</button>
-    </div>
+    <button class="burger" aria-label="menu">☰</button>
   </div>
-</header>
+</div>
+
 
 <div id="homeSections">
   <section class="hero" id="top">
@@ -890,7 +898,22 @@
 
 <script src="script.js"></script>
 <script src="jobs-loader.js"></script>
-<!-- Adsterra: Social Bar / Popunder -->
-<script src="https://windowthrilling.com/ef/93/39/ef9339e011625c7f5ea89b9042105c55.js"></script>
+<!-- Adsterra Social Bar: يُحمَّل بعد أول تفاعل للزائر حتى لا يغطي الصفحة عند الدخول -->
+<script>
+(function(){
+  var done=false;
+  function load(){
+    if(done)return; done=true;
+    var s=document.createElement('script');
+    s.src='https://windowthrilling.com/ef/93/39/ef9339e011625c7f5ea89b9042105c55.js';
+    s.async=true;
+    document.body.appendChild(s);
+  }
+  ['scroll','touchstart','click'].forEach(function(e){
+    window.addEventListener(e,load,{once:true,passive:true});
+  });
+  setTimeout(load,15000);
+})();
+</script>
 </body>
 </html>
