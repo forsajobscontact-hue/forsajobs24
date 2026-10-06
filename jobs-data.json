@@ -2,120 +2,6 @@
   "lastUpdate": "2026-10-04",
   "jobs": [
     {
-      "id": "c8",
-      "category": "public",
-      "posted": "2026-10-04",
-      "countdown": "2026-10-31T23:59:59",
-      "title": {
-        "ar": "مقيم طب (53 منصب) — كلية الطب والصيدلة بمراكش",
-        "fr": "Médecin résident (53 postes) — Faculté de Médecine et Pharmacie de Marrakech",
-        "en": "Medical Resident (53 positions) — Faculty of Medicine and Pharmacy, Marrakech"
-      },
-      "tag": {
-        "ar": "القطاع العام",
-        "fr": "Secteur public",
-        "en": "Public Sector"
-      },
-      "meta": {
-        "ar": "مراكش — 53 منصب مفتوح",
-        "fr": "Marrakech — 53 postes ouverts",
-        "en": "Marrakech — 53 open positions"
-      },
-      "deadline": {
-        "ar": "آخر أجل <b>31 أكتوبر 2026</b>",
-        "fr": "Date limite <b>31 octobre 2026</b>",
-        "en": "Deadline <b>October 31, 2026</b>"
-      },
-      "description": {
-        "ar": "مباراة توظيف مقيمين في شعبة الطب لفائدة المركز الاستشفائي الجامعي بمراكش.",
-        "fr": "Concours de recrutement de médecins résidents pour le Centre Hospitalier Universitaire de Marrakech.",
-        "en": "Recruitment competition for medical residents at the University Hospital Center of Marrakech."
-      },
-      "details": {
-        "ar": {
-          "sections": [
-            {
-              "h": "من يمكنه الترشح",
-              "p": "الحاصلون على شهادة الإجازة في الطب العام أو ما يعادلها."
-            },
-            {
-              "h": "الشروط المطلوبة",
-              "list": [
-                "أن يكون مغربي الجنسية.",
-                "الحصول على شهادة الإجازة في الطب.",
-                "اجتياز اختبار كتابي وشفوي.",
-                "اجتياز الفحص الطبي."
-              ]
-            },
-            {
-              "h": "الآجال",
-              "p": "آخر أجل للترشح: 31 أكتوبر 2026. المباراة: 16 نوفمبر 2026."
-            },
-            {
-              "h": "الرابط الرسمي",
-              "list": [
-                "<a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">🔗 um6p.ma ↗</a>"
-              ]
-            }
-          ]
-        },
-        "fr": {
-          "sections": [
-            {
-              "h": "Qui peut candidater",
-              "p": "Les titulaires d'une licence en médecine générale ou équivalent."
-            },
-            {
-              "h": "Conditions requises",
-              "list": [
-                "Être de nationalité marocaine.",
-                "Posséder une licence en médecine.",
-                "Réussir les épreuves écrite et orale.",
-                "Passer l'examen médical."
-              ]
-            },
-            {
-              "h": "Dates",
-              "p": "Date limite de candidature : 31 octobre 2026. Concours : 16 novembre 2026."
-            },
-            {
-              "h": "Lien officiel",
-              "list": [
-                "<a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">🔗 um6p.ma ↗</a>"
-              ]
-            }
-          ]
-        },
-        "en": {
-          "sections": [
-            {
-              "h": "Who Can Apply",
-              "p": "Holders of a degree in general medicine or equivalent."
-            },
-            {
-              "h": "Requirements",
-              "list": [
-                "Be of Moroccan nationality.",
-                "Hold a degree in medicine.",
-                "Pass written and oral exams.",
-                "Complete medical examination."
-              ]
-            },
-            {
-              "h": "Dates",
-              "p": "Application deadline: October 31, 2026. Exam: November 16, 2026."
-            },
-            {
-              "h": "Official Link",
-              "list": [
-                "<a href=\"https://www.um6p.ma/\" target=\"_blank\" rel=\"noopener\">🔗 um6p.ma ↗</a>"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "c9",
       "category": "public",
       "posted": "2026-10-04",
@@ -445,6 +331,615 @@
         }
       },
       "applyUrl": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a5a3aa1c-8e4e-4b40-8132-c41de0862750"
+    },
+    {
+      "id": "c11",
+      "category": "immigration",
+      "posted": "2026-10-04",
+      "title": {
+        "ar": "🇨🇦 وظائف الخدمة العامة في أونتاريو (كندا)",
+        "fr": "🇨🇦 Emplois de la fonction publique de l'Ontario (Canada)",
+        "en": "🇨🇦 Ontario Public Service Jobs (Canada)"
+      },
+      "tag": {
+        "ar": "فرص الهجرة",
+        "fr": "Opportunités d'émigration",
+        "en": "Migration Opportunities"
+      },
+      "meta": {
+        "ar": "أونتاريو، كندا — التقديم مجاني",
+        "fr": "Ontario, Canada — Candidature gratuite",
+        "en": "Ontario, Canada — Free to apply"
+      },
+      "deadline": {
+        "ar": "التوظيف <b>مستمر</b>",
+        "fr": "Recrutement <b>continu</b>",
+        "en": "<b>Ongoing</b> hiring"
+      },
+      "description": {
+        "ar": "تنشر حكومة مقاطعة أونتاريو وظائفها الشاغرة على بوابتها الرسمية GOJobs في مجالات متنوعة.",
+        "fr": "Le gouvernement de l'Ontario publie ses postes vacants sur son portail officiel GOJobs, dans des domaines variés.",
+        "en": "The Government of Ontario posts its job vacancies on its official GOJobs portal across a variety of fields."
+      },
+      "applyUrl": "https://www.gojobs.gov.on.ca/Search.aspx",
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "أمثلة على المجالات",
+              "list": [
+                "🖥️ تكنولوجيا المعلومات",
+                "🏥 الصحة والخدمات الاجتماعية",
+                "🧑‍💼 التعليم والإدارة",
+                "🏗️ الهندسة والأشغال العامة"
+              ]
+            },
+            {
+              "h": "الرابط الرسمي (التقديم مجاني)",
+              "list": [
+                "<a href=\"https://www.gojobs.gov.on.ca/Search.aspx\" target=\"_blank\" rel=\"noopener\">🔗 gojobs.gov.on.ca ↗</a>"
+              ]
+            },
+            {
+              "h": "⚠️ قبل أن تقدّم، تنبّه لما يلي",
+              "list": [
+                "التقديم مجاني، ولا تدفع لأي وسيط مقابل «ضمان» وظيفة.",
+                "معظم الوظائف تشترط حق العمل في كندا (إقامة دائمة أو تصريح عمل).",
+                "نشر الوظيفة لا يعني الحصول على تأشيرة.",
+                "للهجرة، استعن فقط بمستشار معتمد (RCIC) وتحقق من اسمه في سجل CICC الرسمي."
+              ]
+            },
+            {
+              "h": "🔎 كيف تتحقق من مستشار الهجرة؟",
+              "list": [
+                "افتح <a href=\"https://college-ic.ca/find-a-consultant\" target=\"_blank\" rel=\"noopener nofollow\">🔎 سجل مستشاري CICC ↗</a> واختر البحث عن RCIC.",
+                "ابحث بالاسم الكامل أو برقم الرخصة (حرف R متبوع بستة أرقام).",
+                "تأكد أن الحالة «Active» وأنه مخوّل بتقديم الخدمة.",
+                "إذا لم يظهر اسمه، فلا يحق له أخذ مقابل على استشارات الهجرة.",
+                "<a href=\"https://college-ic.ca\" target=\"_blank\" rel=\"noopener nofollow\">🏛️ الموقع الرسمي لـ CICC ↗</a>",
+                "<a href=\"https://www.canada.ca/en/immigration-refugees-citizenship.html\" target=\"_blank\" rel=\"noopener nofollow\">🇨🇦 وزارة الهجرة الكندية IRCC ↗</a>",
+                "<a href=\"https://lso.ca\" target=\"_blank\" rel=\"noopener nofollow\">⚖️ نقابة المحامين في أونتاريو (للتحقق من محامي هجرة) ↗</a>"
+              ]
+            },
+            {
+              "h": "وظائف القطاع الخاص",
+              "p": "تجد وظائف القطاع الخاص (الحرف، النقل، الفلاحة...) على موقع Job Bank الرسمي.",
+              "list": [
+                "<a href=\"https://www.jobbank.gc.ca/\" target=\"_blank\" rel=\"noopener\">🔗 jobbank.gc.ca ↗</a>"
+              ]
+            },
+            {
+              "h": "ملاحظة",
+              "p": "بالتوفيق للجميع! 🍀"
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "Exemples de domaines",
+              "list": [
+                "🖥️ Technologies de l'information",
+                "🏥 Santé et services sociaux",
+                "🧑‍💼 Éducation et administration",
+                "🏗️ Ingénierie et travaux publics"
+              ]
+            },
+            {
+              "h": "Lien officiel (candidature gratuite)",
+              "list": [
+                "<a href=\"https://www.gojobs.gov.on.ca/Search.aspx\" target=\"_blank\" rel=\"noopener\">🔗 gojobs.gov.on.ca ↗</a>"
+              ]
+            },
+            {
+              "h": "⚠️ À savoir avant de postuler",
+              "list": [
+                "La candidature est gratuite : ne payez aucun intermédiaire pour une « garantie » d'emploi.",
+                "La plupart des postes exigent le droit de travailler au Canada (résidence permanente ou permis de travail).",
+                "La publication d'une offre ne signifie pas l'obtention d'un visa.",
+                "Pour l'immigration, faites appel uniquement à un consultant agréé (RCIC) et vérifiez son nom dans le registre officiel du CICC."
+              ]
+            },
+            {
+              "h": "🔎 Comment vérifier un consultant en immigration ?",
+              "list": [
+                "Ouvrez le <a href=\"https://college-ic.ca/find-a-consultant\" target=\"_blank\" rel=\"noopener nofollow\">🔎 registre des consultants du CICC ↗</a> et choisissez la recherche d'un CRIC (RCIC).",
+                "Cherchez par nom complet ou par numéro de licence (lettre R suivie de six chiffres).",
+                "Vérifiez que le statut est « Active » et qu'il est autorisé à fournir le service.",
+                "S'il n'apparaît pas dans le registre, il n'a pas le droit de se faire payer pour des conseils en immigration.",
+                "<a href=\"https://college-ic.ca\" target=\"_blank\" rel=\"noopener nofollow\">🏛️ Site officiel du CICC ↗</a>",
+                "<a href=\"https://www.canada.ca/en/immigration-refugees-citizenship.html\" target=\"_blank\" rel=\"noopener nofollow\">🇨🇦 Immigration, Réfugiés et Citoyenneté Canada (IRCC) ↗</a>",
+                "<a href=\"https://lso.ca\" target=\"_blank\" rel=\"noopener nofollow\">⚖️ Barreau de l'Ontario (pour vérifier un avocat en immigration) ↗</a>"
+              ]
+            },
+            {
+              "h": "Emplois du secteur privé",
+              "p": "Retrouvez les offres du secteur privé (métiers, transport, agriculture…) sur le site officiel Guichet-Emplois / Job Bank.",
+              "list": [
+                "<a href=\"https://www.jobbank.gc.ca/\" target=\"_blank\" rel=\"noopener\">🔗 jobbank.gc.ca ↗</a>"
+              ]
+            },
+            {
+              "h": "Note",
+              "p": "Bonne chance à tous ! 🍀"
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "Example Fields",
+              "list": [
+                "🖥️ Information technology",
+                "🏥 Health and social services",
+                "🧑‍💼 Education and administration",
+                "🏗️ Engineering and public works"
+              ]
+            },
+            {
+              "h": "Official Link (free to apply)",
+              "list": [
+                "<a href=\"https://www.gojobs.gov.on.ca/Search.aspx\" target=\"_blank\" rel=\"noopener\">🔗 gojobs.gov.on.ca ↗</a>"
+              ]
+            },
+            {
+              "h": "⚠️ Before You Apply",
+              "list": [
+                "Applying is free. Never pay an intermediary for a job \"guarantee\".",
+                "Most jobs require the right to work in Canada (permanent residence or a work permit).",
+                "A job posting does not mean you will get a visa.",
+                "For immigration, use only a licensed consultant (RCIC) and check their name in the official CICC register."
+              ]
+            },
+            {
+              "h": "🔎 How to Verify an Immigration Consultant",
+              "list": [
+                "Open the <a href=\"https://college-ic.ca/find-a-consultant\" target=\"_blank\" rel=\"noopener nofollow\">🔎 CICC public register ↗</a> and choose to search for an RCIC.",
+                "Search by full name or licence number (the letter R followed by six digits).",
+                "Check that the status is \"Active\" and that they are authorized to provide the service.",
+                "If their name does not appear, they cannot legally charge for immigration advice.",
+                "<a href=\"https://college-ic.ca\" target=\"_blank\" rel=\"noopener nofollow\">🏛️ Official CICC website ↗</a>",
+                "<a href=\"https://www.canada.ca/en/immigration-refugees-citizenship.html\" target=\"_blank\" rel=\"noopener nofollow\">🇨🇦 Immigration, Refugees and Citizenship Canada (IRCC) ↗</a>",
+                "<a href=\"https://lso.ca\" target=\"_blank\" rel=\"noopener nofollow\">⚖️ Law Society of Ontario (to check an immigration lawyer) ↗</a>"
+              ]
+            },
+            {
+              "h": "Private-Sector Jobs",
+              "p": "Find private-sector jobs (trades, transport, farming…) on the official Job Bank website.",
+              "list": [
+                "<a href=\"https://www.jobbank.gc.ca/\" target=\"_blank\" rel=\"noopener\">🔗 jobbank.gc.ca ↗</a>"
+              ]
+            },
+            {
+              "h": "Note",
+              "p": "Good luck to everyone! 🍀"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c12",
+      "category": "institutes",
+      "posted": "2026-10-06",
+      "applyUrl": "https://ifps.sante.gov.ma",
+      "title": {
+        "ar": "🩺 التكوين المجاني في المعاهد الصحية IFPS: التخصصات والشروط ومراحل المباراة",
+        "fr": "🩺 Formation gratuite dans les instituts de santé IFPS : spécialités, conditions et étapes du concours",
+        "en": "🩺 Free Training at IFPS Health Institutes: Specialties, Requirements and Competition Stages"
+      },
+      "tag": {
+        "ar": "المعاهد والمدارس",
+        "fr": "Instituts & écoles",
+        "en": "Institutes & Schools"
+      },
+      "meta": {
+        "ar": "8 مدن — تكوين مجاني",
+        "fr": "8 villes — formation gratuite",
+        "en": "8 cities — free training"
+      },
+      "deadline": {
+        "ar": "الإعلان <b>لم يصدر بعد</b>",
+        "fr": "Annonce <b>pas encore publiée</b>",
+        "en": "Announcement <b>not yet released</b>"
+      },
+      "description": {
+        "ar": "تتيح معاهد التكوين المهني في الميدان الصحي (IFPS) تكوينًا مجانيًا تشرف عليه الدولة، وتفتح أبوابها لحاملي مستوى الثالثة إعدادي والباكالوريا. إليك أهم ما يجب معرفته.",
+        "fr": "Les instituts de formation professionnelle dans le domaine de la santé (IFPS) offrent une formation gratuite encadrée par l'État, ouverte aux titulaires de la 3e année du collège et du baccalauréat.",
+        "en": "The Health Professional Training Institutes (IFPS) offer free, state-run training open to holders of the 3rd year of middle school and the baccalaureate."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "⚠️ تنبيه",
+              "p": "المعلومات التالية خاصة بدورة <b>2025-2026</b>. إعلان الدورة الجديدة <b>لم يصدر بعد</b>، ويُتوقع صدوره قريبًا. الشروط والتواريخ قد تتغير، فتأكد دائمًا من الإعلان الرسمي لوزارة الصحة والحماية الاجتماعية قبل التسجيل.",
+              "imgs": [
+                {
+                  "src": "images/ifps-what.jpg",
+                  "alt": "ما هي IFPS؟"
+                },
+                {
+                  "src": "images/ifps-know.jpg",
+                  "alt": "أجي نتعرفو على IFPS"
+                }
+              ]
+            },
+            {
+              "h": "📍 مدن المباراة",
+              "p": "أجريت مباراة الدورة الماضية يوم الأحد 25 يناير 2026 في مدن: أكادير، الدار البيضاء، الرباط، طنجة، العيون، فاس، مراكش ووجدة، وبلغ عدد المقاعد المطروحة 1290 مقعدًا.",
+              "imgs": [
+                {
+                  "src": "images/ifps-cities.jpg",
+                  "alt": "أماكن معاهد IFPS في 8 مدن"
+                }
+              ]
+            },
+            {
+              "h": "🎓 التخصصات — سلك التقني",
+              "list": [
+                "تقني مساعد بالمركب الجراحي",
+                "تقني معالجة وتعقيم المعدات الطبية",
+                "تقني الكتابة الطبية",
+                "تقني مساعد في الاستقبال والتوجيه بالمستعجلات",
+                "تقني النقل والإسعاف الصحي"
+              ]
+            },
+            {
+              "h": "🎓 التخصصات — سلك التأهيل",
+              "list": [
+                "مساعد في العلاج",
+                "مساعد في الإيواء والصحة الاستشفائية",
+                "مساعد في رعاية الرضع والأطفال",
+                "مساعد في رعاية وطب الشيخوخة"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-specialties.jpg",
+                  "alt": "التخصصات المتوفرة في IFPS"
+                }
+              ]
+            },
+            {
+              "h": "✅ الشروط — سلك التقني",
+              "list": [
+                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
+                "مستوى السنة الختامية من سلك الباكالوريا على الأقل، أو دبلوم التأهيل المهني أو ما يعادلهما",
+                "لشعبة النقل والإسعاف الصحي: رخصة سياقة من صنف B أو C"
+              ]
+            },
+            {
+              "h": "✅ الشروط — سلك التأهيل",
+              "list": [
+                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
+                "مستوى السنة الثالثة إعدادي على الأقل، أو دبلوم التخصص المهني أو ما يعادلهما"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-conditions.jpg",
+                  "alt": "شروط التسجيل للالتحاق بمعاهد IFPS"
+                }
+              ]
+            },
+            {
+              "h": "🧭 مراحل المباراة",
+              "p": "بحسب ما هو متداول عن الدورات السابقة، تمر المباراة بثلاث مراحل:",
+              "list": [
+                "انتقاء الملفات",
+                "الاختبار الكتابي",
+                "مقابلة شفوية أمام لجنة متعددة التخصصات"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-stages.jpg",
+                  "alt": "مراحل مباراة الولوج إلى معاهد IFPS"
+                }
+              ]
+            },
+            {
+              "h": "📝 كيف كان التسجيل؟",
+              "list": [
+                "يتم عبر الإنترنت في المنصة الرسمية: <a href=\"https://ifps.sante.gov.ma\" target=\"_blank\" rel=\"noopener\">🔗 ifps.sante.gov.ma ↗</a>",
+                "يلزمك رقم مسار (حرف + 9 أرقام)، ورقم البطاقة الوطنية، وتاريخ الازدياد، وبريد إلكتروني",
+                "تُرفع الوثائق المطلوبة بصيغة PDF",
+                "لا يمكن تعديل المعلومات بعد المصادقة، فراجعها جيدًا قبل التأكيد",
+                "في النهاية تُطبع استمارة التسجيل"
+              ]
+            },
+            {
+              "h": "⏳ مدة التكوين",
+              "p": "لم تُذكر في الإعلان الذي اطلعنا عليه، وسنضيفها فور صدور الإعلان الجديد.",
+              "imgs": [
+                {
+                  "src": "images/ifps-duration.jpg",
+                  "alt": "مدة التكوين في معاهد IFPS"
+                }
+              ]
+            },
+            {
+              "h": "الراتب بعد التخرج من IFPS",
+              "imgs": [
+                {
+                  "src": "images/ifps-salary.jpg",
+                  "alt": "الراتب بعد التخرج من IFPS واجتياز مباريات التوظيف"
+                }
+              ]
+            },
+            {
+              "h": "🔔 تابعنا ليصلك الإعلان فور صدوره",
+              "list": [
+                "<a href=\"https://whatsapp.com/channel/0029Vb8oL66Fy72INphTqf2M\" target=\"_blank\" rel=\"noopener\">📢 قناتنا على واتساب ↗</a>"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-soon.jpg",
+                  "alt": "الكونكور قريب يتم الإعلان عليه"
+                }
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "⚠️ تنبيه",
+              "p": "المعلومات التالية خاصة بدورة <b>2025-2026</b>. إعلان الدورة الجديدة <b>لم يصدر بعد</b>، ويُتوقع صدوره قريبًا. الشروط والتواريخ قد تتغير، فتأكد دائمًا من الإعلان الرسمي لوزارة الصحة والحماية الاجتماعية قبل التسجيل.",
+              "imgs": [
+                {
+                  "src": "images/ifps-what.jpg",
+                  "alt": "ما هي IFPS؟"
+                },
+                {
+                  "src": "images/ifps-know.jpg",
+                  "alt": "أجي نتعرفو على IFPS"
+                }
+              ]
+            },
+            {
+              "h": "📍 مدن المباراة",
+              "p": "أجريت مباراة الدورة الماضية يوم الأحد 25 يناير 2026 في مدن: أكادير، الدار البيضاء، الرباط، طنجة، العيون، فاس، مراكش ووجدة، وبلغ عدد المقاعد المطروحة 1290 مقعدًا.",
+              "imgs": [
+                {
+                  "src": "images/ifps-cities.jpg",
+                  "alt": "أماكن معاهد IFPS في 8 مدن"
+                }
+              ]
+            },
+            {
+              "h": "🎓 التخصصات — سلك التقني",
+              "list": [
+                "تقني مساعد بالمركب الجراحي",
+                "تقني معالجة وتعقيم المعدات الطبية",
+                "تقني الكتابة الطبية",
+                "تقني مساعد في الاستقبال والتوجيه بالمستعجلات",
+                "تقني النقل والإسعاف الصحي"
+              ]
+            },
+            {
+              "h": "🎓 التخصصات — سلك التأهيل",
+              "list": [
+                "مساعد في العلاج",
+                "مساعد في الإيواء والصحة الاستشفائية",
+                "مساعد في رعاية الرضع والأطفال",
+                "مساعد في رعاية وطب الشيخوخة"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-specialties.jpg",
+                  "alt": "التخصصات المتوفرة في IFPS"
+                }
+              ]
+            },
+            {
+              "h": "✅ الشروط — سلك التقني",
+              "list": [
+                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
+                "مستوى السنة الختامية من سلك الباكالوريا على الأقل، أو دبلوم التأهيل المهني أو ما يعادلهما",
+                "لشعبة النقل والإسعاف الصحي: رخصة سياقة من صنف B أو C"
+              ]
+            },
+            {
+              "h": "✅ الشروط — سلك التأهيل",
+              "list": [
+                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
+                "مستوى السنة الثالثة إعدادي على الأقل، أو دبلوم التخصص المهني أو ما يعادلهما"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-conditions.jpg",
+                  "alt": "شروط التسجيل للالتحاق بمعاهد IFPS"
+                }
+              ]
+            },
+            {
+              "h": "🧭 مراحل المباراة",
+              "p": "بحسب ما هو متداول عن الدورات السابقة، تمر المباراة بثلاث مراحل:",
+              "list": [
+                "انتقاء الملفات",
+                "الاختبار الكتابي",
+                "مقابلة شفوية أمام لجنة متعددة التخصصات"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-stages.jpg",
+                  "alt": "مراحل مباراة الولوج إلى معاهد IFPS"
+                }
+              ]
+            },
+            {
+              "h": "📝 كيف كان التسجيل؟",
+              "list": [
+                "يتم عبر الإنترنت في المنصة الرسمية: <a href=\"https://ifps.sante.gov.ma\" target=\"_blank\" rel=\"noopener\">🔗 ifps.sante.gov.ma ↗</a>",
+                "يلزمك رقم مسار (حرف + 9 أرقام)، ورقم البطاقة الوطنية، وتاريخ الازدياد، وبريد إلكتروني",
+                "تُرفع الوثائق المطلوبة بصيغة PDF",
+                "لا يمكن تعديل المعلومات بعد المصادقة، فراجعها جيدًا قبل التأكيد",
+                "في النهاية تُطبع استمارة التسجيل"
+              ]
+            },
+            {
+              "h": "⏳ مدة التكوين",
+              "p": "لم تُذكر في الإعلان الذي اطلعنا عليه، وسنضيفها فور صدور الإعلان الجديد.",
+              "imgs": [
+                {
+                  "src": "images/ifps-duration.jpg",
+                  "alt": "مدة التكوين في معاهد IFPS"
+                }
+              ]
+            },
+            {
+              "h": "الراتب بعد التخرج من IFPS",
+              "imgs": [
+                {
+                  "src": "images/ifps-salary.jpg",
+                  "alt": "الراتب بعد التخرج من IFPS واجتياز مباريات التوظيف"
+                }
+              ]
+            },
+            {
+              "h": "🔔 تابعنا ليصلك الإعلان فور صدوره",
+              "list": [
+                "<a href=\"https://whatsapp.com/channel/0029Vb8oL66Fy72INphTqf2M\" target=\"_blank\" rel=\"noopener\">📢 قناتنا على واتساب ↗</a>"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-soon.jpg",
+                  "alt": "الكونكور قريب يتم الإعلان عليه"
+                }
+              ]
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "⚠️ تنبيه",
+              "p": "المعلومات التالية خاصة بدورة <b>2025-2026</b>. إعلان الدورة الجديدة <b>لم يصدر بعد</b>، ويُتوقع صدوره قريبًا. الشروط والتواريخ قد تتغير، فتأكد دائمًا من الإعلان الرسمي لوزارة الصحة والحماية الاجتماعية قبل التسجيل.",
+              "imgs": [
+                {
+                  "src": "images/ifps-what.jpg",
+                  "alt": "ما هي IFPS؟"
+                },
+                {
+                  "src": "images/ifps-know.jpg",
+                  "alt": "أجي نتعرفو على IFPS"
+                }
+              ]
+            },
+            {
+              "h": "📍 مدن المباراة",
+              "p": "أجريت مباراة الدورة الماضية يوم الأحد 25 يناير 2026 في مدن: أكادير، الدار البيضاء، الرباط، طنجة، العيون، فاس، مراكش ووجدة، وبلغ عدد المقاعد المطروحة 1290 مقعدًا.",
+              "imgs": [
+                {
+                  "src": "images/ifps-cities.jpg",
+                  "alt": "أماكن معاهد IFPS في 8 مدن"
+                }
+              ]
+            },
+            {
+              "h": "🎓 التخصصات — سلك التقني",
+              "list": [
+                "تقني مساعد بالمركب الجراحي",
+                "تقني معالجة وتعقيم المعدات الطبية",
+                "تقني الكتابة الطبية",
+                "تقني مساعد في الاستقبال والتوجيه بالمستعجلات",
+                "تقني النقل والإسعاف الصحي"
+              ]
+            },
+            {
+              "h": "🎓 التخصصات — سلك التأهيل",
+              "list": [
+                "مساعد في العلاج",
+                "مساعد في الإيواء والصحة الاستشفائية",
+                "مساعد في رعاية الرضع والأطفال",
+                "مساعد في رعاية وطب الشيخوخة"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-specialties.jpg",
+                  "alt": "التخصصات المتوفرة في IFPS"
+                }
+              ]
+            },
+            {
+              "h": "✅ الشروط — سلك التقني",
+              "list": [
+                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
+                "مستوى السنة الختامية من سلك الباكالوريا على الأقل، أو دبلوم التأهيل المهني أو ما يعادلهما",
+                "لشعبة النقل والإسعاف الصحي: رخصة سياقة من صنف B أو C"
+              ]
+            },
+            {
+              "h": "✅ الشروط — سلك التأهيل",
+              "list": [
+                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
+                "مستوى السنة الثالثة إعدادي على الأقل، أو دبلوم التخصص المهني أو ما يعادلهما"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-conditions.jpg",
+                  "alt": "شروط التسجيل للالتحاق بمعاهد IFPS"
+                }
+              ]
+            },
+            {
+              "h": "🧭 مراحل المباراة",
+              "p": "بحسب ما هو متداول عن الدورات السابقة، تمر المباراة بثلاث مراحل:",
+              "list": [
+                "انتقاء الملفات",
+                "الاختبار الكتابي",
+                "مقابلة شفوية أمام لجنة متعددة التخصصات"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-stages.jpg",
+                  "alt": "مراحل مباراة الولوج إلى معاهد IFPS"
+                }
+              ]
+            },
+            {
+              "h": "📝 كيف كان التسجيل؟",
+              "list": [
+                "يتم عبر الإنترنت في المنصة الرسمية: <a href=\"https://ifps.sante.gov.ma\" target=\"_blank\" rel=\"noopener\">🔗 ifps.sante.gov.ma ↗</a>",
+                "يلزمك رقم مسار (حرف + 9 أرقام)، ورقم البطاقة الوطنية، وتاريخ الازدياد، وبريد إلكتروني",
+                "تُرفع الوثائق المطلوبة بصيغة PDF",
+                "لا يمكن تعديل المعلومات بعد المصادقة، فراجعها جيدًا قبل التأكيد",
+                "في النهاية تُطبع استمارة التسجيل"
+              ]
+            },
+            {
+              "h": "⏳ مدة التكوين",
+              "p": "لم تُذكر في الإعلان الذي اطلعنا عليه، وسنضيفها فور صدور الإعلان الجديد.",
+              "imgs": [
+                {
+                  "src": "images/ifps-duration.jpg",
+                  "alt": "مدة التكوين في معاهد IFPS"
+                }
+              ]
+            },
+            {
+              "h": "الراتب بعد التخرج من IFPS",
+              "imgs": [
+                {
+                  "src": "images/ifps-salary.jpg",
+                  "alt": "الراتب بعد التخرج من IFPS واجتياز مباريات التوظيف"
+                }
+              ]
+            },
+            {
+              "h": "🔔 تابعنا ليصلك الإعلان فور صدوره",
+              "list": [
+                "<a href=\"https://whatsapp.com/channel/0029Vb8oL66Fy72INphTqf2M\" target=\"_blank\" rel=\"noopener\">📢 قناتنا على واتساب ↗</a>"
+              ],
+              "imgs": [
+                {
+                  "src": "images/ifps-soon.jpg",
+                  "alt": "الكونكور قريب يتم الإعلان عليه"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   ]
 }

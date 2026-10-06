@@ -294,7 +294,7 @@
     display:flex;align-items:center;justify-content:center;
     color:#fff;font-size:14px;
   }
-  .tag-row{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:6px;}
+  .tag-row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 10px;margin-top:6px;padding-inline-end:44px;}
   .tag{
     font-family:var(--font-mono);font-size:11px;font-weight:600;letter-spacing:.03em;
     color:var(--green);background:rgba(20,107,75,.09);
@@ -584,6 +584,8 @@
   .jd-legal .legal-intro{margin:0 0 26px;padding-bottom:22px;}
   .jd-legal a:not(.jd-cta){color:var(--red);font-weight:600;text-decoration:underline;text-underline-offset:3px;word-break:break-word;}
   .jd-legal li a:not(.jd-cta){display:inline-block;padding:6px 0;}
+  .jd-fig{margin:14px 0 6px;}
+  .jd-fig img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid rgba(20,17,15,.1);background:#f3efe6;}
   .jd-legal .legal-section{margin-bottom:26px;}
   .jd-legal .legal-section:last-of-type{margin-bottom:0;}
   .jd-cta{

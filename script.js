@@ -128,11 +128,6 @@ const dict = {
   p1meta:{ar:"بكالوريا فما فوق — تكوين مؤدى عنه قبل التوظيف",fr:"Bac et plus — formation rémunérée avant embauche",en:"Baccalaureate and above — paid pre-hire training"},
   p1deadline:{ar:"التوظيف <b>مستمر</b>",fr:"Recrutement <b>continu</b>",en:"<b>Ongoing</b> hiring"},
 
-  p2tag:{ar:"القطاع الخاص",fr:"Secteur privé",en:"Private Sector"},
-  p2title:{ar:"مندوب(ة) تجاري(ة) — قطاع التوزيع",fr:"Délégué(e) commercial(e) — Secteur de la distribution",en:"Sales representative — Distribution sector"},
-  p2desc:{ar:"منصب ميداني يطلب متابعة الزبناء، الترويج للمنتجات، وتحقيق أهداف المبيعات الشهرية.",fr:"Poste terrain exigeant le suivi clientèle, la promotion des produits et l'atteinte des objectifs mensuels.",en:"A field position requiring customer follow-up, product promotion, and monthly sales target achievement."},
-  p2meta:{ar:"خبرة سنة على الأقل — رخصة السياقة إجبارية",fr:"1 an d'expérience minimum — permis de conduire requis",en:"Minimum 1 year experience — driving license required"},
-  p2deadline:{ar:"التوظيف <b>مستمر</b>",fr:"Recrutement <b>continu</b>",en:"<b>Ongoing</b> hiring"},
 
   p3tag:{ar:"القطاع الخاص",fr:"Secteur privé",en:"Private Sector"},
   p3title:{ar:"مطوّر(ة) تطبيقات ويب — شركة تقنية بالرباط",fr:"Développeur(se) web — Entreprise tech à Rabat",en:"Web developer — Tech company in Rabat"},
@@ -692,63 +687,7 @@ const jobDetails = {
       {"h": "Note", "p": "Hiring is ongoing throughout the year, with interviews organized regularly. It is recommended to prepare an updated CV before applying."}
     ]}
   },
-  "p2": {
-    "ar": {"sections": [
-      {"h": "المهام الرئيسية", "list": [
-        "زيارة الزبناء (تجار التقسيط) بشكل دوري ضمن القطاع الجغرافي المحدد.",
-        "تسويق المنتجات وأخذ الطلبيات ومتابعة التحصيل.",
-        "تحقيق الأهداف التجارية الشهرية المحددة من طرف الإدارة."
-      ]},
-      {"h": "المؤهلات المطلوبة", "list": [
-        "خبرة سنة على الأقل في التوزيع أو البيع الميداني.",
-        "رخصة السياقة (الصنف B) إجبارية.",
-        "معرفة جيدة بالقطاع الجغرافي المستهدف."
-      ]},
-      {"h": "المزايا", "list": [
-        "سيارة خدمة + بطاقة وقود.",
-        "راتب ثابت + عمولات على المبيعات.",
-        "تغطية اجتماعية (CNSS وAMO)."
-      ]},
-      {"h": "ملاحظة", "p": "المناصب متوفرة في عدة مدن؛ يُرجى تحديد المدينة المرغوبة عند التقديم. التوظيف مستمر، وتُبرمَج المقابلات فور توصل الشركة بالملف."}
-    ]},
-    "fr": {"sections": [
-      {"h": "Missions principales", "list": [
-        "Visiter régulièrement les clients (détaillants) dans le secteur géographique attribué.",
-        "Commercialiser les produits, prendre les commandes et assurer le suivi des encaissements.",
-        "Atteindre les objectifs commerciaux mensuels fixés par la direction."
-      ]},
-      {"h": "Profil recherché", "list": [
-        "Au moins 1 an d'expérience dans la distribution ou la vente terrain.",
-        "Permis de conduire (catégorie B) obligatoire.",
-        "Bonne connaissance du secteur géographique ciblé."
-      ]},
-      {"h": "Avantages", "list": [
-        "Véhicule de service + carte carburant.",
-        "Salaire fixe + commissions sur les ventes.",
-        "Couverture sociale (CNSS et AMO)."
-      ]},
-      {"h": "Remarque", "p": "Des postes sont disponibles dans plusieurs villes ; merci de préciser la ville souhaitée lors de votre candidature. Le recrutement est continu, et les entretiens sont programmés dès réception du dossier."}
-    ]},
-    "en": {"sections": [
-      {"h": "Key Responsibilities", "list": [
-        "Regularly visit customers (retailers) within the assigned geographic area.",
-        "Market products, take orders, and follow up on collections.",
-        "Meet the monthly sales targets set by management."
-      ]},
-      {"h": "Required Profile", "list": [
-        "At least 1 year of experience in distribution or field sales.",
-        "Driving license (category B) required.",
-        "Good knowledge of the target geographic area."
-      ]},
-      {"h": "Benefits", "list": [
-        "Company vehicle + fuel card.",
-        "Fixed salary + sales commissions.",
-        "Social coverage (CNSS and AMO)."
-      ]},
-      {"h": "Note", "p": "Positions are available in several cities; please specify your preferred city when applying. Hiring is ongoing, and interviews are scheduled as soon as an application is received."}
-    ]}
-  },
-  "p3": {
+"p3": {
     "ar": {"sections": [
       {"h": "المهام الرئيسية", "list": [
         "تطوير وصيانة واجهات وتطبيقات ويب باستعمال JavaScript وأطر العمل الحديثة.",
@@ -1386,6 +1325,7 @@ function renderJobDetailContent(jobId){
     let inner = '<h2>' + sec.h + '</h2>';
     if(sec.p) inner += '<p>' + sec.p + '</p>';
     if(sec.list) inner += '<ul>' + sec.list.map(li=> '<li>' + li + '</li>').join('') + '</ul>';
+    if(sec.imgs) inner += sec.imgs.map(im=> '<figure class="jd-fig"><img src="' + im.src + '" alt="' + (im.alt || '') + '" loading="lazy" decoding="async"></figure>').join('');
     bodyHtml += '<div class="legal-section">' + inner + '</div>';
   });
   jobDetailBody.innerHTML = bodyHtml;
