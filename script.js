@@ -1002,16 +1002,24 @@ const navOverlay = document.getElementById('navOverlay');
 const dragHandle = document.querySelector('[data-drag-handle]');
 
 function openMobileNav(){
+  /* ضع البطاقة تحت زر القائمة مباشرة */
+  const r = burger.getBoundingClientRect();
+  const w = Math.min(260, window.innerWidth - 28);
+  let left = Math.round(r.left + r.width/2 - 30);
+  left = Math.max(14, Math.min(left, window.innerWidth - w - 14));
+  links.style.top = Math.round(r.bottom + 12) + 'px';
+  links.style.left = left + 'px';
+  links.style.setProperty('--ax', Math.round(r.left + r.width/2 - left) + 'px');
   links.classList.add('mobile-open');
   navOverlay.classList.add('open');
-  /* افتح شريط الأدوات ليظهر الكارد بجانبه */
-  const d = document.getElementById('dock');
-  if(d) d.classList.add('open');
+  burger.setAttribute('aria-expanded','true');
 }
 function closeMobileNav(){
   links.classList.remove('mobile-open');
   navOverlay.classList.remove('open');
+  burger.setAttribute('aria-expanded','false');
 }
+window.addEventListener('scroll', ()=>{ if(links.classList.contains('mobile-open')) closeMobileNav(); }, {passive:true});
 burger.addEventListener('click', ()=>{
   links.classList.contains('mobile-open') ? closeMobileNav() : openMobileNav();
 });
@@ -1635,7 +1643,7 @@ setLang('fr');
   if(!dock || !handle) return;
   let timer;
   const isMobile = () => window.innerWidth <= 920;
-  const menuOpen = () => !!document.querySelector('nav.links.mobile-open');
+  const menuOpen = () => false;
   function setOpen(open){
     dock.classList.toggle('open', open);
     handle.setAttribute('aria-expanded', String(open));
