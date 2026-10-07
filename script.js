@@ -1002,29 +1002,49 @@ const navOverlay = document.getElementById('navOverlay');
 const dragHandle = document.querySelector('[data-drag-handle]');
 
 function openMobileNav(){
-  /* ضع البطاقة تحت زر القائمة مباشرة */
-  const r = burger.getBoundingClientRect();
-  const w = Math.min(260, window.innerWidth - 28);
-  let left = Math.round(r.left + r.width/2 - 30);
-  left = Math.max(14, Math.min(left, window.innerWidth - w - 14));
-  links.style.top = Math.round(r.bottom + 12) + 'px';
-  links.style.left = left + 'px';
-  links.style.setProperty('--ax', Math.round(r.left + r.width/2 - left) + 'px');
   links.classList.add('mobile-open');
   navOverlay.classList.add('open');
-  burger.setAttribute('aria-expanded','true');
+  links.style.transform = 'translateY(0)';
 }
 function closeMobileNav(){
-  links.classList.remove('mobile-open');
+  links.style.transition = 'transform .22s ease';
+  links.style.transform = 'translateY(-100%)';
   navOverlay.classList.remove('open');
-  burger.setAttribute('aria-expanded','false');
+  setTimeout(()=>{
+    links.classList.remove('mobile-open');
+    links.style.transition = '';
+    links.style.transform = '';
+  }, 220);
 }
-window.addEventListener('scroll', ()=>{ if(links.classList.contains('mobile-open')) closeMobileNav(); }, {passive:true});
 burger.addEventListener('click', ()=>{
   links.classList.contains('mobile-open') ? closeMobileNav() : openMobileNav();
 });
 navOverlay.addEventListener('click', closeMobileNav);
+document.querySelector('[data-close-drawer]').addEventListener('click', closeMobileNav);
 links.querySelectorAll('a').forEach(a=> a.addEventListener('click', closeMobileNav));
+
+/* drag the handle to dismiss the mobile menu */
+let dragStartY = 0, dragDelta = 0, isDragging = false;
+function dragStart(y){ isDragging = true; dragStartY = y; links.style.transition = 'none'; }
+function dragMove(y){
+  if(!isDragging) return;
+  dragDelta = Math.min(0, y - dragStartY); /* only allow upward drag */
+  links.style.transform = `translateY(${dragDelta}px)`;
+}
+function dragEnd(){
+  if(!isDragging) return;
+  isDragging = false;
+  links.style.transition = 'transform .22s ease';
+  if(dragDelta < -60){ closeMobileNav(); }
+  else{ links.style.transform = 'translateY(0)'; }
+  dragDelta = 0;
+}
+dragHandle.addEventListener('touchstart', e=> dragStart(e.touches[0].clientY), {passive:true});
+dragHandle.addEventListener('touchmove', e=> dragMove(e.touches[0].clientY), {passive:true});
+dragHandle.addEventListener('touchend', dragEnd);
+dragHandle.addEventListener('mousedown', e=> dragStart(e.clientY));
+window.addEventListener('mousemove', e=>{ if(isDragging) dragMove(e.clientY); });
+window.addEventListener('mouseup', dragEnd);
 
 const io = new IntersectionObserver((entries)=>{
   entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
@@ -1643,18 +1663,17 @@ setLang('fr');
   if(!dock || !handle) return;
   let timer;
   const isMobile = () => window.innerWidth <= 920;
-  const menuOpen = () => false;
   function setOpen(open){
     dock.classList.toggle('open', open);
     handle.setAttribute('aria-expanded', String(open));
     clearTimeout(timer);
-    if(open && isMobile()) timer = setTimeout(()=>{ if(!menuOpen()) setOpen(false); else setOpen(true); }, 6000);
+    if(open && isMobile()) timer = setTimeout(()=> setOpen(false), 6000);
   }
   handle.addEventListener('click', (e)=>{ e.stopPropagation(); setOpen(!dock.classList.contains('open')); });
   dock.querySelector('.dock-tools').addEventListener('click', (e)=>{
-    if(isMobile() && e.target.closest('button') && !e.target.closest('.burger')) setTimeout(()=> setOpen(false), 200);
+    if(isMobile() && e.target.closest('button')) setTimeout(()=> setOpen(false), 200);
   });
   document.addEventListener('click', (e)=>{
-    if(isMobile() && !dock.contains(e.target) && !menuOpen() && !e.target.closest('nav.links')) setOpen(false);
+    if(isMobile() && !dock.contains(e.target)) setOpen(false);
   });
 })();
