@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-06",
+  "lastUpdate": "2026-10-09",
   "jobs": [
     {
       "id": "c9",
@@ -756,79 +756,86 @@
       }
     },
     {
-      "id": "p10",
-      "category": "private",
-      "posted": "2026-10-06",
-      "countdown": "2026-10-07T11:00:00",
+      "id": "c13",
+      "category": "public",
+      "posted": "2026-10-09",
+      "countdown": "2026-10-23T23:00:00",
+      "applyUrl": "https://econcours.brainman.ma/cmp/ONDA_2026",
       "title": {
-        "ar": "عامل الحفر (Opérateur Perçage) — وكالة DAMA طنجة",
-        "fr": "Opérateur Perçage (Diplôme Mécanique Générale) — Agence DAMA Tanger",
-        "en": "Drilling Operator (General Mechanics Diploma) — DAMA Agency Tangier"
+        "ar": "المكتب الوطني للمطارات ONDA — 7 مناصب",
+        "fr": "Office National des Aéroports (ONDA) — 7 postes",
+        "en": "National Airports Office (ONDA) — 7 positions"
       },
       "tag": {
-        "ar": "القطاع الخاص",
-        "fr": "Secteur privé",
-        "en": "Private Sector"
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
       },
       "meta": {
-        "ar": "المنطقة الحرة TFZ، طنجة — عقد مؤقت (Intérim)",
-        "fr": "Zone franche TFZ, Tanger — Contrat intérim",
-        "en": "TFZ Free Zone, Tangier — Temporary (intérim) contract"
+        "ar": "الدار البيضاء وغيرها — الترشيح عبر الإنترنت",
+        "fr": "Siège et aéroport d'Oujda — candidature en ligne",
+        "en": "Head office and Oujda airport — online application"
       },
       "deadline": {
-        "ar": "المقابلة <b>7 أكتوبر 2026</b> على 11:00",
-        "fr": "Entretien le <b>7 octobre 2026</b> à 11h00",
-        "en": "Interview on <b>October 7, 2026</b> at 11:00"
+        "ar": "آخر أجل <b>23 أكتوبر 2026</b>",
+        "fr": "Date limite <b>23 octobre 2026</b>",
+        "en": "Deadline <b>October 23, 2026</b>"
       },
       "description": {
-        "ar": "توظيف مستعجل لعامل حفر في الصناعة الميكانيكية والتشغيل بالماكينات الرقمية، بدبلوم الميكانيك العامة وتجربة في ورشة.",
-        "fr": "Recrutement urgent d'un opérateur perçage en usinage numérique, avec diplôme de mécanique générale et expérience en atelier.",
-        "en": "Urgent hiring of a drilling operator in CNC machining, with a general mechanics diploma and workshop experience."
+        "ar": "مباراة لتوظيف 7 مناصب بين التدريس والمراقبة المالية وتدبير المشاريع والتنسيق الإداري والمساعدة الإدارية.",
+        "fr": "Concours de recrutement de 7 postes : enseignement, contrôle financier, pilotage de projets, coordination administrative et assistanat de direction.",
+        "en": "Recruitment of 7 positions: teaching, financial control, project management, administrative coordination and executive assistance."
       },
       "details": {
         "ar": {
           "sections": [
             {
-              "h": "المنصب",
+              "h": "المناصب",
               "list": [
-                "Diplôme Mécanique Générale – Opérateur Perçage (عامل الحفر).",
-                "قطاع النشاط: الصناعة الميكانيكية – التشغيل بالماكينات الرقمية (Usinage Numérique).",
-                "مكان العمل: المنطقة الحرة TFZ – طنجة.",
-                "نوع العقد: عقد مهمة مؤقتة (Contrat Intérim)."
+                "مهندس دولة أو دكتوراه في الرياضيات التطبيقية (1) — أستاذ، خبرة 3 سنوات.",
+                "باك+5 في التدقيق أو المالية أو مراقبة التسيير أو تدبير المخاطر (2) — مراقبة ملفات الأداء، خبرة 3 سنوات (منصب بالمقر وآخر بمطار وجدة).",
+                "باك+5 في تدبير المشاريع أو ذكاء الأعمال أو تحليل البيانات (1) — قيادة المشاريع وإعداد التقارير، خبرة سنة.",
+                "باك+3 في الاقتصاد والتدبير (1) — تنسيق ومتابعة إدارية للمطارات، خبرة 3 سنوات.",
+                "تقني متخصص باك+2 في سكرتارية الإدارة (2) — مساعد(ة) إدارة، خبرة سنة."
               ]
             },
             {
               "h": "الشروط",
               "list": [
-                "السن بين 19 و28 سنة.",
-                "دبلوم في الميكانيك العامة (Mécanique Générale) – Qualification.",
-                "تجربة مهنية داخل ورشة ميكانيكية (Garage mécanique).",
-                "الجدية والانضباط والقدرة على العمل ضمن فريق.",
-                "الاستعداد للعمل بنظام 3 فرق (3 Shifts).",
-                "الجاهزية للالتحاق بالعمل."
+                "الجنسية المغربية.",
+                "السن بين 18 و45 سنة في 31 دجنبر 2026.",
+                "الدبلوم المطلوب في التخصص، والخبرة الدنيا المحددة لكل منصب.",
+                "7% من المناصب مخصصة للأشخاص في وضعية إعاقة و25% لأبناء الأمة."
               ]
             },
             {
-              "h": "الأجر والامتيازات",
+              "h": "الملف",
               "list": [
-                "3 300 DH صافي + 400 DH brut.",
-                "التغطية الاجتماعية CNSS.",
-                "التأمين الصحي التكميلي Mutuelle Atlantasanad."
+                "سيرة ذاتية مفصلة، ونسخة من الباكالوريا والدبلوم، وبطاقة التعريف الوطنية.",
+                "شواهد العمل وتصريح الضمان الاجتماعي CNSS لإثبات الخبرة.",
+                "الملف الناقص يُرفض تلقائيًا."
               ]
             },
             {
-              "h": "المقابلة",
+              "h": "الاختبارات",
               "list": [
-                "الأربعاء 07/10/2026 على الساعة 11:00 صباحًا.",
-                "المكان: وكالة DAMA طنجة."
+                "انتقاء الملفات ثم اختبار كتابي (ساعة ونصف إلى ساعتين) ثم شفوي (20 دقيقة).",
+                "النقطة الدنيا للقبول في كل اختبار: 12/20.",
+                "تاريخ ومكان الكتابي يُعلنان لاحقًا، والنتائج على emploi-public.ma وonda.ma."
               ]
             },
             {
-              "h": "الوثائق المطلوبة",
+              "h": "الترشيح",
               "list": [
-                "نسخة من البطاقة الوطنية CIN.",
-                "السيرة الذاتية CV.",
-                "عدد المناصب محدود والتوظيف مستعجل، فاحضر في الموعد ومعك الوثائق."
+                "عبر الرابط الرسمي فقط قبل 23 أكتوبر 2026 على 23:00، وأي طريقة أخرى لا تُقبل.",
+                "للاستفسار: Recrutement@brainman.ma أو الهاتف 0522987740."
+              ]
+            },
+            {
+              "h": "الروابط",
+              "list": [
+                "<a href=\"https://econcours.brainman.ma/cmp/ONDA_2026\" target=\"_blank\" rel=\"noopener\">🔗 econcours.brainman.ma/cmp/ONDA_2026 ↗</a>",
+                "المعلومات مأخوذة من إعلانات منشورة على مواقع تجمع المباريات، فتأكد من الإعلان الرسمي قبل الترشح."
               ]
             }
           ]
@@ -836,46 +843,52 @@
         "fr": {
           "sections": [
             {
-              "h": "Poste",
+              "h": "Postes",
               "list": [
-                "Diplôme Mécanique Générale – Opérateur Perçage.",
-                "Secteur : industrie mécanique – usinage numérique.",
-                "Lieu de travail : zone franche TFZ – Tanger.",
-                "Type de contrat : contrat de mission temporaire (intérim)."
+                "Ingénieur d'État ou doctorat en mathématiques appliquées (1) — enseignant, 3 ans d'expérience.",
+                "Bac+5 en audit, finance, contrôle de gestion ou gestion des risques (2) — contrôle des dossiers de paiement, 3 ans d'expérience (1 au siège, 1 à l'aéroport d'Oujda).",
+                "Bac+5 en management de projet, BI ou analyse de données (1) — pilotage et reporting des projets, 1 an d'expérience.",
+                "Bac+3 en économie et gestion (1) — coordination et suivi administratif des aéroports, 3 ans d'expérience.",
+                "Technicien spécialisé bac+2 en secrétariat de direction (2) — assistant(e) de direction, 1 an d'expérience."
               ]
             },
             {
               "h": "Conditions requises",
               "list": [
-                "Âge entre 19 et 28 ans.",
-                "Diplôme en Mécanique Générale – Qualification.",
-                "Expérience professionnelle en atelier mécanique (garage mécanique).",
-                "Sérieux, discipline et capacité à travailler en équipe.",
-                "Disponibilité pour le travail en 3 équipes (3 shifts).",
-                "Disponibilité pour une prise de poste immédiate."
+                "Nationalité marocaine.",
+                "Âge entre 18 et 45 ans au 31/12/2026.",
+                "Diplôme dans la spécialité exigée et expérience minimale requise pour chaque poste.",
+                "7 % des postes réservés aux personnes handicapées et 25 % aux pupilles de la Nation."
               ]
             },
             {
-              "h": "Rémunération et avantages",
+              "h": "Dossier",
               "list": [
-                "3 300 DH net + 400 DH brut.",
-                "Couverture sociale CNSS.",
-                "Mutuelle complémentaire Atlantasanad."
+                "CV détaillé, copie du baccalauréat, du diplôme et de la CIN.",
+                "Attestations de travail et déclaration CNSS pour justifier l'expérience.",
+                "Tout dossier incomplet est rejeté automatiquement."
               ]
             },
             {
-              "h": "Entretien",
+              "h": "Épreuves",
               "list": [
-                "Mercredi 07/10/2026 à 11h00.",
-                "Lieu : agence DAMA Tanger."
+                "Présélection sur dossier, épreuve écrite (1h30 à 2h) puis épreuve orale (20 min).",
+                "Note minimale d'admission à chaque épreuve : 12/20.",
+                "Date et lieu de l'écrit communiqués ultérieurement ; résultats sur emploi-public.ma et onda.ma."
               ]
             },
             {
-              "h": "Documents requis",
+              "h": "Candidature",
               "list": [
-                "Copie de la CIN.",
-                "CV.",
-                "Postes limités et recrutement urgent : présentez-vous à l'heure avec tous les documents."
+                "Uniquement via le lien officiel, avant le 23 octobre 2026 à 23h00 ; tout autre canal est refusé.",
+                "Renseignements : Recrutement@brainman.ma ou tél. 0522987740."
+              ]
+            },
+            {
+              "h": "Liens",
+              "list": [
+                "<a href=\"https://econcours.brainman.ma/cmp/ONDA_2026\" target=\"_blank\" rel=\"noopener\">🔗 econcours.brainman.ma/cmp/ONDA_2026 ↗</a>",
+                "Informations tirées d'annonces relayées par des sites agrégateurs : vérifiez l'annonce officielle avant de postuler."
               ]
             }
           ]
@@ -883,46 +896,787 @@
         "en": {
           "sections": [
             {
-              "h": "Position",
+              "h": "Positions",
               "list": [
-                "General Mechanics Diploma – Drilling Operator.",
-                "Sector: mechanical industry – CNC machining.",
-                "Workplace: TFZ Free Zone – Tangier.",
-                "Contract type: temporary assignment (intérim)."
+                "State engineer or PhD in applied mathematics (1) — lecturer, 3 years of experience.",
+                "Bac+5 in audit, finance, management control or risk management (2) — payment file control, 3 years of experience (1 at head office, 1 at Oujda airport).",
+                "Bac+5 in project management, BI or data analytics (1) — project steering and reporting, 1 year of experience.",
+                "Bac+3 in economics and management (1) — administrative coordination of airports, 3 years of experience.",
+                "Specialized technician bac+2 in executive secretarial work (2) — executive assistant, 1 year of experience."
               ]
             },
             {
               "h": "Requirements",
               "list": [
-                "Age between 19 and 28.",
-                "Diploma in General Mechanics – Qualification level.",
-                "Professional experience in a mechanical workshop (garage).",
-                "Seriousness, discipline and ability to work in a team.",
-                "Willingness to work in a 3-shift system.",
-                "Ready to start work right away."
+                "Moroccan nationality.",
+                "Age 18 to 45 as of 12/31/2026.",
+                "Diploma in the required field and the minimum experience set for each position.",
+                "7% of positions are reserved for people with disabilities and 25% for wards of the Nation."
               ]
             },
             {
-              "h": "Pay and benefits",
+              "h": "Application file",
               "list": [
-                "3,300 DH net + 400 DH gross.",
-                "CNSS social coverage.",
-                "Supplementary health insurance (Mutuelle Atlantasanad)."
+                "Detailed CV, copies of the baccalaureate, diploma and national ID.",
+                "Work certificates and CNSS statement to prove experience.",
+                "Incomplete files are rejected automatically."
               ]
             },
             {
-              "h": "Interview",
+              "h": "Tests",
               "list": [
-                "Wednesday 07/10/2026 at 11:00 AM.",
-                "Location: DAMA agency, Tangier."
+                "File screening, then a written test (1h30 to 2h) and an oral interview (20 min).",
+                "Minimum passing mark in each test: 12/20.",
+                "Date and place of the written test will be announced later; results on emploi-public.ma and onda.ma."
               ]
             },
             {
-              "h": "Required documents",
+              "h": "How to apply",
               "list": [
-                "Copy of national ID (CIN).",
-                "CV.",
-                "Positions are limited and hiring is urgent: arrive on time with all documents."
+                "Only through the official link, before October 23, 2026 at 23:00; any other channel is refused.",
+                "Questions: Recrutement@brainman.ma or tel. 0522987740."
+              ]
+            },
+            {
+              "h": "Links",
+              "list": [
+                "<a href=\"https://econcours.brainman.ma/cmp/ONDA_2026\" target=\"_blank\" rel=\"noopener\">🔗 econcours.brainman.ma/cmp/ONDA_2026 ↗</a>",
+                "Information taken from announcements relayed by aggregator sites: check the official announcement before applying."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c14",
+      "category": "public",
+      "posted": "2026-10-09",
+      "countdown": "2026-10-26T16:30:00",
+      "applyUrl": "https://www.audakhla.ma/",
+      "title": {
+        "ar": "الوكالة الحضرية للداخلة وادي الذهب — 4 مناصب",
+        "fr": "Agence Urbaine de Dakhla-Oued Eddahab — 4 postes",
+        "en": "Urban Agency of Dakhla-Oued Eddahab — 4 positions"
+      },
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
+      },
+      "meta": {
+        "ar": "الداخلة — الترشيح بالبريد أو الإيداع المباشر",
+        "fr": "Dakhla — dépôt ou envoi postal",
+        "en": "Dakhla — mail or hand delivery"
+      },
+      "deadline": {
+        "ar": "آخر أجل <b>26 أكتوبر 2026</b> على 16:30",
+        "fr": "Date limite <b>26 octobre 2026</b> à 16h30",
+        "en": "Deadline <b>October 26, 2026</b> at 16:30"
+      },
+      "description": {
+        "ar": "مباراة لتوظيف مهندس معماري ومهندس دولة وتقنيين متخصصين اثنين.",
+        "fr": "Concours pour un architecte, un ingénieur d'État et deux techniciens spécialisés.",
+        "en": "Recruitment of an architect, a state engineer and two specialized technicians."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "المناصب",
+              "list": [
+                "مهندس معماري (1).",
+                "مهندس دولة في الطبوغرافيا أو الهندسة المدنية أو المعلومات الجغرافية (1).",
+                "تقني متخصص في التسيير المحاسباتي والمالي (1).",
+                "تقني متخصص في الهندسة المعمارية والتعمير (1)."
+              ]
+            },
+            {
+              "h": "الشروط",
+              "list": [
+                "الجنسية المغربية.",
+                "السن بين 18 و45 سنة لمنصبي المهندسين، وألا يتجاوز 40 سنة لمنصبي التقنيين، عند تاريخ التوظيف.",
+                "الدبلوم المطلوب لكل منصب مع نسخة من الباكالوريا، وقرار المعادلة إن كان الدبلوم أجنبيًا.",
+                "ألا يكون المترشح مسجلًا في السجل التأديبي المركزي ولا ذا سوابق عدلية."
+              ]
+            },
+            {
+              "h": "الملف",
+              "list": [
+                "طلب خطي يبين الاسم والعنوان والهاتف والتخصص المتبارى فيه.",
+                "سيرة ذاتية، بطاقة التعريف الوطنية، الباكالوريا، والدبلومات مصادق عليها (شواهد النجاح لا يعتد بها).",
+                "شواهد العمل وسجل الضمان الاجتماعي عند وجود خبرة، وموافقة الإدارة إن كان المترشح موظفًا."
+              ]
+            },
+            {
+              "h": "الترشيح",
+              "list": [
+                "بظرف مغلق يحمل اسم التخصص، إلى مدير الوكالة الحضرية للداخلة وادي الذهب: شارع الحسن الثاني، حي المطار، ص.ب 459، الداخلة، أو بإيداعه في مكتب الضبط.",
+                "آخر أجل 26 أكتوبر 2026 على 16:30، وما وصل بعده لا يؤخذ بعين الاعتبار حتى لو أُرسل بالبريد."
+              ]
+            },
+            {
+              "h": "الاختبارات",
+              "list": [
+                "اختبار كتابي يومي 11 و12 نونبر 2026 بمقر الوكالة (ساعتان، 50% من النقطة).",
+                "اختبار شفوي يُعلن تاريخه لاحقًا (15 إلى 30 دقيقة، 50% من النقطة).",
+                "كل مترشح تقل نقطته عن 10/20 في أحد الاختبارين يُقصى."
+              ]
+            },
+            {
+              "h": "الروابط",
+              "list": [
+                "<a href=\"https://www.audakhla.ma/\" target=\"_blank\" rel=\"noopener\">🔗 audakhla.ma ↗</a>",
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "المعلومات مأخوذة من إعلانات منشورة على مواقع تجمع المباريات، فتأكد من الإعلان الرسمي قبل الترشح."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "Postes",
+              "list": [
+                "Architecte (1).",
+                "Ingénieur d'État en topographie, génie civil ou information géographique (1).",
+                "Technicien spécialisé en gestion comptable et financière (1).",
+                "Technicien spécialisé en architecture et urbanisme (1)."
+              ]
+            },
+            {
+              "h": "Conditions requises",
+              "list": [
+                "Nationalité marocaine.",
+                "Âge de 18 à 45 ans pour les postes d'ingénieur et au plus 40 ans pour les techniciens, à la date de recrutement.",
+                "Diplôme requis pour chaque poste avec copie du baccalauréat et décision d'équivalence si le diplôme est étranger.",
+                "Ne pas figurer au registre disciplinaire central et ne pas avoir d'antécédents judiciaires."
+              ]
+            },
+            {
+              "h": "Dossier",
+              "list": [
+                "Demande écrite indiquant nom, adresse, téléphone et spécialité visée.",
+                "CV, CIN, baccalauréat et diplômes certifiés conformes (les attestations de réussite ne sont pas acceptées).",
+                "Attestations de travail et relevé CNSS en cas d'expérience, accord de l'administration pour les agents en poste."
+              ]
+            },
+            {
+              "h": "Candidature",
+              "list": [
+                "Sous pli fermé portant la spécialité, adressé au directeur de l'Agence Urbaine de Dakhla-Oued Eddahab : avenue Hassan II, quartier de l'Aéroport, BP 459, Dakhla, ou déposé au bureau d'ordre.",
+                "Date limite : 26 octobre 2026 à 16h30 ; tout dossier arrivé après, même posté, est écarté."
+              ]
+            },
+            {
+              "h": "Épreuves",
+              "list": [
+                "Épreuve écrite les 11 et 12 novembre 2026 au siège de l'agence (2 h, 50 % de la note).",
+                "Épreuve orale à une date annoncée ultérieurement (15 à 30 min, 50 % de la note).",
+                "Tout candidat obtenant moins de 10/20 à l'une des épreuves est éliminé."
+              ]
+            },
+            {
+              "h": "Liens",
+              "list": [
+                "<a href=\"https://www.audakhla.ma/\" target=\"_blank\" rel=\"noopener\">🔗 audakhla.ma ↗</a>",
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Informations tirées d'annonces relayées par des sites agrégateurs : vérifiez l'annonce officielle avant de postuler."
+              ]
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "Positions",
+              "list": [
+                "Architect (1).",
+                "State engineer in surveying, civil engineering or geographic information (1).",
+                "Specialized technician in accounting and finance (1).",
+                "Specialized technician in architecture and urban planning (1)."
+              ]
+            },
+            {
+              "h": "Requirements",
+              "list": [
+                "Moroccan nationality.",
+                "Age 18 to 45 for the engineer positions and no more than 40 for the technician positions, at the date of hiring.",
+                "The required diploma for each position with a copy of the baccalaureate, and an equivalence decision for foreign diplomas.",
+                "Not on the central disciplinary register and no criminal record."
+              ]
+            },
+            {
+              "h": "Application file",
+              "list": [
+                "Written application stating name, address, phone and the specialty applied for.",
+                "CV, national ID, baccalaureate and certified diplomas (pass certificates are not accepted).",
+                "Work certificates and CNSS record if experienced, and employer consent for serving employees."
+              ]
+            },
+            {
+              "h": "How to apply",
+              "list": [
+                "In a sealed envelope marked with the specialty, addressed to the director of the Urban Agency of Dakhla-Oued Eddahab: Hassan II Avenue, Airport district, PO Box 459, Dakhla, or delivered to the registry office.",
+                "Deadline: October 26, 2026 at 16:30; files arriving later, even if posted earlier, are not considered."
+              ]
+            },
+            {
+              "h": "Tests",
+              "list": [
+                "Written test on November 11 and 12, 2026 at the agency's headquarters (2 hours, 50% of the mark).",
+                "Oral test on a date to be announced (15 to 30 minutes, 50% of the mark).",
+                "Candidates scoring below 10/20 in either test are eliminated."
+              ]
+            },
+            {
+              "h": "Links",
+              "list": [
+                "<a href=\"https://www.audakhla.ma/\" target=\"_blank\" rel=\"noopener\">🔗 audakhla.ma ↗</a>",
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Information taken from announcements relayed by aggregator sites: check the official announcement before applying."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c15",
+      "category": "public",
+      "posted": "2026-10-09",
+      "countdown": "2026-10-22T16:00:00",
+      "applyUrl": "https://www.emploi-public.ma/",
+      "title": {
+        "ar": "الشركة الوطنية لإنجاز وتدبير المنشآت الرياضية SONARGES — 23 منصبًا",
+        "fr": "SONARGES — Équipements sportifs — 23 postes",
+        "en": "SONARGES — National Sports Facilities Company — 23 positions"
+      },
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
+      },
+      "meta": {
+        "ar": "عدة مدن (منها الدار البيضاء والقنيطرة وبركان وفاس ووجدة)",
+        "fr": "Plusieurs villes (dont Casablanca, Kénitra, Berkane, Fès, Oujda)",
+        "en": "Several cities (including Casablanca, Kenitra, Berkane, Fès, Oujda)"
+      },
+      "deadline": {
+        "ar": "آخر أجل <b>22 أكتوبر 2026</b> على 16:00",
+        "fr": "Date limite <b>22 octobre 2026</b> à 16h00",
+        "en": "Deadline <b>October 22, 2026</b> at 16:00"
+      },
+      "description": {
+        "ar": "ست مباريات لتوظيف 23 منصبًا بشركة تتولى إنجاز وتدبير المنشآت الرياضية الكبرى.",
+        "fr": "Six concours pour 23 postes dans la société chargée de réaliser et gérer les grands équipements sportifs.",
+        "en": "Six competitions for 23 positions at the company in charge of building and managing major sports facilities."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "نظرة عامة",
+              "list": [
+                "ست مباريات بإجمالي 23 منصبًا.",
+                "آخر أجل للترشيح 22 أكتوبر 2026 على الساعة 16:00.",
+                "تواريخ وأماكن الاختبارات وقائمة المستدعين ستُنشر لاحقًا."
+              ]
+            },
+            {
+              "h": "الترشيح",
+              "list": [
+                "اطلع على الإعلان الرسمي للمؤسسة أو على بوابة التشغيل العمومي لمعرفة الشروط والوثائق وطريقة الترشيح، ثم قدّم قبل الأجل."
+              ]
+            },
+            {
+              "h": "الروابط",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "المعلومات مأخوذة من إعلانات منشورة على مواقع تجمع المباريات، فتأكد من الإعلان الرسمي قبل الترشح."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "Aperçu",
+              "list": [
+                "Six concours pour un total de 23 postes.",
+                "Date limite de candidature : 22 octobre 2026 à 16h00.",
+                "Les dates et lieux des épreuves et la liste des candidats convoqués seront publiés ultérieurement."
+              ]
+            },
+            {
+              "h": "Candidature",
+              "list": [
+                "Consultez l'annonce officielle de l'organisme ou le portail de l'emploi public pour connaître les conditions, les pièces et la procédure, puis déposez avant la date limite."
+              ]
+            },
+            {
+              "h": "Liens",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Informations tirées d'annonces relayées par des sites agrégateurs : vérifiez l'annonce officielle avant de postuler."
+              ]
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "Overview",
+              "list": [
+                "Six competitions for a total of 23 positions.",
+                "Application deadline: October 22, 2026 at 16:00.",
+                "Test dates and places and the list of invited candidates will be published later."
+              ]
+            },
+            {
+              "h": "How to apply",
+              "list": [
+                "Check the organization's official announcement or the public employment portal for the requirements, documents and procedure, then apply before the deadline."
+              ]
+            },
+            {
+              "h": "Links",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Information taken from announcements relayed by aggregator sites: check the official announcement before applying."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c16",
+      "category": "public",
+      "posted": "2026-10-09",
+      "countdown": "2026-10-22T23:59:00",
+      "applyUrl": "https://www.emploi-public.ma/",
+      "title": {
+        "ar": "المكتب الجهوي للاستثمار الفلاحي للملوية — 10 مناصب",
+        "fr": "ORMVA de la Moulouya — 10 postes",
+        "en": "Moulouya Regional Agricultural Development Office — 10 positions"
+      },
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
+      },
+      "meta": {
+        "ar": "5 تقنيين و5 مهندسي دولة",
+        "fr": "5 techniciens et 5 ingénieurs d'État",
+        "en": "5 technicians and 5 state engineers"
+      },
+      "deadline": {
+        "ar": "آخر أجل <b>22 أكتوبر 2026</b>",
+        "fr": "Date limite <b>22 octobre 2026</b>",
+        "en": "Deadline <b>October 22, 2026</b>"
+      },
+      "description": {
+        "ar": "مباراة لتوظيف 5 تقنيين من الدرجة الثالثة و5 مهندسي دولة من الدرجة الأولى.",
+        "fr": "Concours pour 5 techniciens de 3e grade et 5 ingénieurs d'État de 1er grade.",
+        "en": "Recruitment of 5 grade-3 technicians and 5 grade-1 state engineers."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "نظرة عامة",
+              "list": [
+                "5 تقنيين من الدرجة الثالثة.",
+                "5 مهندسي دولة من الدرجة الأولى.",
+                "آخر أجل لإيداع الترشيحات 22 أكتوبر 2026."
+              ]
+            },
+            {
+              "h": "الترشيح",
+              "list": [
+                "اطلع على الإعلان الرسمي للمؤسسة أو على بوابة التشغيل العمومي لمعرفة الشروط والوثائق وطريقة الترشيح، ثم قدّم قبل الأجل."
+              ]
+            },
+            {
+              "h": "الروابط",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "المعلومات مأخوذة من إعلانات منشورة على مواقع تجمع المباريات، فتأكد من الإعلان الرسمي قبل الترشح."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "Aperçu",
+              "list": [
+                "5 techniciens de 3e grade.",
+                "5 ingénieurs d'État de 1er grade.",
+                "Date limite de dépôt des candidatures : 22 octobre 2026."
+              ]
+            },
+            {
+              "h": "Candidature",
+              "list": [
+                "Consultez l'annonce officielle de l'organisme ou le portail de l'emploi public pour connaître les conditions, les pièces et la procédure, puis déposez avant la date limite."
+              ]
+            },
+            {
+              "h": "Liens",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Informations tirées d'annonces relayées par des sites agrégateurs : vérifiez l'annonce officielle avant de postuler."
+              ]
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "Overview",
+              "list": [
+                "5 grade-3 technicians.",
+                "5 grade-1 state engineers.",
+                "Application deadline: October 22, 2026."
+              ]
+            },
+            {
+              "h": "How to apply",
+              "list": [
+                "Check the organization's official announcement or the public employment portal for the requirements, documents and procedure, then apply before the deadline."
+              ]
+            },
+            {
+              "h": "Links",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Information taken from announcements relayed by aggregator sites: check the official announcement before applying."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c17",
+      "category": "public",
+      "posted": "2026-10-09",
+      "countdown": "2026-10-18T23:59:00",
+      "applyUrl": "https://www.emploi-public.ma/",
+      "title": {
+        "ar": "مكتب التكوين المهني OFPPT بالرشيدية — 16 منصبًا",
+        "fr": "OFPPT Errachidia — 16 postes",
+        "en": "OFPPT Errachidia — 16 positions"
+      },
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
+      },
+      "meta": {
+        "ar": "الرشيدية — تكوين وتأطير",
+        "fr": "Errachidia — formation et encadrement",
+        "en": "Errachidia — training and supervision"
+      },
+      "deadline": {
+        "ar": "آخر أجل <b>18 أكتوبر 2026</b>",
+        "fr": "Date limite <b>18 octobre 2026</b>",
+        "en": "Deadline <b>October 18, 2026</b>"
+      },
+      "description": {
+        "ar": "مباراة لتوظيف 16 منصبًا بالرشيدية في التكوين المهني والرقمنة والفلاحة والصناعة التقليدية والمطعمة والتأطير التقني.",
+        "fr": "Concours de 16 postes à Errachidia : formation professionnelle, digital, agriculture, artisanat, restauration et encadrement technique.",
+        "en": "Recruitment of 16 positions in Errachidia: vocational training, digital, agriculture, handicrafts, catering and technical supervision."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "نظرة عامة",
+              "list": [
+                "16 منصبًا بالرشيدية.",
+                "المجالات: التكوين المهني، التنمية الرقمية، الفلاحة، الصناعة التقليدية، المطعمة، والتأطير التقني.",
+                "آخر أجل للترشيح 18 أكتوبر 2026."
+              ]
+            },
+            {
+              "h": "الترشيح",
+              "list": [
+                "اطلع على الإعلان الرسمي للمؤسسة أو على بوابة التشغيل العمومي لمعرفة الشروط والوثائق وطريقة الترشيح، ثم قدّم قبل الأجل."
+              ]
+            },
+            {
+              "h": "الروابط",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "المعلومات مأخوذة من إعلانات منشورة على مواقع تجمع المباريات، فتأكد من الإعلان الرسمي قبل الترشح."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "Aperçu",
+              "list": [
+                "16 postes à Errachidia.",
+                "Domaines : formation professionnelle, développement digital, agriculture, artisanat, restauration et encadrement technique.",
+                "Date limite de candidature : 18 octobre 2026."
+              ]
+            },
+            {
+              "h": "Candidature",
+              "list": [
+                "Consultez l'annonce officielle de l'organisme ou le portail de l'emploi public pour connaître les conditions, les pièces et la procédure, puis déposez avant la date limite."
+              ]
+            },
+            {
+              "h": "Liens",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Informations tirées d'annonces relayées par des sites agrégateurs : vérifiez l'annonce officielle avant de postuler."
+              ]
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "Overview",
+              "list": [
+                "16 positions in Errachidia.",
+                "Fields: vocational training, digital development, agriculture, handicrafts, catering and technical supervision.",
+                "Application deadline: October 18, 2026."
+              ]
+            },
+            {
+              "h": "How to apply",
+              "list": [
+                "Check the organization's official announcement or the public employment portal for the requirements, documents and procedure, then apply before the deadline."
+              ]
+            },
+            {
+              "h": "Links",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Information taken from announcements relayed by aggregator sites: check the official announcement before applying."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c18",
+      "category": "public",
+      "posted": "2026-10-09",
+      "countdown": "2026-10-19T23:59:00",
+      "applyUrl": "https://www.emploi-public.ma/",
+      "title": {
+        "ar": "مؤسسة الأعمال الاجتماعية لموظفي المياه والغابات — تقني",
+        "fr": "Fondation des œuvres sociales du personnel des Eaux et Forêts — technicien",
+        "en": "Social Works Foundation of Water and Forests Staff — technician"
+      },
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
+      },
+      "meta": {
+        "ar": "منصب واحد — تقني من الدرجة الثالثة",
+        "fr": "1 poste — technicien de 3e grade",
+        "en": "1 position — grade-3 technician"
+      },
+      "deadline": {
+        "ar": "آخر أجل <b>19 أكتوبر 2026</b>",
+        "fr": "Date limite <b>19 octobre 2026</b>",
+        "en": "Deadline <b>October 19, 2026</b>"
+      },
+      "description": {
+        "ar": "مباراة لتوظيف تقني واحد من الدرجة الثالثة.",
+        "fr": "Concours pour un technicien de 3e grade.",
+        "en": "Recruitment of one grade-3 technician."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "نظرة عامة",
+              "list": [
+                "منصب واحد: تقني من الدرجة الثالثة.",
+                "آخر أجل لقبول الترشيحات 19 أكتوبر 2026."
+              ]
+            },
+            {
+              "h": "الترشيح",
+              "list": [
+                "اطلع على الإعلان الرسمي للمؤسسة أو على بوابة التشغيل العمومي لمعرفة الشروط والوثائق وطريقة الترشيح، ثم قدّم قبل الأجل."
+              ]
+            },
+            {
+              "h": "الروابط",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "المعلومات مأخوذة من إعلانات منشورة على مواقع تجمع المباريات، فتأكد من الإعلان الرسمي قبل الترشح."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "Aperçu",
+              "list": [
+                "1 poste : technicien de 3e grade.",
+                "Date limite de réception des candidatures : 19 octobre 2026."
+              ]
+            },
+            {
+              "h": "Candidature",
+              "list": [
+                "Consultez l'annonce officielle de l'organisme ou le portail de l'emploi public pour connaître les conditions, les pièces et la procédure, puis déposez avant la date limite."
+              ]
+            },
+            {
+              "h": "Liens",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Informations tirées d'annonces relayées par des sites agrégateurs : vérifiez l'annonce officielle avant de postuler."
+              ]
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "Overview",
+              "list": [
+                "1 position: grade-3 technician.",
+                "Application deadline: October 19, 2026."
+              ]
+            },
+            {
+              "h": "How to apply",
+              "list": [
+                "Check the organization's official announcement or the public employment portal for the requirements, documents and procedure, then apply before the deadline."
+              ]
+            },
+            {
+              "h": "Links",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Information taken from announcements relayed by aggregator sites: check the official announcement before applying."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c19",
+      "category": "public",
+      "posted": "2026-10-09",
+      "countdown": "2026-10-22T23:59:00",
+      "applyUrl": "https://www.emploi-public.ma/",
+      "title": {
+        "ar": "الوكالة الوطنية للموانئ — 20 منصبًا",
+        "fr": "Agence Nationale des Ports (ANP) — 20 postes",
+        "en": "National Ports Agency (ANP) — 20 positions"
+      },
+      "tag": {
+        "ar": "القطاع العام",
+        "fr": "Secteur public",
+        "en": "Public Sector"
+      },
+      "meta": {
+        "ar": "عدة تخصصات — آجال متعددة",
+        "fr": "Plusieurs spécialités — dates limites multiples",
+        "en": "Several specialties — multiple deadlines"
+      },
+      "deadline": {
+        "ar": "آجال متبقية: <b>16 و22 أكتوبر 2026</b>",
+        "fr": "Dates limites restantes : <b>16 et 22 octobre 2026</b>",
+        "en": "Remaining deadlines: <b>October 16 and 22, 2026</b>"
+      },
+      "description": {
+        "ar": "مباريات لتوظيف 20 منصبًا في عدة تخصصات، لكل مباراة أجل خاص.",
+        "fr": "Concours pour 20 postes dans plusieurs spécialités, chacun avec sa propre date limite.",
+        "en": "Competitions for 20 positions in several specialties, each with its own deadline."
+      },
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "نظرة عامة",
+              "list": [
+                "20 منصبًا موزعة على عدة مباريات وتخصصات.",
+                "آجال الترشيح: 8 و10 و16 و22 أكتوبر 2026، وانتهى منها أجلا 8 و10 أكتوبر.",
+                "تحقق من أجل المباراة التي تهمك قبل الترشح."
+              ]
+            },
+            {
+              "h": "الترشيح",
+              "list": [
+                "اطلع على الإعلان الرسمي للمؤسسة أو على بوابة التشغيل العمومي لمعرفة الشروط والوثائق وطريقة الترشيح، ثم قدّم قبل الأجل."
+              ]
+            },
+            {
+              "h": "الروابط",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "المعلومات مأخوذة من إعلانات منشورة على مواقع تجمع المباريات، فتأكد من الإعلان الرسمي قبل الترشح."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "Aperçu",
+              "list": [
+                "20 postes répartis sur plusieurs concours et spécialités.",
+                "Dates limites : 8, 10, 16 et 22 octobre 2026 ; celles des 8 et 10 octobre sont passées.",
+                "Vérifiez la date limite du concours qui vous concerne avant de postuler."
+              ]
+            },
+            {
+              "h": "Candidature",
+              "list": [
+                "Consultez l'annonce officielle de l'organisme ou le portail de l'emploi public pour connaître les conditions, les pièces et la procédure, puis déposez avant la date limite."
+              ]
+            },
+            {
+              "h": "Liens",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Informations tirées d'annonces relayées par des sites agrégateurs : vérifiez l'annonce officielle avant de postuler."
+              ]
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "Overview",
+              "list": [
+                "20 positions spread across several competitions and specialties.",
+                "Deadlines: October 8, 10, 16 and 22, 2026; the October 8 and 10 ones have passed.",
+                "Check the deadline of the competition you want before applying."
+              ]
+            },
+            {
+              "h": "How to apply",
+              "list": [
+                "Check the organization's official announcement or the public employment portal for the requirements, documents and procedure, then apply before the deadline."
+              ]
+            },
+            {
+              "h": "Links",
+              "list": [
+                "<a href=\"https://www.emploi-public.ma/\" target=\"_blank\" rel=\"noopener\">🔗 emploi-public.ma ↗</a>",
+                "Information taken from announcements relayed by aggregator sites: check the official announcement before applying."
               ]
             }
           ]
