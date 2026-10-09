@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-04",
+  "lastUpdate": "2026-10-06",
   "jobs": [
     {
       "id": "c9",
@@ -522,159 +522,97 @@
       "id": "c12",
       "category": "institutes",
       "posted": "2026-10-06",
-      "applyUrl": "https://ifps.sante.gov.ma",
+      "applyUrl": "https://ifps.sante.gov.ma/",
       "title": {
-        "ar": "🩺 التكوين المجاني في المعاهد الصحية IFPS: التخصصات والشروط ومراحل المباراة",
-        "fr": "🩺 Formation gratuite dans les instituts de santé IFPS : spécialités, conditions et étapes du concours",
-        "en": "🩺 Free Training at IFPS Health Institutes: Specialties, Requirements and Competition Stages"
+        "ar": "معاهد التكوين المهني في الميدان الصحي IFPS — تكوين مجاني",
+        "fr": "Instituts de Formation Professionnelle en Santé (IFPS) — Formation gratuite",
+        "en": "Health Professional Training Institutes (IFPS) — Free Training"
       },
       "tag": {
         "ar": "المعاهد والمدارس",
-        "fr": "Instituts & écoles",
+        "fr": "Instituts et écoles",
         "en": "Institutes & Schools"
       },
       "meta": {
-        "ar": "8 مدن — تكوين مجاني",
-        "fr": "8 villes — formation gratuite",
-        "en": "8 cities — free training"
+        "ar": "8 مدن — 9 تخصصات",
+        "fr": "8 villes — 9 spécialités",
+        "en": "8 cities — 9 specializations"
       },
       "deadline": {
-        "ar": "الإعلان <b>لم يصدر بعد</b>",
-        "fr": "Annonce <b>pas encore publiée</b>",
-        "en": "Announcement <b>not yet released</b>"
+        "ar": "الدورة الجديدة <b>لم تُعلن بعد</b>",
+        "fr": "Nouvelle session <b>pas encore annoncée</b>",
+        "en": "New session <b>not yet announced</b>"
       },
       "description": {
-        "ar": "تتيح معاهد التكوين المهني في الميدان الصحي (IFPS) تكوينًا مجانيًا تشرف عليه الدولة، وتفتح أبوابها لحاملي مستوى الثالثة إعدادي والباكالوريا. إليك أهم ما يجب معرفته.",
-        "fr": "Les instituts de formation professionnelle dans le domaine de la santé (IFPS) offrent une formation gratuite encadrée par l'État, ouverte aux titulaires de la 3e année du collège et du baccalauréat.",
-        "en": "The Health Professional Training Institutes (IFPS) offer free, state-run training open to holders of the 3rd year of middle school and the baccalaureate."
+        "ar": "تخصصات ومدن ومدة وشروط ومراحل مباراة معاهد IFPS، بحسب دورة 2025-2026.",
+        "fr": "Spécialités, villes, durée, conditions et étapes du concours des IFPS, selon la session 2025-2026.",
+        "en": "Specializations, cities, duration, requirements and stages of the IFPS entrance competition, based on the 2025-2026 session."
       },
       "details": {
         "ar": {
           "sections": [
             {
-              "h": "⚠️ تنبيه",
-              "p": "المعلومات التالية خاصة بدورة <b>2025-2026</b>. إعلان الدورة الجديدة <b>لم يصدر بعد</b>، ويُتوقع صدوره قريبًا. الشروط والتواريخ قد تتغير، فتأكد دائمًا من الإعلان الرسمي لوزارة الصحة والحماية الاجتماعية قبل التسجيل.",
-              "imgs": [
-                {
-                  "src": "ifps-what.jpg",
-                  "alt": "ما هي IFPS؟"
-                },
-                {
-                  "src": "ifps-know.jpg",
-                  "alt": "أجي نتعرفو على IFPS"
-                }
-              ]
-            },
-            {
-              "h": "📍 مدن المباراة",
-              "p": "أجريت مباراة الدورة الماضية يوم الأحد 25 يناير 2026 في مدن: أكادير، الدار البيضاء، الرباط، طنجة، العيون، فاس، مراكش ووجدة، وبلغ عدد المقاعد المطروحة 1290 مقعدًا.",
-              "imgs": [
-                {
-                  "src": "ifps-cities.jpg",
-                  "alt": "أماكن معاهد IFPS في 8 مدن"
-                }
-              ]
-            },
-            {
-              "h": "🎓 التخصصات — سلك التقني",
+              "h": "تنبيه",
               "list": [
-                "تقني مساعد بالمركب الجراحي",
-                "تقني معالجة وتعقيم المعدات الطبية",
-                "تقني الكتابة الطبية",
-                "تقني مساعد في الاستقبال والتوجيه بالمستعجلات",
-                "تقني النقل والإسعاف الصحي"
+                "المعلومات التالية مبنية على دورة 2025-2026 (المباراة يوم 25 يناير 2026، والتسجيل من 15 إلى 24 دجنبر 2025، و1290 مقعدًا). إعلان الدورة الجديدة لم يصدر بعد، فتأكد من الإعلان الرسمي قبل التسجيل."
               ]
             },
             {
-              "h": "🎓 التخصصات — سلك التأهيل",
+              "h": "سلك التقني",
+              "list": [
+                "تقني النقل والإسعاف الصحي",
+                "تقني الكتابة الطبية والاجتماعية",
+                "مساعد بالمركب الجراحي",
+                "تقني معالجة وتعقيم المعدات الطبية",
+                "مساعد في التوجيه والاستقبال بالمستعجلات"
+              ]
+            },
+            {
+              "h": "سلك التأهيل",
               "list": [
                 "مساعد في العلاج",
                 "مساعد في الإيواء والصحة الاستشفائية",
                 "مساعد في رعاية الرضع والأطفال",
                 "مساعد في رعاية وطب الشيخوخة"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-specialties.jpg",
-                  "alt": "التخصصات المتوفرة في IFPS"
-                }
               ]
             },
             {
-              "h": "✅ الشروط — سلك التقني",
+              "h": "المدن",
               "list": [
-                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
-                "مستوى السنة الختامية من سلك الباكالوريا على الأقل، أو دبلوم التأهيل المهني أو ما يعادلهما",
-                "لشعبة النقل والإسعاف الصحي: رخصة سياقة من صنف B أو C"
+                "فاس، وجدة، أكادير، العيون، طنجة، الرباط، الدار البيضاء، مراكش."
               ]
             },
             {
-              "h": "✅ الشروط — سلك التأهيل",
+              "h": "مدة التكوين",
               "list": [
-                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
-                "مستوى السنة الثالثة إعدادي على الأقل، أو دبلوم التخصص المهني أو ما يعادلهما"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-conditions.jpg",
-                  "alt": "شروط التسجيل للالتحاق بمعاهد IFPS"
-                }
+                "سلك التقني: سنتان (4 فصول).",
+                "سلك التأهيل: سنة واحدة (فصلان).",
+                "التكوين يجمع بين الدراسة النظرية والتدريب الميداني."
               ]
             },
             {
-              "h": "🧭 مراحل المباراة",
-              "p": "بحسب ما هو متداول عن الدورات السابقة، تمر المباراة بثلاث مراحل:",
+              "h": "الشروط",
               "list": [
-                "انتقاء الملفات",
-                "الاختبار الكتابي",
-                "مقابلة شفوية أمام لجنة متعددة التخصصات"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-stages.jpg",
-                  "alt": "مراحل مباراة الولوج إلى معاهد IFPS"
-                }
+                "الجنسية المغربية وألا يتجاوز العمر 30 سنة يوم المباراة.",
+                "سلك التقني: مستوى السنة الختامية من سلك الباكالوريا على الأقل، أو دبلوم التأهيل المهني أو ما يعادلهما.",
+                "شعبة النقل والإسعاف الصحي: رخصة سياقة من صنف B أو C.",
+                "سلك التأهيل: مستوى الثالثة إعدادي على الأقل، أو دبلوم التخصص المهني أو ما يعادلهما."
               ]
             },
             {
-              "h": "📝 كيف كان التسجيل؟",
+              "h": "مراحل المباراة",
               "list": [
-                "يتم عبر الإنترنت في المنصة الرسمية: <a href=\"https://ifps.sante.gov.ma\" target=\"_blank\" rel=\"noopener\">🔗 ifps.sante.gov.ma ↗</a>",
-                "يلزمك رقم مسار (حرف + 9 أرقام)، ورقم البطاقة الوطنية، وتاريخ الازدياد، وبريد إلكتروني",
-                "تُرفع الوثائق المطلوبة بصيغة PDF",
-                "لا يمكن تعديل المعلومات بعد المصادقة، فراجعها جيدًا قبل التأكيد",
-                "في النهاية تُطبع استمارة التسجيل"
+                "التسجيل القبلي عبر المنصة خلال الفترة المحددة.",
+                "الانتقاء الأولي بدراسة الملفات.",
+                "الاختبار الكتابي للمقبولين في الانتقاء.",
+                "الاختبار الشفوي للناجحين في الكتابي."
               ]
             },
             {
-              "h": "⏳ مدة التكوين",
-              "p": "لم تُذكر في الإعلان الذي اطلعنا عليه، وسنضيفها فور صدور الإعلان الجديد.",
-              "imgs": [
-                {
-                  "src": "ifps-duration.jpg",
-                  "alt": "مدة التكوين في معاهد IFPS"
-                }
-              ]
-            },
-            {
-              "h": "الراتب بعد التخرج من IFPS",
-              "imgs": [
-                {
-                  "src": "ifps-salary.jpg",
-                  "alt": "الراتب بعد التخرج من IFPS واجتياز مباريات التوظيف"
-                }
-              ]
-            },
-            {
-              "h": "🔔 تابعنا ليصلك الإعلان فور صدوره",
+              "h": "الروابط",
               "list": [
-                "<a href=\"https://whatsapp.com/channel/0029Vb8oL66Fy72INphTqf2M\" target=\"_blank\" rel=\"noopener\">📢 قناتنا على واتساب ↗</a>"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-soon.jpg",
-                  "alt": "الكونكور قريب يتم الإعلان عليه"
-                }
+                "<a href=\"https://ifps.sante.gov.ma/\" target=\"_blank\" rel=\"noopener\">🔗 ifps.sante.gov.ma ↗</a>",
+                "<a href=\"ifps-sante.html\" target=\"_blank\" rel=\"noopener\">📄 دليل مصور بالتفصيل</a>"
               ]
             }
           ]
@@ -682,129 +620,67 @@
         "fr": {
           "sections": [
             {
-              "h": "⚠️ تنبيه",
-              "p": "المعلومات التالية خاصة بدورة <b>2025-2026</b>. إعلان الدورة الجديدة <b>لم يصدر بعد</b>، ويُتوقع صدوره قريبًا. الشروط والتواريخ قد تتغير، فتأكد دائمًا من الإعلان الرسمي لوزارة الصحة والحماية الاجتماعية قبل التسجيل.",
-              "imgs": [
-                {
-                  "src": "ifps-what.jpg",
-                  "alt": "ما هي IFPS؟"
-                },
-                {
-                  "src": "ifps-know.jpg",
-                  "alt": "أجي نتعرفو على IFPS"
-                }
-              ]
-            },
-            {
-              "h": "📍 مدن المباراة",
-              "p": "أجريت مباراة الدورة الماضية يوم الأحد 25 يناير 2026 في مدن: أكادير، الدار البيضاء، الرباط، طنجة، العيون، فاس، مراكش ووجدة، وبلغ عدد المقاعد المطروحة 1290 مقعدًا.",
-              "imgs": [
-                {
-                  "src": "ifps-cities.jpg",
-                  "alt": "أماكن معاهد IFPS في 8 مدن"
-                }
-              ]
-            },
-            {
-              "h": "🎓 التخصصات — سلك التقني",
+              "h": "Avertissement",
               "list": [
-                "تقني مساعد بالمركب الجراحي",
-                "تقني معالجة وتعقيم المعدات الطبية",
-                "تقني الكتابة الطبية",
-                "تقني مساعد في الاستقبال والتوجيه بالمستعجلات",
-                "تقني النقل والإسعاف الصحي"
+                "Les informations ci-dessous se basent sur la session 2025-2026 (concours le 25 janvier 2026, inscription du 15 au 24 décembre 2025, 1290 places). La nouvelle session n'a pas encore été annoncée : vérifiez l'annonce officielle avant de vous inscrire."
               ]
             },
             {
-              "h": "🎓 التخصصات — سلك التأهيل",
+              "h": "Cycle Technicien",
               "list": [
-                "مساعد في العلاج",
-                "مساعد في الإيواء والصحة الاستشفائية",
-                "مساعد في رعاية الرضع والأطفال",
-                "مساعد في رعاية وطب الشيخوخة"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-specialties.jpg",
-                  "alt": "التخصصات المتوفرة في IFPS"
-                }
+                "Technicien en transport et secours sanitaires",
+                "Technicien en secrétariat médical et social",
+                "Assistant au bloc opératoire",
+                "Technicien en traitement et stérilisation des équipements médicaux",
+                "Assistant en orientation et accueil aux urgences"
               ]
             },
             {
-              "h": "✅ الشروط — سلك التقني",
+              "h": "Cycle Qualification",
               "list": [
-                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
-                "مستوى السنة الختامية من سلك الباكالوريا على الأقل، أو دبلوم التأهيل المهني أو ما يعادلهما",
-                "لشعبة النقل والإسعاف الصحي: رخصة سياقة من صنف B أو C"
+                "Aide-soignant",
+                "Assistant en hébergement et santé hospitalière",
+                "Assistant en puériculture et soins aux enfants",
+                "Assistant en soins et médecine gériatriques"
               ]
             },
             {
-              "h": "✅ الشروط — سلك التأهيل",
+              "h": "Villes",
               "list": [
-                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
-                "مستوى السنة الثالثة إعدادي على الأقل، أو دبلوم التخصص المهني أو ما يعادلهما"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-conditions.jpg",
-                  "alt": "شروط التسجيل للالتحاق بمعاهد IFPS"
-                }
+                "Fès, Oujda, Agadir, Laâyoune, Tanger, Rabat, Casablanca, Marrakech."
               ]
             },
             {
-              "h": "🧭 مراحل المباراة",
-              "p": "بحسب ما هو متداول عن الدورات السابقة، تمر المباراة بثلاث مراحل:",
+              "h": "Durée de la formation",
               "list": [
-                "انتقاء الملفات",
-                "الاختبار الكتابي",
-                "مقابلة شفوية أمام لجنة متعددة التخصصات"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-stages.jpg",
-                  "alt": "مراحل مباراة الولوج إلى معاهد IFPS"
-                }
+                "Cycle Technicien : 2 ans (4 semestres).",
+                "Cycle Qualification : 1 an (2 semestres).",
+                "La formation allie enseignement théorique et formation pratique sur le terrain."
               ]
             },
             {
-              "h": "📝 كيف كان التسجيل؟",
+              "h": "Conditions requises",
               "list": [
-                "يتم عبر الإنترنت في المنصة الرسمية: <a href=\"https://ifps.sante.gov.ma\" target=\"_blank\" rel=\"noopener\">🔗 ifps.sante.gov.ma ↗</a>",
-                "يلزمك رقم مسار (حرف + 9 أرقام)، ورقم البطاقة الوطنية، وتاريخ الازدياد، وبريد إلكتروني",
-                "تُرفع الوثائق المطلوبة بصيغة PDF",
-                "لا يمكن تعديل المعلومات بعد المصادقة، فراجعها جيدًا قبل التأكيد",
-                "في النهاية تُطبع استمارة التسجيل"
+                "Nationalité marocaine et âge maximum de 30 ans à la date du concours.",
+                "Cycle Technicien : au moins le niveau de la dernière année du cycle du baccalauréat, ou un diplôme de qualification professionnelle ou équivalent.",
+                "Filière transport et secours sanitaires : permis de conduire de catégorie B ou C.",
+                "Cycle Qualification : au moins le niveau de la 3e année du collège, ou un diplôme de spécialisation professionnelle ou équivalent."
               ]
             },
             {
-              "h": "⏳ مدة التكوين",
-              "p": "لم تُذكر في الإعلان الذي اطلعنا عليه، وسنضيفها فور صدور الإعلان الجديد.",
-              "imgs": [
-                {
-                  "src": "ifps-duration.jpg",
-                  "alt": "مدة التكوين في معاهد IFPS"
-                }
-              ]
-            },
-            {
-              "h": "الراتب بعد التخرج من IFPS",
-              "imgs": [
-                {
-                  "src": "ifps-salary.jpg",
-                  "alt": "الراتب بعد التخرج من IFPS واجتياز مباريات التوظيف"
-                }
-              ]
-            },
-            {
-              "h": "🔔 تابعنا ليصلك الإعلان فور صدوره",
+              "h": "Étapes du concours",
               "list": [
-                "<a href=\"https://whatsapp.com/channel/0029Vb8oL66Fy72INphTqf2M\" target=\"_blank\" rel=\"noopener\">📢 قناتنا على واتساب ↗</a>"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-soon.jpg",
-                  "alt": "الكونكور قريب يتم الإعلان عليه"
-                }
+                "Préinscription en ligne sur la plateforme pendant la période fixée.",
+                "Présélection sur dossier.",
+                "Épreuve écrite pour les candidats présélectionnés.",
+                "Entretien oral pour les admis à l'écrit."
+              ]
+            },
+            {
+              "h": "Liens",
+              "list": [
+                "<a href=\"https://ifps.sante.gov.ma/\" target=\"_blank\" rel=\"noopener\">🔗 ifps.sante.gov.ma ↗</a>",
+                "<a href=\"ifps-sante.html\" target=\"_blank\" rel=\"noopener\">📄 Guide illustré détaillé</a>"
               ]
             }
           ]
@@ -812,129 +688,67 @@
         "en": {
           "sections": [
             {
-              "h": "⚠️ تنبيه",
-              "p": "المعلومات التالية خاصة بدورة <b>2025-2026</b>. إعلان الدورة الجديدة <b>لم يصدر بعد</b>، ويُتوقع صدوره قريبًا. الشروط والتواريخ قد تتغير، فتأكد دائمًا من الإعلان الرسمي لوزارة الصحة والحماية الاجتماعية قبل التسجيل.",
-              "imgs": [
-                {
-                  "src": "ifps-what.jpg",
-                  "alt": "ما هي IFPS؟"
-                },
-                {
-                  "src": "ifps-know.jpg",
-                  "alt": "أجي نتعرفو على IFPS"
-                }
-              ]
-            },
-            {
-              "h": "📍 مدن المباراة",
-              "p": "أجريت مباراة الدورة الماضية يوم الأحد 25 يناير 2026 في مدن: أكادير، الدار البيضاء، الرباط، طنجة، العيون، فاس، مراكش ووجدة، وبلغ عدد المقاعد المطروحة 1290 مقعدًا.",
-              "imgs": [
-                {
-                  "src": "ifps-cities.jpg",
-                  "alt": "أماكن معاهد IFPS في 8 مدن"
-                }
-              ]
-            },
-            {
-              "h": "🎓 التخصصات — سلك التقني",
+              "h": "Notice",
               "list": [
-                "تقني مساعد بالمركب الجراحي",
-                "تقني معالجة وتعقيم المعدات الطبية",
-                "تقني الكتابة الطبية",
-                "تقني مساعد في الاستقبال والتوجيه بالمستعجلات",
-                "تقني النقل والإسعاف الصحي"
+                "The information below is based on the 2025-2026 session (exam on January 25, 2026, registration December 15–24, 2025, 1,290 seats). The new session has not been announced yet: check the official announcement before applying."
               ]
             },
             {
-              "h": "🎓 التخصصات — سلك التأهيل",
+              "h": "Technician track",
               "list": [
-                "مساعد في العلاج",
-                "مساعد في الإيواء والصحة الاستشفائية",
-                "مساعد في رعاية الرضع والأطفال",
-                "مساعد في رعاية وطب الشيخوخة"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-specialties.jpg",
-                  "alt": "التخصصات المتوفرة في IFPS"
-                }
+                "Medical transport and emergency technician",
+                "Medical and social secretarial technician",
+                "Operating theatre assistant",
+                "Medical equipment processing and sterilization technician",
+                "Emergency reception and guidance assistant"
               ]
             },
             {
-              "h": "✅ الشروط — سلك التقني",
+              "h": "Qualification track",
               "list": [
-                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
-                "مستوى السنة الختامية من سلك الباكالوريا على الأقل، أو دبلوم التأهيل المهني أو ما يعادلهما",
-                "لشعبة النقل والإسعاف الصحي: رخصة سياقة من صنف B أو C"
+                "Care assistant (aide-soignant)",
+                "Accommodation and hospital health assistant",
+                "Infant and child care assistant",
+                "Elderly care and geriatrics assistant"
               ]
             },
             {
-              "h": "✅ الشروط — سلك التأهيل",
+              "h": "Cities",
               "list": [
-                "الجنسية المغربية، وألا يتجاوز العمر 30 سنة يوم إجراء المباراة",
-                "مستوى السنة الثالثة إعدادي على الأقل، أو دبلوم التخصص المهني أو ما يعادلهما"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-conditions.jpg",
-                  "alt": "شروط التسجيل للالتحاق بمعاهد IFPS"
-                }
+                "Fès, Oujda, Agadir, Laâyoune, Tangier, Rabat, Casablanca, Marrakech."
               ]
             },
             {
-              "h": "🧭 مراحل المباراة",
-              "p": "بحسب ما هو متداول عن الدورات السابقة، تمر المباراة بثلاث مراحل:",
+              "h": "Training duration",
               "list": [
-                "انتقاء الملفات",
-                "الاختبار الكتابي",
-                "مقابلة شفوية أمام لجنة متعددة التخصصات"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-stages.jpg",
-                  "alt": "مراحل مباراة الولوج إلى معاهد IFPS"
-                }
+                "Technician track: 2 years (4 semesters).",
+                "Qualification track: 1 year (2 semesters).",
+                "The training combines theoretical study and hands-on field training."
               ]
             },
             {
-              "h": "📝 كيف كان التسجيل؟",
+              "h": "Requirements",
               "list": [
-                "يتم عبر الإنترنت في المنصة الرسمية: <a href=\"https://ifps.sante.gov.ma\" target=\"_blank\" rel=\"noopener\">🔗 ifps.sante.gov.ma ↗</a>",
-                "يلزمك رقم مسار (حرف + 9 أرقام)، ورقم البطاقة الوطنية، وتاريخ الازدياد، وبريد إلكتروني",
-                "تُرفع الوثائق المطلوبة بصيغة PDF",
-                "لا يمكن تعديل المعلومات بعد المصادقة، فراجعها جيدًا قبل التأكيد",
-                "في النهاية تُطبع استمارة التسجيل"
+                "Moroccan nationality and no older than 30 on the exam date.",
+                "Technician track: at least the final year of the baccalaureate cycle, or a vocational qualification diploma or equivalent.",
+                "Medical transport and emergency track: a category B or C driving licence.",
+                "Qualification track: at least the 3rd year of middle school, or a vocational specialization diploma or equivalent."
               ]
             },
             {
-              "h": "⏳ مدة التكوين",
-              "p": "لم تُذكر في الإعلان الذي اطلعنا عليه، وسنضيفها فور صدور الإعلان الجديد.",
-              "imgs": [
-                {
-                  "src": "ifps-duration.jpg",
-                  "alt": "مدة التكوين في معاهد IFPS"
-                }
-              ]
-            },
-            {
-              "h": "الراتب بعد التخرج من IFPS",
-              "imgs": [
-                {
-                  "src": "ifps-salary.jpg",
-                  "alt": "الراتب بعد التخرج من IFPS واجتياز مباريات التوظيف"
-                }
-              ]
-            },
-            {
-              "h": "🔔 تابعنا ليصلك الإعلان فور صدوره",
+              "h": "Competition stages",
               "list": [
-                "<a href=\"https://whatsapp.com/channel/0029Vb8oL66Fy72INphTqf2M\" target=\"_blank\" rel=\"noopener\">📢 قناتنا على واتساب ↗</a>"
-              ],
-              "imgs": [
-                {
-                  "src": "ifps-soon.jpg",
-                  "alt": "الكونكور قريب يتم الإعلان عليه"
-                }
+                "Online pre-registration on the platform within the set period.",
+                "Initial selection based on applications.",
+                "Written test for shortlisted candidates.",
+                "Oral interview for those who pass the written test."
+              ]
+            },
+            {
+              "h": "Links",
+              "list": [
+                "<a href=\"https://ifps.sante.gov.ma/\" target=\"_blank\" rel=\"noopener\">🔗 ifps.sante.gov.ma ↗</a>",
+                "<a href=\"ifps-sante.html\" target=\"_blank\" rel=\"noopener\">📄 Detailed illustrated guide</a>"
               ]
             }
           ]
@@ -942,14 +756,14 @@
       }
     },
     {
-      "id": "c13",
+      "id": "p10",
       "category": "private",
       "posted": "2026-10-06",
       "countdown": "2026-10-07T11:00:00",
       "title": {
-        "ar": "📢 عرض عمل مستعجل – Diplôme Mécanique Générale – Opérateur Perçage",
-        "fr": "📢 Offre d'emploi urgente – Diplôme Mécanique Générale – Opérateur Perçage",
-        "en": "📢 Urgent Job Offer – Diplôme Mécanique Générale – Opérateur Perçage"
+        "ar": "عامل الحفر (Opérateur Perçage) — وكالة DAMA طنجة",
+        "fr": "Opérateur Perçage (Diplôme Mécanique Générale) — Agence DAMA Tanger",
+        "en": "Drilling Operator (General Mechanics Diploma) — DAMA Agency Tangier"
       },
       "tag": {
         "ar": "القطاع الخاص",
@@ -957,423 +771,159 @@
         "en": "Private Sector"
       },
       "meta": {
-        "ar": "طنجة — المنطقة الحرة TFZ",
-        "fr": "Tanger — Zone franche TFZ",
-        "en": "Tangier — TFZ Free Zone"
+        "ar": "المنطقة الحرة TFZ، طنجة — عقد مؤقت (Intérim)",
+        "fr": "Zone franche TFZ, Tanger — Contrat intérim",
+        "en": "TFZ Free Zone, Tangier — Temporary (intérim) contract"
       },
       "deadline": {
-        "ar": "المقابلة <b>07/10/2026</b>",
-        "fr": "Entretien <b>07/10/2026</b>",
-        "en": "Interview <b>07/10/2026</b>"
+        "ar": "المقابلة <b>7 أكتوبر 2026</b> على 11:00",
+        "fr": "Entretien le <b>7 octobre 2026</b> à 11h00",
+        "en": "Interview on <b>October 7, 2026</b> at 11:00"
       },
       "description": {
-        "ar": "تعلن وكالة DAMA طنجة عن توظيف عامل الحفر (Opérateur Perçage) بالمنطقة الحرة TFZ – طنجة، عقد مهمة مؤقتة.",
-        "fr": "L'agence DAMA Tanger recrute un opérateur perçage (Mécanique Générale) à la zone franche TFZ – Tanger, contrat d'intérim.",
-        "en": "DAMA Tangier agency is hiring a drilling operator (General Mechanics) at the TFZ Free Zone – Tangier, temporary contract."
+        "ar": "توظيف مستعجل لعامل حفر في الصناعة الميكانيكية والتشغيل بالماكينات الرقمية، بدبلوم الميكانيك العامة وتجربة في ورشة.",
+        "fr": "Recrutement urgent d'un opérateur perçage en usinage numérique, avec diplôme de mécanique générale et expérience en atelier.",
+        "en": "Urgent hiring of a drilling operator in CNC machining, with a general mechanics diploma and workshop experience."
       },
       "details": {
         "ar": {
           "sections": [
             {
-              "h": "⚠️ تنبيه",
-              "p": "المرجو قراءة الإعلان جيدًا والتأكد من توفر الشروط المطلوبة قبل التقدم للمنصب."
-            },
-            {
-              "h": "✅ المنصب",
-              "p": "تعلن وكالة DAMA طنجة عن توظيف:<br><b>Diplôme Mécanique Générale – Opérateur Perçage</b><br>عامل الحفر"
-            },
-            {
-              "h": "📌 قطاع النشاط ومكان العمل",
+              "h": "المنصب",
               "list": [
-                "قطاع النشاط: الصناعة الميكانيكية – التشغيل بالماكينات الرقمية (Usinage Numérique)",
-                "مكان العمل: المنطقة الحرة TFZ – طنجة"
+                "Diplôme Mécanique Générale – Opérateur Perçage (عامل الحفر).",
+                "قطاع النشاط: الصناعة الميكانيكية – التشغيل بالماكينات الرقمية (Usinage Numérique).",
+                "مكان العمل: المنطقة الحرة TFZ – طنجة.",
+                "نوع العقد: عقد مهمة مؤقتة (Contrat Intérim)."
               ]
             },
             {
-              "h": "📋 الشروط المطلوبة",
+              "h": "الشروط",
               "list": [
-                "السن ما بين 19 و28 سنة.",
-                "التوفر على دبلوم في الميكانيك العامة (Mécanique Générale) – Qualification.",
-                "التوفر على تجربة مهنية داخل ورشة ميكانيكية (Garage mécanique).",
+                "السن بين 19 و28 سنة.",
+                "دبلوم في الميكانيك العامة (Mécanique Générale) – Qualification.",
+                "تجربة مهنية داخل ورشة ميكانيكية (Garage mécanique).",
                 "الجدية والانضباط والقدرة على العمل ضمن فريق.",
                 "الاستعداد للعمل بنظام 3 فرق (3 Shifts).",
                 "الجاهزية للالتحاق بالعمل."
               ]
             },
             {
-              "h": "📄 نوع العقد",
-              "p": "عقد مهمة مؤقتة (Contrat Intérim)."
-            },
-            {
-              "h": "💰 الأجر والامتيازات",
+              "h": "الأجر والامتيازات",
               "list": [
-                "3 300 DH صافي",
-                "+ 400 DH brut",
-                "التغطية الاجتماعية CNSS",
-                "التأمين الصحي التكميلي Mutuelle Atlantasanad"
+                "3 300 DH صافي + 400 DH brut.",
+                "التغطية الاجتماعية CNSS.",
+                "التأمين الصحي التكميلي Mutuelle Atlantasanad."
               ]
             },
             {
-              "h": "📅 موعد المقابلة",
+              "h": "المقابلة",
               "list": [
-                "الموعد: الأربعاء 07/10/2026",
-                "🕚 التوقيت: الساعة 11:00 صباحًا",
-                "📍 مكان المقابلة: وكالة DAMA طنجة"
+                "الأربعاء 07/10/2026 على الساعة 11:00 صباحًا.",
+                "المكان: وكالة DAMA طنجة."
               ]
             },
             {
-              "h": "📄 الوثائق المطلوبة",
+              "h": "الوثائق المطلوبة",
               "list": [
-                "✅ نسخة من البطاقة الوطنية للتعريف CIN",
-                "✅ السيرة الذاتية CV"
+                "نسخة من البطاقة الوطنية CIN.",
+                "السيرة الذاتية CV.",
+                "عدد المناصب محدود والتوظيف مستعجل، فاحضر في الموعد ومعك الوثائق."
               ]
-            },
-            {
-              "h": "⚠️ ملاحظة",
-              "p": "عدد المناصب محدود والتوظيف مستعجل، لذا يرجى الحضور في الموعد المحدد مرفوقين بجميع الوثائق المطلوبة.<br><br><b>DAMA TANGER</b>"
             }
           ]
         },
         "fr": {
           "sections": [
             {
-              "h": "⚠️ تنبيه",
-              "p": "المرجو قراءة الإعلان جيدًا والتأكد من توفر الشروط المطلوبة قبل التقدم للمنصب."
-            },
-            {
-              "h": "✅ المنصب",
-              "p": "تعلن وكالة DAMA طنجة عن توظيف:<br><b>Diplôme Mécanique Générale – Opérateur Perçage</b><br>عامل الحفر"
-            },
-            {
-              "h": "📌 قطاع النشاط ومكان العمل",
+              "h": "Poste",
               "list": [
-                "قطاع النشاط: الصناعة الميكانيكية – التشغيل بالماكينات الرقمية (Usinage Numérique)",
-                "مكان العمل: المنطقة الحرة TFZ – طنجة"
+                "Diplôme Mécanique Générale – Opérateur Perçage.",
+                "Secteur : industrie mécanique – usinage numérique.",
+                "Lieu de travail : zone franche TFZ – Tanger.",
+                "Type de contrat : contrat de mission temporaire (intérim)."
               ]
             },
             {
-              "h": "📋 الشروط المطلوبة",
+              "h": "Conditions requises",
               "list": [
-                "السن ما بين 19 و28 سنة.",
-                "التوفر على دبلوم في الميكانيك العامة (Mécanique Générale) – Qualification.",
-                "التوفر على تجربة مهنية داخل ورشة ميكانيكية (Garage mécanique).",
-                "الجدية والانضباط والقدرة على العمل ضمن فريق.",
-                "الاستعداد للعمل بنظام 3 فرق (3 Shifts).",
-                "الجاهزية للالتحاق بالعمل."
+                "Âge entre 19 et 28 ans.",
+                "Diplôme en Mécanique Générale – Qualification.",
+                "Expérience professionnelle en atelier mécanique (garage mécanique).",
+                "Sérieux, discipline et capacité à travailler en équipe.",
+                "Disponibilité pour le travail en 3 équipes (3 shifts).",
+                "Disponibilité pour une prise de poste immédiate."
               ]
             },
             {
-              "h": "📄 نوع العقد",
-              "p": "عقد مهمة مؤقتة (Contrat Intérim)."
-            },
-            {
-              "h": "💰 الأجر والامتيازات",
+              "h": "Rémunération et avantages",
               "list": [
-                "3 300 DH صافي",
-                "+ 400 DH brut",
-                "التغطية الاجتماعية CNSS",
-                "التأمين الصحي التكميلي Mutuelle Atlantasanad"
+                "3 300 DH net + 400 DH brut.",
+                "Couverture sociale CNSS.",
+                "Mutuelle complémentaire Atlantasanad."
               ]
             },
             {
-              "h": "📅 موعد المقابلة",
+              "h": "Entretien",
               "list": [
-                "الموعد: الأربعاء 07/10/2026",
-                "🕚 التوقيت: الساعة 11:00 صباحًا",
-                "📍 مكان المقابلة: وكالة DAMA طنجة"
+                "Mercredi 07/10/2026 à 11h00.",
+                "Lieu : agence DAMA Tanger."
               ]
             },
             {
-              "h": "📄 الوثائق المطلوبة",
+              "h": "Documents requis",
               "list": [
-                "✅ نسخة من البطاقة الوطنية للتعريف CIN",
-                "✅ السيرة الذاتية CV"
+                "Copie de la CIN.",
+                "CV.",
+                "Postes limités et recrutement urgent : présentez-vous à l'heure avec tous les documents."
               ]
-            },
-            {
-              "h": "⚠️ ملاحظة",
-              "p": "عدد المناصب محدود والتوظيف مستعجل، لذا يرجى الحضور في الموعد المحدد مرفوقين بجميع الوثائق المطلوبة.<br><br><b>DAMA TANGER</b>"
             }
           ]
         },
         "en": {
           "sections": [
             {
-              "h": "⚠️ تنبيه",
-              "p": "المرجو قراءة الإعلان جيدًا والتأكد من توفر الشروط المطلوبة قبل التقدم للمنصب."
-            },
-            {
-              "h": "✅ المنصب",
-              "p": "تعلن وكالة DAMA طنجة عن توظيف:<br><b>Diplôme Mécanique Générale – Opérateur Perçage</b><br>عامل الحفر"
-            },
-            {
-              "h": "📌 قطاع النشاط ومكان العمل",
+              "h": "Position",
               "list": [
-                "قطاع النشاط: الصناعة الميكانيكية – التشغيل بالماكينات الرقمية (Usinage Numérique)",
-                "مكان العمل: المنطقة الحرة TFZ – طنجة"
+                "General Mechanics Diploma – Drilling Operator.",
+                "Sector: mechanical industry – CNC machining.",
+                "Workplace: TFZ Free Zone – Tangier.",
+                "Contract type: temporary assignment (intérim)."
               ]
             },
             {
-              "h": "📋 الشروط المطلوبة",
+              "h": "Requirements",
               "list": [
-                "السن ما بين 19 و28 سنة.",
-                "التوفر على دبلوم في الميكانيك العامة (Mécanique Générale) – Qualification.",
-                "التوفر على تجربة مهنية داخل ورشة ميكانيكية (Garage mécanique).",
-                "الجدية والانضباط والقدرة على العمل ضمن فريق.",
-                "الاستعداد للعمل بنظام 3 فرق (3 Shifts).",
-                "الجاهزية للالتحاق بالعمل."
+                "Age between 19 and 28.",
+                "Diploma in General Mechanics – Qualification level.",
+                "Professional experience in a mechanical workshop (garage).",
+                "Seriousness, discipline and ability to work in a team.",
+                "Willingness to work in a 3-shift system.",
+                "Ready to start work right away."
               ]
             },
             {
-              "h": "📄 نوع العقد",
-              "p": "عقد مهمة مؤقتة (Contrat Intérim)."
-            },
-            {
-              "h": "💰 الأجر والامتيازات",
+              "h": "Pay and benefits",
               "list": [
-                "3 300 DH صافي",
-                "+ 400 DH brut",
-                "التغطية الاجتماعية CNSS",
-                "التأمين الصحي التكميلي Mutuelle Atlantasanad"
+                "3,300 DH net + 400 DH gross.",
+                "CNSS social coverage.",
+                "Supplementary health insurance (Mutuelle Atlantasanad)."
               ]
             },
             {
-              "h": "📅 موعد المقابلة",
+              "h": "Interview",
               "list": [
-                "الموعد: الأربعاء 07/10/2026",
-                "🕚 التوقيت: الساعة 11:00 صباحًا",
-                "📍 مكان المقابلة: وكالة DAMA طنجة"
+                "Wednesday 07/10/2026 at 11:00 AM.",
+                "Location: DAMA agency, Tangier."
               ]
             },
             {
-              "h": "📄 الوثائق المطلوبة",
+              "h": "Required documents",
               "list": [
-                "✅ نسخة من البطاقة الوطنية للتعريف CIN",
-                "✅ السيرة الذاتية CV"
+                "Copy of national ID (CIN).",
+                "CV.",
+                "Positions are limited and hiring is urgent: arrive on time with all documents."
               ]
-            },
-            {
-              "h": "⚠️ ملاحظة",
-              "p": "عدد المناصب محدود والتوظيف مستعجل، لذا يرجى الحضور في الموعد المحدد مرفوقين بجميع الوثائق المطلوبة.<br><br><b>DAMA TANGER</b>"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "c14",
-      "category": "immigration",
-      "posted": "2026-10-06",
-      "countdown": "2026-10-16T23:59:59",
-      "title": {
-        "ar": "📢 أنابيك: فرص عمل في دبي 🇦🇪 – قطاع المطاعم",
-        "fr": "📢 ANAPEC : offres d'emploi à Dubaï 🇦🇪 – secteur de la restauration",
-        "en": "📢 ANAPEC: Job Offers in Dubai 🇦🇪 – Restaurant Sector"
-      },
-      "tag": {
-        "ar": "فرص الهجرة",
-        "fr": "Opportunités d'émigration",
-        "en": "Migration Opportunities"
-      },
-      "meta": {
-        "ar": "دبي، الإمارات — 16 منصبًا",
-        "fr": "Dubaï, Émirats — 16 postes",
-        "en": "Dubai, UAE — 16 positions"
-      },
-      "deadline": {
-        "ar": "آخر أجل <b>16 أكتوبر 2026</b>",
-        "fr": "Date limite <b>16 octobre 2026</b>",
-        "en": "Deadline <b>October 16, 2026</b>"
-      },
-      "description": {
-        "ar": "تعلن سلسلة مطاعم عن توظيف 8 نُدُل ونادلات، و6 طهاة في المطبخ العالمي، وخبّازَين بتخصص فرنسي أو ألماني. عقد لسنتين، والراتب الإجمالي من 2,500 إلى 4,000 درهم إماراتي شهريًا.",
-        "fr": "Une chaîne de restaurants recrute 8 serveurs/serveuses, 6 cuisiniers (cuisine internationale) et 2 boulangers (spécialité française ou allemande). CDD de 2 ans, salaire brut de 2 500 à 4 000 AED par mois.",
-        "en": "A restaurant chain is hiring 8 waiters/waitresses, 6 international-cuisine cooks and 2 bakers (French or German specialty). 2-year contract, gross salary AED 2,500 to 4,000 per month."
-      },
-      "details": {
-        "ar": {
-          "sections": [
-            {
-              "h": "🍽️ المناصب المطلوبة",
-              "p": "تعلن سلسلة مطاعم عن توظيف:",
-              "list": [
-                "🍽️ 8 نُدُل ونادلات",
-                "👨‍🍳 6 طهاة في المطبخ العالمي",
-                "🥐 خبّازَين بتخصص فرنسي أو ألماني"
-              ]
-            },
-            {
-              "h": "📍 مكان العمل وظروفه",
-              "list": [
-                "مكان العمل: دبي، الإمارات",
-                "نوع العقد: محدد المدة لسنتين",
-                "💰 الراتب الإجمالي: من 2,500 إلى 4,000 درهم إماراتي شهريًا (حسب المنصب والملف)"
-              ]
-            },
-            {
-              "h": "🎁 امتيازات أخرى تضمنها الشركة",
-              "list": [
-                "منحة سنوية",
-                "السكن (مضمون للخبّازين)",
-                "تذكرة طائرة (تذكرة واحدة في السنة)",
-                "إمكانية الترقي إلى منصب مسؤولية"
-              ]
-            },
-            {
-              "h": "✅ أبرز الشروط",
-              "list": [
-                "التسجيل لدى ANAPEC والبحث عن عمل",
-                "حيازة دبلوم في التكوين المهني",
-                "تجربة مهنية لا تقل عن سنتين في منصب مماثل",
-                "مستوى أساسي في اللغة الإنجليزية",
-                "مستوى جيد في الإنجليزية لمنصب النادل/النادلة",
-                "معرفة اللغة الألمانية ميزة إضافية"
-              ]
-            },
-            {
-              "h": "📄 ملف الترشيح",
-              "list": [
-                "وثائق تثبت التكوين والتجربة",
-                "سيرة ذاتية (CV) بالإنجليزية"
-              ]
-            },
-            {
-              "h": "✅ التفاصيل وكيفية التقديم",
-              "p": "إذا كانت لديك المؤهلات المطلوبة للمنصب، يرجى إيداع ملف ترشيحك لدى أقرب وكالة ANAPEC إليك.",
-              "imgs": [
-                {
-                  "src": "anapec-dubai.jpg",
-                  "alt": "إعلان أنابيك: عرض عمل في سلسلة مطاعم دولية بدبي"
-                }
-              ]
-            },
-            {
-              "h": "⏳ آخر أجل للتقديم",
-              "p": "<b>16 أكتوبر 2026</b><br>✅ العرض مجاني."
-            }
-          ]
-        },
-        "fr": {
-          "sections": [
-            {
-              "h": "🍽️ المناصب المطلوبة",
-              "p": "تعلن سلسلة مطاعم عن توظيف:",
-              "list": [
-                "🍽️ 8 نُدُل ونادلات",
-                "👨‍🍳 6 طهاة في المطبخ العالمي",
-                "🥐 خبّازَين بتخصص فرنسي أو ألماني"
-              ]
-            },
-            {
-              "h": "📍 مكان العمل وظروفه",
-              "list": [
-                "مكان العمل: دبي، الإمارات",
-                "نوع العقد: محدد المدة لسنتين",
-                "💰 الراتب الإجمالي: من 2,500 إلى 4,000 درهم إماراتي شهريًا (حسب المنصب والملف)"
-              ]
-            },
-            {
-              "h": "🎁 امتيازات أخرى تضمنها الشركة",
-              "list": [
-                "منحة سنوية",
-                "السكن (مضمون للخبّازين)",
-                "تذكرة طائرة (تذكرة واحدة في السنة)",
-                "إمكانية الترقي إلى منصب مسؤولية"
-              ]
-            },
-            {
-              "h": "✅ أبرز الشروط",
-              "list": [
-                "التسجيل لدى ANAPEC والبحث عن عمل",
-                "حيازة دبلوم في التكوين المهني",
-                "تجربة مهنية لا تقل عن سنتين في منصب مماثل",
-                "مستوى أساسي في اللغة الإنجليزية",
-                "مستوى جيد في الإنجليزية لمنصب النادل/النادلة",
-                "معرفة اللغة الألمانية ميزة إضافية"
-              ]
-            },
-            {
-              "h": "📄 ملف الترشيح",
-              "list": [
-                "وثائق تثبت التكوين والتجربة",
-                "سيرة ذاتية (CV) بالإنجليزية"
-              ]
-            },
-            {
-              "h": "✅ التفاصيل وكيفية التقديم",
-              "p": "إذا كانت لديك المؤهلات المطلوبة للمنصب، يرجى إيداع ملف ترشيحك لدى أقرب وكالة ANAPEC إليك.",
-              "imgs": [
-                {
-                  "src": "anapec-dubai.jpg",
-                  "alt": "إعلان أنابيك: عرض عمل في سلسلة مطاعم دولية بدبي"
-                }
-              ]
-            },
-            {
-              "h": "⏳ آخر أجل للتقديم",
-              "p": "<b>16 أكتوبر 2026</b><br>✅ العرض مجاني."
-            }
-          ]
-        },
-        "en": {
-          "sections": [
-            {
-              "h": "🍽️ المناصب المطلوبة",
-              "p": "تعلن سلسلة مطاعم عن توظيف:",
-              "list": [
-                "🍽️ 8 نُدُل ونادلات",
-                "👨‍🍳 6 طهاة في المطبخ العالمي",
-                "🥐 خبّازَين بتخصص فرنسي أو ألماني"
-              ]
-            },
-            {
-              "h": "📍 مكان العمل وظروفه",
-              "list": [
-                "مكان العمل: دبي، الإمارات",
-                "نوع العقد: محدد المدة لسنتين",
-                "💰 الراتب الإجمالي: من 2,500 إلى 4,000 درهم إماراتي شهريًا (حسب المنصب والملف)"
-              ]
-            },
-            {
-              "h": "🎁 امتيازات أخرى تضمنها الشركة",
-              "list": [
-                "منحة سنوية",
-                "السكن (مضمون للخبّازين)",
-                "تذكرة طائرة (تذكرة واحدة في السنة)",
-                "إمكانية الترقي إلى منصب مسؤولية"
-              ]
-            },
-            {
-              "h": "✅ أبرز الشروط",
-              "list": [
-                "التسجيل لدى ANAPEC والبحث عن عمل",
-                "حيازة دبلوم في التكوين المهني",
-                "تجربة مهنية لا تقل عن سنتين في منصب مماثل",
-                "مستوى أساسي في اللغة الإنجليزية",
-                "مستوى جيد في الإنجليزية لمنصب النادل/النادلة",
-                "معرفة اللغة الألمانية ميزة إضافية"
-              ]
-            },
-            {
-              "h": "📄 ملف الترشيح",
-              "list": [
-                "وثائق تثبت التكوين والتجربة",
-                "سيرة ذاتية (CV) بالإنجليزية"
-              ]
-            },
-            {
-              "h": "✅ التفاصيل وكيفية التقديم",
-              "p": "إذا كانت لديك المؤهلات المطلوبة للمنصب، يرجى إيداع ملف ترشيحك لدى أقرب وكالة ANAPEC إليك.",
-              "imgs": [
-                {
-                  "src": "anapec-dubai.jpg",
-                  "alt": "إعلان أنابيك: عرض عمل في سلسلة مطاعم دولية بدبي"
-                }
-              ]
-            },
-            {
-              "h": "⏳ آخر أجل للتقديم",
-              "p": "<b>16 أكتوبر 2026</b><br>✅ العرض مجاني."
             }
           ]
         }
