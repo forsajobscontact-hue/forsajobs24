@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-09",
+  "lastUpdate": "2026-10-10",
   "jobs": [
     {
       "id": "c9",
@@ -2310,6 +2310,126 @@
               "list": [
                 "<a href=\"https://www.akkodis.com/\" target=\"_blank\" rel=\"noopener\">🔗 akkodis.com ↗</a>",
                 "Information taken from announcements relayed by aggregator sites: check the official announcement before applying."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c20",
+      "category": "immigration",
+      "posted": "2026-10-10",
+      "title": {
+        "ar": "🇨🇦 الهجرة إلى نيو برونزويك (كندا): دليل برنامج NBPNP 2026",
+        "fr": "🇨🇦 Immigrer au Nouveau-Brunswick (Canada) : guide du PCP 2026",
+        "en": "🇨🇦 Immigrate to New Brunswick (Canada): NBPNP 2026 guide"
+      },
+      "tag": {
+        "ar": "فرص الهجرة",
+        "fr": "Opportunités d'émigration",
+        "en": "Migration Opportunities"
+      },
+      "meta": {
+        "ar": "نيو برونزويك، كندا — دليل بالعربية",
+        "fr": "Nouveau-Brunswick, Canada — guide en arabe",
+        "en": "New Brunswick, Canada — guide in Arabic"
+      },
+      "deadline": {
+        "ar": "المعلومات بتاريخ <b>10 أكتوبر 2026</b>",
+        "fr": "Informations au <b>10 oct. 2026</b>",
+        "en": "Information as of <b>Oct 10, 2026</b>"
+      },
+      "description": {
+        "ar": "دليل مبسّط لمسارات العمال في برنامج المرشحين الإقليمي لنيو برونزويك: الشروط، المستندات، الرسوم والروابط الرسمية.",
+        "fr": "Guide simplifié des volets pour travailleurs du programme des candidats de la province du Nouveau-Brunswick : conditions, documents, frais et liens officiels.",
+        "en": "A simplified guide to the worker streams of the New Brunswick Provincial Nominee Program: requirements, documents, fees and official links."
+      },
+      "applyUrl": "nb-pnp-2026.html",
+      "details": {
+        "ar": {
+          "sections": [
+            {
+              "h": "ماذا ستجد في الدليل",
+              "list": [
+                "المسارات والشروط",
+                "المهن والقطاعات المقبولة حاليًا",
+                "الاختبارات والشهادات",
+                "المستندات التي تجهّزها",
+                "خطوات التقديم",
+                "المواعيد والرسوم",
+                "الروابط الرسمية"
+              ]
+            },
+            {
+              "h": "الرابط الرسمي",
+              "list": [
+                "<a href=\"https://www.gnb.ca/en/topic/family-home-community/immigration/provincial-nominee-program.html\" target=\"_blank\" rel=\"noopener\">🔗 صفحة البرنامج على gnb.ca ↗</a>"
+              ]
+            },
+            {
+              "h": "⚠️ تنبيه",
+              "list": [
+                "هذه الصفحة تلخّص معلومات منشورة على المواقع الحكومية، وقد تتغير الشروط في أي وقت، فارجع إلى الصفحات الرسمية قبل أي خطوة.",
+                "حسابك لك وحدك: لا تعطِ بيانات الدخول لأحد."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "sections": [
+            {
+              "h": "Contenu du guide (en arabe)",
+              "list": [
+                "Volets et conditions",
+                "Professions et secteurs acceptés actuellement",
+                "Tests et diplômes",
+                "Documents à préparer",
+                "Étapes de la demande",
+                "Dates et frais",
+                "Liens officiels"
+              ]
+            },
+            {
+              "h": "Lien officiel",
+              "list": [
+                "<a href=\"https://www.gnb.ca/en/topic/family-home-community/immigration/provincial-nominee-program.html\" target=\"_blank\" rel=\"noopener\">🔗 Page du programme sur gnb.ca ↗</a>"
+              ]
+            },
+            {
+              "h": "⚠️ Attention",
+              "list": [
+                "Cette page résume des informations publiées par les sites gouvernementaux ; les conditions peuvent changer à tout moment, vérifiez les pages officielles avant toute démarche.",
+                "Votre compte est personnel : ne donnez vos identifiants à personne."
+              ]
+            }
+          ]
+        },
+        "en": {
+          "sections": [
+            {
+              "h": "What the guide covers (in Arabic)",
+              "list": [
+                "Streams and requirements",
+                "Occupations and sectors currently accepted",
+                "Tests and credentials",
+                "Documents to prepare",
+                "Application steps",
+                "Dates and fees",
+                "Official links"
+              ]
+            },
+            {
+              "h": "Official link",
+              "list": [
+                "<a href=\"https://www.gnb.ca/en/topic/family-home-community/immigration/provincial-nominee-program.html\" target=\"_blank\" rel=\"noopener\">🔗 Program page on gnb.ca ↗</a>"
+              ]
+            },
+            {
+              "h": "⚠️ Notice",
+              "list": [
+                "This page summarises information published on government websites; requirements can change at any time, so check the official pages before any step.",
+                "Your account is yours alone: never share your login details."
               ]
             }
           ]
