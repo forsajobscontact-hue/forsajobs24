@@ -369,6 +369,19 @@
   }
   .apply-btn:hover{background:var(--red);border-color:var(--red);}
 
+  /* ============ SHOW MORE ============ */
+  .show-more-btn{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    width:100%;margin-top:22px;padding:15px 20px;
+    background:var(--chip-bg);color:var(--text-soft);
+    border:1px solid var(--border-c);border-radius:999px;
+    font:inherit;font-size:15px;font-weight:600;cursor:pointer;
+    transition:background .2s, color .2s, border-color .2s;
+  }
+  .show-more-btn svg{width:22px;height:22px;flex:none;}
+  .show-more-btn:hover,.show-more-btn:focus-visible{background:var(--ink);color:var(--cream);border-color:var(--ink);outline:none;}
+  .show-more-btn[hidden]{display:none;}
+
   /* ============ STRIP ============ */
   .strip{
     background:var(--ink);color:var(--cream);
@@ -1092,6 +1105,10 @@
 
         <p id="listingsEmptyMsg" class="filter-empty-msg" style="display:none;text-align:center;padding:20px 0;color:var(--text-soft);font-size:13.5px;" data-i18n="filterEmptyMsg">لا توجد إعلانات مطابقة حالياً. جرّب كلمة أخرى أو فئة أخرى.</p>
       </div>
+      <button type="button" class="show-more-btn" data-more="listings" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M12 8v8M8 12h8"/></svg>
+        <span data-i18n="showMore">أظهر المزيد</span>
+      </button>
     </div>
   </section>
 
@@ -1231,7 +1248,7 @@
           </div>
         </article>
 
-        <article class="card reveal" data-job-id="p13" data-category="private" data-posted="2026-10-09">
+        <article class="card reveal" data-job-id="p13" data-category="private" data-posted="2026-10-10">
           <button type="button" class="save-btn" data-save-btn data-job-id="p13" aria-label="save">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.5h12a1 1 0 0 1 1 1V21l-7-4.2L5 21V4.5a1 1 0 0 1 1-1z"/></svg>
           </button>
@@ -1249,6 +1266,10 @@
 
         <p id="privateEmptyMsg" class="filter-empty-msg" style="display:none;text-align:center;padding:20px 0;color:var(--text-soft);font-size:13.5px;" data-i18n="filterEmptyMsg">لا توجد إعلانات مطابقة حالياً. جرّب كلمة أخرى أو فئة أخرى.</p>
       </div>
+      <button type="button" class="show-more-btn" data-more="private" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M12 8v8M8 12h8"/></svg>
+        <span data-i18n="showMore">أظهر المزيد</span>
+      </button>
     </div>
   </section>
 
@@ -1378,6 +1399,10 @@
           </div>
         </article>
       </div>
+      <button type="button" class="show-more-btn" data-more="articles" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M12 8v8M8 12h8"/></svg>
+        <span data-i18n="showMore">أظهر المزيد</span>
+      </button>
     </div>
   </section>
 
@@ -1820,6 +1845,7 @@ const dict = {
   articlesTitle:{ar:"مقالات",fr:"Articles",en:"Articles"},
   articlesNum:{ar:"07 مقالات منشورة",fr:"07 articles publiés",en:"07 published articles"},
   readMoreBtn:{ar:"اقرأ المقال كاملاً",fr:"Lire l'article complet",en:"Read the full article"},
+  showMore:{ar:"أظهر المزيد",fr:"Afficher plus",en:"Show more"},
   articleNote:{ar:"هذا المقال يعبّر عن رأي كاتبه/كاتبته الشخصي، وليس بالضرورة رأي الموقع.",fr:"Cet article reflète l'opinion personnelle de son auteur(e), pas nécessairement celle du site.",en:"This article reflects the personal opinion of its author, not necessarily the site's position."},
   tutorialNote:{ar:"هذا الشرح إرشادي وعام. الشروط والتفاصيل الرسمية هي المذكورة فالإعلان أو عند الجهة المختصة.",fr:"Ce guide est indicatif et général. Les conditions et détails officiels sont ceux de l'annonce ou de l'organisme compétent.",en:"This guide is general and indicative. Official conditions and details are those stated in the announcement or by the competent authority."},
 
@@ -2718,34 +2744,96 @@ function setActivePill(filterVal){
   });
 }
 
-function applyFilters(){
+const PAGE_SIZE = 5;
+const pageState = { listings: 1, private: 1, articles: 1 };
+
+/* ترتيب البطاقات: الأحدث أولًا (حسب data-posted)، وعند تساوي التاريخ تظهر الأحدث إضافةً أولًا */
+let cardSeq = 0;
+function sortCardsNewestFirst(){
+  ['#listings .grid', '#private .grid', '#articles .grid'].forEach(sel=>{
+    const grid = document.querySelector(sel);
+    if(!grid) return;
+    const cards = Array.from(grid.querySelectorAll(':scope > .card[data-job-id]'));
+    cards.forEach(c=>{ if(!c.hasAttribute('data-seq')) c.setAttribute('data-seq', String(++cardSeq)); });
+    const sorted = cards.slice().sort((a,b)=>{
+      const pa = a.getAttribute('data-posted') || '';
+      const pb = b.getAttribute('data-posted') || '';
+      if(pa !== pb) return pa < pb ? 1 : -1;
+      return Number(b.getAttribute('data-seq')) - Number(a.getAttribute('data-seq'));
+    });
+    if(sorted.some((c, idx)=> c !== cards[idx])){
+      const frag = document.createDocumentFragment();
+      sorted.forEach(c=> frag.appendChild(c));
+      grid.appendChild(frag);
+    }
+  });
+}
+
+function applyFilters(reset){
+  sortCardsNewestFirst();
+  if(reset === true){ pageState.listings = 1; pageState.private = 1; }
   const query = (document.getElementById('heroSearchInput')?.value || '').trim().toLowerCase();
   const groups = [
-    { selector: '#listings .grid > .card[data-job-id]', emptyId: 'listingsEmptyMsg' },
-    { selector: '#private .grid > .card[data-job-id]', emptyId: 'privateEmptyMsg' }
+    { key: 'listings', selector: '#listings .grid > .card[data-job-id]', emptyId: 'listingsEmptyMsg', filter: true },
+    { key: 'private',  selector: '#private .grid > .card[data-job-id]',  emptyId: 'privateEmptyMsg',  filter: true },
+    { key: 'articles', selector: '#articles .grid > .card[data-job-id]', emptyId: null,               filter: false }
   ];
   groups.forEach(group=>{
     const cards = document.querySelectorAll(group.selector);
-    let anyVisible = false;
+    const limit = PAGE_SIZE * pageState[group.key];
+    let matched = 0;
     cards.forEach(card=>{
-      const cat = card.getAttribute('data-category');
-      const matchesCategory = (activeCategory === 'all') || (cat === activeCategory);
-      const matchesQuery = !query || card.textContent.toLowerCase().includes(query);
-      const visible = matchesCategory && matchesQuery;
+      let match = true;
+      if(group.filter){
+        const cat = card.getAttribute('data-category');
+        const matchesCategory = (activeCategory === 'all') || (cat === activeCategory);
+        const matchesQuery = !query || card.textContent.toLowerCase().includes(query);
+        match = matchesCategory && matchesQuery;
+      }
+      let visible = match;
+      if(match){
+        matched++;
+        if(matched > limit) visible = false;
+      }
       card.style.display = visible ? '' : 'none';
-      if(visible) anyVisible = true;
+      if(match && !visible) card.setAttribute('data-lm-hidden', ''); else card.removeAttribute('data-lm-hidden');
     });
-    const emptyEl = document.getElementById(group.emptyId);
-    if(emptyEl) emptyEl.style.display = anyVisible ? 'none' : 'block';
+    if(group.emptyId){
+      const emptyEl = document.getElementById(group.emptyId);
+      if(emptyEl) emptyEl.style.display = matched > 0 ? 'none' : 'block';
+    }
+    const moreBtn = document.querySelector('[data-more="' + group.key + '"]');
+    if(moreBtn) moreBtn.hidden = !(matched > limit);
   });
 }
+
+/* يكشف البطاقة إن كانت مخفية بسبب "أظهر المزيد" (قبل التمرير إليها) */
+function ensureCardVisible(card){
+  if(!card) return;
+  const sec = card.closest('section');
+  const key = sec && sec.id;
+  let guard = 0;
+  while(card.hasAttribute('data-lm-hidden') && pageState[key] !== undefined && guard++ < 30){
+    pageState[key]++;
+    applyFilters();
+  }
+}
+
+document.querySelectorAll('[data-more]').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    const k = btn.getAttribute('data-more');
+    if(pageState[k] === undefined) return;
+    pageState[k]++;
+    applyFilters();
+  });
+});
 
 document.querySelectorAll('.cat-pill').forEach(pill=>{
   pill.addEventListener('click', ()=>{
     const filterVal = pill.getAttribute('data-filter') || 'all';
     setActivePill(filterVal);
     activeCategory = filterVal;
-    applyFilters();
+    applyFilters(true);
   });
   pill.addEventListener('keydown', (e)=>{
     if(e.key === 'Enter' || e.key === ' '){
@@ -2760,19 +2848,21 @@ document.querySelectorAll('nav.links a[data-filter]').forEach(a=>{
     const filterVal = a.getAttribute('data-filter');
     setActivePill(filterVal);
     activeCategory = filterVal;
-    applyFilters();
+    applyFilters(true);
   });
 });
 
 const heroSearchBtn = document.getElementById('heroSearchBtn');
 const heroSearchInputEl = document.getElementById('heroSearchInput');
 if(heroSearchInputEl){
-  heroSearchInputEl.addEventListener('input', applyFilters);
+  heroSearchInputEl.addEventListener('input', ()=> applyFilters(true));
   heroSearchInputEl.addEventListener('keydown', (e)=>{ if(e.key === 'Enter') e.preventDefault(); });
 }
 if(heroSearchBtn){
-  heroSearchBtn.addEventListener('click', (e)=>{ e.preventDefault(); applyFilters(); });
+  heroSearchBtn.addEventListener('click', (e)=>{ e.preventDefault(); applyFilters(true); });
 }
+
+applyFilters();
 
 const burger = document.getElementById('headerBurger') || document.querySelector('.burger');
 const links = document.querySelector('.links');
@@ -2897,6 +2987,7 @@ function renderUpdatesList(){
       /* لا تفاصيل مسجلة لهذا الإعلان (رابط تقديم مباشر) — نمرّر إليه فقط */
       const targetCard = document.querySelector('.card[data-job-id="' + jobId + '"]');
       if(targetCard){
+        ensureCardVisible(targetCard);
         targetCard.scrollIntoView({behavior:'smooth', block:'center'});
         targetCard.style.transition = 'box-shadow .3s';
         targetCard.style.boxShadow = '0 0 0 3px var(--red)';
